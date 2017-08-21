@@ -1,0 +1,2724 @@
+fileFormatVersion: 2
+guid: 2f69f28c7d6e45f4dacc118a1e175275
+timeCreated: 1499584171
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: bolterChaos_bolterChaosRig_bulletEnd
+    100002: bolterChaos_bolterChaosRig_bulletStart
+    100004: bolterChaos_boltgun
+    100006: bolterChaos_boltgun_MeshPart0
+    100008: bolterChaos_boltgun_MeshPart1
+    100010: bolterChaos_bullet_geo
+    100012: bolterChaos_Horns
+    100014: bolterChaosChest
+    100016: bolterChaosGeo_100
+    100018: bolterChaosGeo_102
+    100020: bolterChaosGeo_103
+    100022: bolterChaosGeo_104
+    100024: bolterChaosGeo_105
+    100026: bolterChaosGeo_106
+    100028: bolterChaosGeo_65
+    100030: bolterChaosGeo_66
+    100032: bolterChaosGeo_67
+    100034: bolterChaosGeo_68
+    100036: bolterChaosGeo_69
+    100038: bolterChaosGeo_74
+    100040: bolterChaosGeo_75
+    100042: bolterChaosGeo_76
+    100044: bolterChaosGeo_77
+    100046: bolterChaosGeo_78
+    100048: bolterChaosGeo_79
+    100050: bolterChaosGeo_80
+    100052: bolterChaosGeo_84
+    100054: bolterChaosGeo_85
+    100056: bolterChaosGeo_86
+    100058: bolterChaosGeo_90
+    100060: bolterChaosGeo_91
+    100062: bolterChaosGeo_94
+    100064: bolterChaosGeo_95
+    100066: bolterChaosGeo_96
+    100068: bolterChaosGeo_98
+    100070: bolterChaosHead
+    100072: //RootNode
+    100074: bolterChaosRig_back_root
+    100076: bolterChaosRig_crown
+    100078: bolterChaosRig_left_ankle
+    100080: bolterChaosRig_left_arm_root
+    100082: bolterChaosRig_left_ball
+    100084: bolterChaosRig_left_control_left_elbow
+    100086: bolterChaosRig_left_control_left_hand
+    100088: bolterChaosRig_left_control_left_shoulder2
+    100090: bolterChaosRig_left_control_wrist
+    100092: bolterChaosRig_left_hip
+    100094: bolterChaosRig_left_knee
+    100096: bolterChaosRig_left_toe
+    100098: bolterChaosRig_lower_back
+    100100: bolterChaosRig_mid_bac
+    100102: bolterChaosRig_neck
+    100104: bolterChaosRig_pelvis
+    100106: bolterChaosRig_pelvis1
+    100108: bolterChaosRig_right_ankle
+    100110: bolterChaosRig_right_arm_root
+    100112: bolterChaosRig_right_ball
+    100114: bolterChaosRig_right_control_right_elbow
+    100116: bolterChaosRig_right_control_right_hand
+    100118: bolterChaosRig_right_control_right_shoulder2
+    100120: bolterChaosRig_right_control_wrist
+    100122: bolterChaosRig_right_hip
+    100124: bolterChaosRig_right_knee
+    100126: bolterChaosRig_right_toe
+    100128: bolterChaosRig_rootRotation
+    100130: bolterChaosRig_upper_back
+    100132: Chaplian_GEO
+    400000: bolterChaos_bolterChaosRig_bulletEnd
+    400002: bolterChaos_bolterChaosRig_bulletStart
+    400004: bolterChaos_boltgun
+    400006: bolterChaos_boltgun_MeshPart0
+    400008: bolterChaos_boltgun_MeshPart1
+    400010: bolterChaos_bullet_geo
+    400012: bolterChaos_Horns
+    400014: bolterChaosChest
+    400016: bolterChaosGeo_100
+    400018: bolterChaosGeo_102
+    400020: bolterChaosGeo_103
+    400022: bolterChaosGeo_104
+    400024: bolterChaosGeo_105
+    400026: bolterChaosGeo_106
+    400028: bolterChaosGeo_65
+    400030: bolterChaosGeo_66
+    400032: bolterChaosGeo_67
+    400034: bolterChaosGeo_68
+    400036: bolterChaosGeo_69
+    400038: bolterChaosGeo_74
+    400040: bolterChaosGeo_75
+    400042: bolterChaosGeo_76
+    400044: bolterChaosGeo_77
+    400046: bolterChaosGeo_78
+    400048: bolterChaosGeo_79
+    400050: bolterChaosGeo_80
+    400052: bolterChaosGeo_84
+    400054: bolterChaosGeo_85
+    400056: bolterChaosGeo_86
+    400058: bolterChaosGeo_90
+    400060: bolterChaosGeo_91
+    400062: bolterChaosGeo_94
+    400064: bolterChaosGeo_95
+    400066: bolterChaosGeo_96
+    400068: bolterChaosGeo_98
+    400070: bolterChaosHead
+    400072: //RootNode
+    400074: bolterChaosRig_back_root
+    400076: bolterChaosRig_crown
+    400078: bolterChaosRig_left_ankle
+    400080: bolterChaosRig_left_arm_root
+    400082: bolterChaosRig_left_ball
+    400084: bolterChaosRig_left_control_left_elbow
+    400086: bolterChaosRig_left_control_left_hand
+    400088: bolterChaosRig_left_control_left_shoulder2
+    400090: bolterChaosRig_left_control_wrist
+    400092: bolterChaosRig_left_hip
+    400094: bolterChaosRig_left_knee
+    400096: bolterChaosRig_left_toe
+    400098: bolterChaosRig_lower_back
+    400100: bolterChaosRig_mid_bac
+    400102: bolterChaosRig_neck
+    400104: bolterChaosRig_pelvis
+    400106: bolterChaosRig_pelvis1
+    400108: bolterChaosRig_right_ankle
+    400110: bolterChaosRig_right_arm_root
+    400112: bolterChaosRig_right_ball
+    400114: bolterChaosRig_right_control_right_elbow
+    400116: bolterChaosRig_right_control_right_hand
+    400118: bolterChaosRig_right_control_right_shoulder2
+    400120: bolterChaosRig_right_control_wrist
+    400122: bolterChaosRig_right_hip
+    400124: bolterChaosRig_right_knee
+    400126: bolterChaosRig_right_toe
+    400128: bolterChaosRig_rootRotation
+    400130: bolterChaosRig_upper_back
+    400132: Chaplian_GEO
+    2300000: bolterChaosGeo_69
+    3300000: bolterChaosGeo_69
+    4300000: bolterChaos_Horns
+    4300002: bolterChaosGeo_65
+    4300004: bolterChaosGeo_66
+    4300006: bolterChaosGeo_67
+    4300008: bolterChaosGeo_68
+    4300010: bolterChaosGeo_69
+    4300012: bolterChaosGeo_74
+    4300014: bolterChaosGeo_75
+    4300016: bolterChaosGeo_76
+    4300018: bolterChaosGeo_77
+    4300020: bolterChaosGeo_78
+    4300022: bolterChaosGeo_79
+    4300024: bolterChaosGeo_80
+    4300026: bolterChaosGeo_84
+    4300028: bolterChaosGeo_85
+    4300030: bolterChaosGeo_86
+    4300032: bolterChaosGeo_90
+    4300034: bolterChaosGeo_91
+    4300036: bolterChaosGeo_94
+    4300038: bolterChaosGeo_95
+    4300040: bolterChaosGeo_96
+    4300042: bolterChaosGeo_98
+    4300044: bolterChaosGeo_100
+    4300046: bolterChaosChest
+    4300048: bolterChaosHead
+    4300050: bolterChaosGeo_102
+    4300052: bolterChaosGeo_103
+    4300054: bolterChaosGeo_104
+    4300056: bolterChaosGeo_105
+    4300058: bolterChaosGeo_106
+    4300060: bolterChaos_boltgun_MeshPart0
+    4300062: bolterChaos_boltgun_MeshPart1
+    4300064: bolterChaos_bullet_geo
+    7400000: bolterChaosIdle
+    7400002: bolterChaosRun
+    7400004: bolterChaosShoot01
+    7400006: bolterChaosDeath
+    7400008: bolterChaosHit
+    7400010: bolterChaosdeathV2
+    7400012: bolterChaosdeathV3
+    7400014: bolterChaosdeathV4
+    7400016: bolterChaosdeathV5
+    7400018: bolterChaosdeathV6
+    7400020: bolterChaosdeathV7
+    7400022: bolterChaosdeathV8
+    7400024: bolterChaosdeathV9
+    7400026: bolterChaosdeathV10
+    7400028: runV2
+    9500000: //RootNode
+    13700000: bolterChaos_boltgun_MeshPart0
+    13700002: bolterChaos_boltgun_MeshPart1
+    13700004: bolterChaos_bullet_geo
+    13700006: bolterChaos_Horns
+    13700008: bolterChaosChest
+    13700010: bolterChaosGeo_100
+    13700012: bolterChaosGeo_102
+    13700014: bolterChaosGeo_103
+    13700016: bolterChaosGeo_104
+    13700018: bolterChaosGeo_105
+    13700020: bolterChaosGeo_106
+    13700022: bolterChaosGeo_65
+    13700024: bolterChaosGeo_66
+    13700026: bolterChaosGeo_67
+    13700028: bolterChaosGeo_68
+    13700030: bolterChaosGeo_74
+    13700032: bolterChaosGeo_75
+    13700034: bolterChaosGeo_76
+    13700036: bolterChaosGeo_77
+    13700038: bolterChaosGeo_78
+    13700040: bolterChaosGeo_79
+    13700042: bolterChaosGeo_80
+    13700044: bolterChaosGeo_84
+    13700046: bolterChaosGeo_85
+    13700048: bolterChaosGeo_86
+    13700050: bolterChaosGeo_90
+    13700052: bolterChaosGeo_91
+    13700054: bolterChaosGeo_94
+    13700056: bolterChaosGeo_95
+    13700058: bolterChaosGeo_96
+    13700060: bolterChaosGeo_98
+    13700062: bolterChaosHead
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: bolterChaosIdle
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 33
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bolterChaosRun
+      takeName: Take 001
+      firstFrame: 50
+      lastFrame: 73
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bolterChaosShoot01
+      takeName: Take 001
+      firstFrame: 80
+      lastFrame: 279
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 0
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 0
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 0
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 0
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 0
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 0
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 0
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 0
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 0
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 0
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 0
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 0
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bolterChaosDeath
+      takeName: Take 001
+      firstFrame: 290
+      lastFrame: 344
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bolterChaosHit
+      takeName: Take 001
+      firstFrame: 350
+      lastFrame: 373
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bolterChaosdeathV2
+      takeName: Take 001
+      firstFrame: 380
+      lastFrame: 410
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bolterChaosdeathV3
+      takeName: Take 001
+      firstFrame: 415
+      lastFrame: 447
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bolterChaosdeathV4
+      takeName: Take 001
+      firstFrame: 450
+      lastFrame: 510
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bolterChaosdeathV5
+      takeName: Take 001
+      firstFrame: 520
+      lastFrame: 584
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bolterChaosdeathV6
+      takeName: Take 001
+      firstFrame: 590
+      lastFrame: 644
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bolterChaosdeathV7
+      takeName: Take 001
+      firstFrame: 650
+      lastFrame: 673
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bolterChaosdeathV8
+      takeName: Take 001
+      firstFrame: 680
+      lastFrame: 710
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bolterChaosdeathV9
+      takeName: Take 001
+      firstFrame: 715
+      lastFrame: 741
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: bolterChaosdeathV10
+      takeName: Take 001
+      firstFrame: 750
+      lastFrame: 773
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: runV2
+      takeName: Take 001
+      firstFrame: 780
+      lastFrame: 803
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterChaosRig_back_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_left_arm_root/bolterChaosRig_left_control_left_shoulder2/bolterChaosRig_left_control_left_elbow/bolterChaosRig_left_control_wrist/bolterChaosRig_left_control_left_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_neck/bolterChaosRig_crown
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_pelvis/bolterChaosRig_lower_back/bolterChaosRig_mid_bac/bolterChaosRig_upper_back/bolterChaosRig_right_arm_root/bolterChaosRig_right_control_right_shoulder2/bolterChaosRig_right_control_right_elbow/bolterChaosRig_right_control_wrist/bolterChaosRig_right_control_right_hand/bolterChaos_bolterChaosRig_bulletStart/bolterChaos_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_left_hip/bolterChaosRig_left_knee/bolterChaosRig_left_ankle/bolterChaosRig_left_ball/bolterChaosRig_left_toe
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball
+        weight: 1
+      - path: bolterChaosRig_back_root/bolterChaosRig_rootRotation/bolterChaosRig_pelvis1/bolterChaosRig_right_hip/bolterChaosRig_right_knee/bolterChaosRig_right_ankle/bolterChaosRig_right_ball/bolterChaosRig_right_toe
+        weight: 1
+      - path: Chaplian_GEO
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart0
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_boltgun/bolterChaos_boltgun_MeshPart1
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_bullet_geo
+        weight: 1
+      - path: Chaplian_GEO/bolterChaos_Horns
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosChest
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_65
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_66
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_67
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_68
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_69
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_74
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_75
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_76
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_77
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_78
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_79
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_80
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_84
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_85
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_86
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_90
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_91
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_94
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_95
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_96
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_98
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_100
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_102
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_103
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_104
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_105
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosGeo_106
+        weight: 1
+      - path: Chaplian_GEO/bolterChaosHead
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: 77fd89699091a3e4db41c1b60c92686a
+timeCreated: 1502266075
+licenseType: Free
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: Avene
+  fontNames:
+  - Avene
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
