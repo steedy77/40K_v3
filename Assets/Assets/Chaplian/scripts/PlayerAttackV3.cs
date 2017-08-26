@@ -6,7 +6,8 @@ public class PlayerAttackV3 : MonoBehaviour
     PlayerInput plInput;
     PlayerMovement plMovement;
     Animator anim;
-    public ParticleSystem particleSystem;
+    public ParticleSystem MuzzleFlash;
+    public ParticleSystem ShellCasing;
     public float fireRate = 2;
 
     public string[] comboParams;
@@ -85,7 +86,8 @@ public class PlayerAttackV3 : MonoBehaviour
     public void OpenDamageCollider2()
     {
         damageCollider2.SetActive(true);
-        particleSystem.Emit(1);
+        MuzzleFlash.Emit(1);
+        ShellCasing.Emit(1);
     }
 
     public void CloseDamageCollider2()
