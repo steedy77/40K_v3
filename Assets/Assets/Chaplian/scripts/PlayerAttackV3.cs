@@ -8,6 +8,7 @@ public class PlayerAttackV3 : MonoBehaviour
     Animator anim;
     public ParticleSystem MuzzleFlash;
     public ParticleSystem ShellCasing;
+    public ParticleSystem Smoke;
     public float fireRate = 2;
 
     public string[] comboParams;
@@ -88,6 +89,7 @@ public class PlayerAttackV3 : MonoBehaviour
         damageCollider2.SetActive(true);
         MuzzleFlash.Emit(1);
         ShellCasing.Emit(1);
+        Smoke.Emit(1);
     }
 
     public void CloseDamageCollider2()
