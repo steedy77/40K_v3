@@ -8,6 +8,7 @@ public class CharacterStats : MonoBehaviour {
     bool dealDamage;
     bool substractOnce;
     bool dead;
+    public ParticleSystem BloodPool;
 
     public float damageTimer = .4f;
     WaitForSeconds damageT;
@@ -59,8 +60,11 @@ public class CharacterStats : MonoBehaviour {
             {
                 anim.SetBool("dead", true);
                 anim.CrossFade("death", 0.5f);
+                BloodPool.Play();
+
                 healthTrans.gameObject.SetActive(false);
                 dealDamage = true;
+                
 
                 GetComponent<CapsuleCollider>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;
@@ -82,6 +86,7 @@ public class CharacterStats : MonoBehaviour {
                 FindObjectOfType<GameManager>().enemiesSpawned.Remove(transform);
 
                 dead = true;
+                
             }
         }
     }
