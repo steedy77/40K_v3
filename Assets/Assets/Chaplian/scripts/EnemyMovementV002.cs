@@ -15,6 +15,7 @@ public class EnemyMovementV002 : MonoBehaviour
     //public float rotSpeed = 5;
 
     public GameObject damageCollider;
+    public float rotationSpeed = 10f;
 
     Animator anim;
 
@@ -52,6 +53,7 @@ public class EnemyMovementV002 : MonoBehaviour
         if (attackR > attackRate)
         {
             anim.SetBool("Attack", true);
+            anim.SetBool("IsWalking", false);
             StartCoroutine("CloseAttack");
 
             attackR = 0;
@@ -59,16 +61,20 @@ public class EnemyMovementV002 : MonoBehaviour
         else
         {
             anim.SetBool("Attack", false);
+            anim.SetBool("IsWalking", false);
+
         }
         if (!attacking)
         {
 
             nav.Resume();
             nav.SetDestination(target.position);
+            anim.SetBool("IsWalking", true);
         }
         else
         {
-            //nav.Stop();
+            nav.Stop();
+            RotateTowards(target);
             Vector3 relativePosition = transform.InverseTransformDirection(nav.desiredVelocity);
 
             float hor = relativePosition.z;
@@ -115,5 +121,11 @@ public class EnemyMovementV002 : MonoBehaviour
     public void CloseDamageCollider()
     {
         damageCollider.SetActive(false);
+    }
+    private void RotateTowards(Transform target)
+    {
+        Vector3 direction = (target.position - transform.position).normalized;
+        Quaternion lookRotation = Quaternion.LookRotation(new Vector3(direction.x, 0, direction.z));    // flattens the vector3
+        transform.rotation = Quaternion.Slerp(transform.rotation, lookRotation, Time.deltaTime * rotationSpeed);
     }
 }

@@ -16,6 +16,7 @@ public class CharacterStats : MonoBehaviour {
     GameManager gm;
 
     public GameObject sliderPrefab;
+    public GameObject damageCollider;
 
     Slider healthSlider;
     RectTransform healthTrans;
@@ -45,7 +46,7 @@ public class CharacterStats : MonoBehaviour {
         {
             if(!substractOnce)
             {
-                health -= 10;
+                health -= 2;
                 anim.SetTrigger("Hit");
                 substractOnce = true;
             }
@@ -61,6 +62,7 @@ public class CharacterStats : MonoBehaviour {
                 anim.CrossFade("death", 0.5f);
                 healthTrans.gameObject.SetActive(false);
                 dealDamage = true;
+                damageCollider.SetActive(false);
 
                 GetComponent<CapsuleCollider>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;
