@@ -31,33 +31,33 @@ public class GameManager : MonoBehaviour
             spawnEnemiesNow = false;
         }
 
-        if (holdPlayer)
-        {
-            cameraMover.enabled = false;
-        }
-        else
-        {
-            cameraMover.enabled = true;
-        }
+        //if (holdPlayer)
+        //{
+        //    cameraMover.enabled = false;
+        //}
+        //else
+        //{
+        //    cameraMover.enabled = true;
+        //}
 
-        if (enemiesSpawned.Count == 0)
-        {
-            holdPlayer = false;
-        }
+        //if (enemiesSpawned.Count == 0)
+        //{
+        //   holdPlayer = false;
+        //}
         
-        if (enemiesSpawned.Count != 0 )
-        {
-            cameraMover.enabled = false;
-        }
-        else
-        {
-            cameraMover.enabled = true;
-        }
+        //if (enemiesSpawned.Count != 0 )
+        //{
+        //    cameraMover.enabled = false;
+        //}
+        //else
+        //{
+        //    cameraMover.enabled = true;
+        //}
         
-        if (dead)
-        {
+        //if (dead)
+        //{
             
-        }       
+        //}       
     }
 
     void SpawnEnemies()

@@ -6,9 +6,9 @@ public class PlayerMovementV002 : MonoBehaviour
 {
 
    
-    float speed = 1.3f;            // The speed that the player will move at.
+    float speed = 1.6f;            // The speed that the player will move at.
     float sprintSpeed = 5f;
-    float runSpeed = 1.3f;
+    float runSpeed = 1.6f;
 
     float xVelAdj = 0;
     float zVelAdj = 0;
@@ -47,7 +47,8 @@ public class PlayerMovementV002 : MonoBehaviour
         // Animate the player.
         Animating(h, v);
 
-        if (Input.GetButtonDown("Fire3"))
+        //sprinting
+        if (Input.GetButton("Fire3"))
         {
             speed = sprintSpeed;
             anim.SetBool("SprintMode", true);
@@ -58,8 +59,8 @@ public class PlayerMovementV002 : MonoBehaviour
             anim.SetBool("SprintMode", false);
         }
 
-
     }
+
     void Animating(float h, float v)
     {
         // Create a boolean that is true if either of the input axes is non-zero.
@@ -68,6 +69,7 @@ public class PlayerMovementV002 : MonoBehaviour
         // Tell the animator whether or not the player is walking.
         anim.SetBool("IsWalking", walking);
     }
+
     void Move(float h, float v)
     {
         // Set the movement vector based on the axis input.
@@ -92,8 +94,10 @@ public class PlayerMovementV002 : MonoBehaviour
             playerRigidbody.MoveRotation(Quaternion.LookRotation(movement));
             Debug.Log(xVelAdj + ","+ zVelAdj);
         }
-          
+
+
         
+
     }
     
 
