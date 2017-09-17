@@ -22,7 +22,7 @@ public class PlayerAttackV3 : MonoBehaviour
     void Start ()
     {
         if (comboParams == null || (comboParams != null && comboParams.Length == 0))
-            comboParams = new string[] { "Attack1", "Attack2", "Attack3", "Attack4", "Attack5", "Attack6", };
+            comboParams = new string[] { "Attack1", "Attack2", "Attack3", "Attack4", "Attack5", "Attack6", "Attack7", "Attack8", };
 
         animator = GetComponent<Animator>();
 

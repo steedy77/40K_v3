@@ -8,7 +8,7 @@ public class CharacterStats : MonoBehaviour {
     bool dealDamage;
     bool substractOnce;
     bool dead;
-    public ParticleSystem BloodPool;
+    //public ParticleSystem BloodPool;
 
     public float damageTimer = .4f;
     WaitForSeconds damageT;
@@ -61,13 +61,13 @@ public class CharacterStats : MonoBehaviour {
             {
                 anim.SetBool("dead", true);
                 anim.CrossFade("death", 0.5f);
-                BloodPool.Play();
+                //BloodPool.Play();
 
                 healthTrans.gameObject.SetActive(false);
                 dealDamage = true;
                 damageCollider.SetActive(false);
 
-                GetComponent<CapsuleCollider>().enabled = false;
+                //GetComponent<CapsuleCollider>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;
 
                 
@@ -77,6 +77,7 @@ public class CharacterStats : MonoBehaviour {
                     GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
                 
                 }
+
                 else
                 {
                     GetComponent<PlayerInput>().enabled = false;

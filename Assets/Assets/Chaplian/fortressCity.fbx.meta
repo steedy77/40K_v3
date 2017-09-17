@@ -1,0 +1,1138 @@
+fileFormatVersion: 2
+guid: 413be36b370faae4ebe7edb9cd5371a2
+timeCreated: 1505546083
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: building_building100
+    100002: building_building103
+    100004: building_building105
+    100006: building_building107
+    100008: building_building109
+    100010: building_building11
+    100012: building_building112
+    100014: building_building122
+    100016: building_building124
+    100018: building_building128
+    100020: building_building134
+    100022: building_building136
+    100024: building_building143
+    100026: building_building145
+    100028: building_building147
+    100030: building_building148
+    100032: building_building153
+    100034: building_building16
+    100036: building_building160
+    100038: building_building163
+    100040: building_building168
+    100042: building_building171
+    100044: building_building178
+    100046: building_building179
+    100048: building_building183
+    100050: building_building184
+    100052: building_building185
+    100054: building_building189
+    100056: building_building192
+    100058: building_building195
+    100060: building_building199
+    100062: building_building2
+    100064: building_building204
+    100066: building_building206
+    100068: building_building208
+    100070: building_building21
+    100072: building_building214
+    100074: building_building218
+    100076: building_building22
+    100078: building_building220
+    100080: building_building224
+    100082: building_building225
+    100084: building_building228
+    100086: building_building23
+    100088: building_building237
+    100090: building_building24
+    100092: building_building242
+    100094: building_building243
+    100096: building_building244
+    100098: building_building246
+    100100: building_building248
+    100102: building_building249
+    100104: building_building252
+    100106: building_building253
+    100108: building_building254
+    100110: building_building256
+    100112: building_building258
+    100114: building_building26
+    100116: building_building260
+    100118: building_building269
+    100120: building_building270
+    100122: building_building271
+    100124: building_building272
+    100126: building_building274
+    100128: building_building276
+    100130: building_building277
+    100132: building_building281
+    100134: building_building282
+    100136: building_building284
+    100138: building_building289
+    100140: building_building29
+    100142: building_building290
+    100144: building_building291
+    100146: building_building293
+    100148: building_building294
+    100150: building_building295
+    100152: building_building297
+    100154: building_building30
+    100156: building_building304
+    100158: building_building306
+    100160: building_building31
+    100162: building_building310
+    100164: building_building311
+    100166: building_building318
+    100168: building_building32
+    100170: building_building320
+    100172: building_building323
+    100174: building_building325
+    100176: building_building326
+    100178: building_building327
+    100180: building_building332
+    100182: building_building333
+    100184: building_building334
+    100186: building_building340
+    100188: building_building341
+    100190: building_building343
+    100192: building_building346
+    100194: building_building349
+    100196: building_building351
+    100198: building_building354
+    100200: building_building355
+    100202: building_building356
+    100204: building_building36
+    100206: building_building360
+    100208: building_building361
+    100210: building_building363
+    100212: building_building366
+    100214: building_building373
+    100216: building_building374
+    100218: building_building375
+    100220: building_building376
+    100222: building_building377
+    100224: building_building378
+    100226: building_building39
+    100228: building_building4
+    100230: building_building41
+    100232: building_building42
+    100234: building_building43
+    100236: building_building47
+    100238: building_building5
+    100240: building_building51
+    100242: building_building55
+    100244: building_building56
+    100246: building_building57
+    100248: building_building60
+    100250: building_building61
+    100252: building_building66
+    100254: building_building67
+    100256: building_building7
+    100258: building_building72
+    100260: building_building75
+    100262: building_building79
+    100264: building_building80
+    100266: building_building88
+    100268: building_building95
+    100270: building_building99
+    100272: building_group21
+    100274: building_group22
+    100276: building_group23
+    100278: center_walls
+    100280: city
+    100282: cylinders
+    100284: fortress_group
+    100286: fortress_turretMainGun1
+    100288: fortress_turretMainGun1 1
+    100290: fortress_turretMainGun1 10
+    100292: fortress_turretMainGun1 11
+    100294: fortress_turretMainGun1 12
+    100296: fortress_turretMainGun1 13
+    100298: fortress_turretMainGun1 2
+    100300: fortress_turretMainGun1 3
+    100302: fortress_turretMainGun1 4
+    100304: fortress_turretMainGun1 5
+    100306: fortress_turretMainGun1 6
+    100308: fortress_turretMainGun1 7
+    100310: fortress_turretMainGun1 8
+    100312: fortress_turretMainGun1 9
+    100314: fortress_turretSmallGun1
+    100316: fortress_turretSmallGun1 1
+    100318: fortress_turretSmallGun1 10
+    100320: fortress_turretSmallGun1 11
+    100322: fortress_turretSmallGun1 12
+    100324: fortress_turretSmallGun1 13
+    100326: fortress_turretSmallGun1 2
+    100328: fortress_turretSmallGun1 3
+    100330: fortress_turretSmallGun1 4
+    100332: fortress_turretSmallGun1 5
+    100334: fortress_turretSmallGun1 6
+    100336: fortress_turretSmallGun1 7
+    100338: fortress_turretSmallGun1 8
+    100340: fortress_turretSmallGun1 9
+    100342: fortress_turretTower1
+    100344: fortress_turretTower10
+    100346: fortress_turretTower11
+    100348: fortress_turretTower12
+    100350: fortress_turretTower13
+    100352: fortress_turretTower14
+    100354: fortress_turretTower2
+    100356: fortress_turretTower3
+    100358: fortress_turretTower4
+    100360: fortress_turretTower5
+    100362: fortress_turretTower6
+    100364: fortress_turretTower7
+    100366: fortress_turretTower8
+    100368: fortress_turretTower9
+    100370: //RootNode
+    100372: groundPlane
+    100374: middle_walls
+    100376: outer_walls
+    100378: pCube1
+    100380: pCube1 1
+    100382: pCube10
+    100384: pCube11
+    100386: pCube12
+    100388: pCube14
+    100390: pCube19
+    100392: pCube2
+    100394: pCube26
+    100396: pCube27
+    100398: pCube28
+    100400: pCube29
+    100402: pCube3
+    100404: pCube30
+    100406: pCube31
+    100408: pCube5
+    100410: pCube6
+    100412: pCube8
+    100414: pCylinder1
+    100416: pCylinder2
+    100418: pCylinder3
+    100420: pCylinder43
+    100422: pCylinder44
+    100424: pCylinder45
+    100426: pCylinder5
+    100428: polySurface1
+    100430: turrets
+    100432: walls
+    400000: building_building100
+    400002: building_building103
+    400004: building_building105
+    400006: building_building107
+    400008: building_building109
+    400010: building_building11
+    400012: building_building112
+    400014: building_building122
+    400016: building_building124
+    400018: building_building128
+    400020: building_building134
+    400022: building_building136
+    400024: building_building143
+    400026: building_building145
+    400028: building_building147
+    400030: building_building148
+    400032: building_building153
+    400034: building_building16
+    400036: building_building160
+    400038: building_building163
+    400040: building_building168
+    400042: building_building171
+    400044: building_building178
+    400046: building_building179
+    400048: building_building183
+    400050: building_building184
+    400052: building_building185
+    400054: building_building189
+    400056: building_building192
+    400058: building_building195
+    400060: building_building199
+    400062: building_building2
+    400064: building_building204
+    400066: building_building206
+    400068: building_building208
+    400070: building_building21
+    400072: building_building214
+    400074: building_building218
+    400076: building_building22
+    400078: building_building220
+    400080: building_building224
+    400082: building_building225
+    400084: building_building228
+    400086: building_building23
+    400088: building_building237
+    400090: building_building24
+    400092: building_building242
+    400094: building_building243
+    400096: building_building244
+    400098: building_building246
+    400100: building_building248
+    400102: building_building249
+    400104: building_building252
+    400106: building_building253
+    400108: building_building254
+    400110: building_building256
+    400112: building_building258
+    400114: building_building26
+    400116: building_building260
+    400118: building_building269
+    400120: building_building270
+    400122: building_building271
+    400124: building_building272
+    400126: building_building274
+    400128: building_building276
+    400130: building_building277
+    400132: building_building281
+    400134: building_building282
+    400136: building_building284
+    400138: building_building289
+    400140: building_building29
+    400142: building_building290
+    400144: building_building291
+    400146: building_building293
+    400148: building_building294
+    400150: building_building295
+    400152: building_building297
+    400154: building_building30
+    400156: building_building304
+    400158: building_building306
+    400160: building_building31
+    400162: building_building310
+    400164: building_building311
+    400166: building_building318
+    400168: building_building32
+    400170: building_building320
+    400172: building_building323
+    400174: building_building325
+    400176: building_building326
+    400178: building_building327
+    400180: building_building332
+    400182: building_building333
+    400184: building_building334
+    400186: building_building340
+    400188: building_building341
+    400190: building_building343
+    400192: building_building346
+    400194: building_building349
+    400196: building_building351
+    400198: building_building354
+    400200: building_building355
+    400202: building_building356
+    400204: building_building36
+    400206: building_building360
+    400208: building_building361
+    400210: building_building363
+    400212: building_building366
+    400214: building_building373
+    400216: building_building374
+    400218: building_building375
+    400220: building_building376
+    400222: building_building377
+    400224: building_building378
+    400226: building_building39
+    400228: building_building4
+    400230: building_building41
+    400232: building_building42
+    400234: building_building43
+    400236: building_building47
+    400238: building_building5
+    400240: building_building51
+    400242: building_building55
+    400244: building_building56
+    400246: building_building57
+    400248: building_building60
+    400250: building_building61
+    400252: building_building66
+    400254: building_building67
+    400256: building_building7
+    400258: building_building72
+    400260: building_building75
+    400262: building_building79
+    400264: building_building80
+    400266: building_building88
+    400268: building_building95
+    400270: building_building99
+    400272: building_group21
+    400274: building_group22
+    400276: building_group23
+    400278: center_walls
+    400280: city
+    400282: cylinders
+    400284: fortress_group
+    400286: fortress_turretMainGun1
+    400288: fortress_turretMainGun1 1
+    400290: fortress_turretMainGun1 10
+    400292: fortress_turretMainGun1 11
+    400294: fortress_turretMainGun1 12
+    400296: fortress_turretMainGun1 13
+    400298: fortress_turretMainGun1 2
+    400300: fortress_turretMainGun1 3
+    400302: fortress_turretMainGun1 4
+    400304: fortress_turretMainGun1 5
+    400306: fortress_turretMainGun1 6
+    400308: fortress_turretMainGun1 7
+    400310: fortress_turretMainGun1 8
+    400312: fortress_turretMainGun1 9
+    400314: fortress_turretSmallGun1
+    400316: fortress_turretSmallGun1 1
+    400318: fortress_turretSmallGun1 10
+    400320: fortress_turretSmallGun1 11
+    400322: fortress_turretSmallGun1 12
+    400324: fortress_turretSmallGun1 13
+    400326: fortress_turretSmallGun1 2
+    400328: fortress_turretSmallGun1 3
+    400330: fortress_turretSmallGun1 4
+    400332: fortress_turretSmallGun1 5
+    400334: fortress_turretSmallGun1 6
+    400336: fortress_turretSmallGun1 7
+    400338: fortress_turretSmallGun1 8
+    400340: fortress_turretSmallGun1 9
+    400342: fortress_turretTower1
+    400344: fortress_turretTower10
+    400346: fortress_turretTower11
+    400348: fortress_turretTower12
+    400350: fortress_turretTower13
+    400352: fortress_turretTower14
+    400354: fortress_turretTower2
+    400356: fortress_turretTower3
+    400358: fortress_turretTower4
+    400360: fortress_turretTower5
+    400362: fortress_turretTower6
+    400364: fortress_turretTower7
+    400366: fortress_turretTower8
+    400368: fortress_turretTower9
+    400370: //RootNode
+    400372: groundPlane
+    400374: middle_walls
+    400376: outer_walls
+    400378: pCube1
+    400380: pCube1 1
+    400382: pCube10
+    400384: pCube11
+    400386: pCube12
+    400388: pCube14
+    400390: pCube19
+    400392: pCube2
+    400394: pCube26
+    400396: pCube27
+    400398: pCube28
+    400400: pCube29
+    400402: pCube3
+    400404: pCube30
+    400406: pCube31
+    400408: pCube5
+    400410: pCube6
+    400412: pCube8
+    400414: pCylinder1
+    400416: pCylinder2
+    400418: pCylinder3
+    400420: pCylinder43
+    400422: pCylinder44
+    400424: pCylinder45
+    400426: pCylinder5
+    400428: polySurface1
+    400430: turrets
+    400432: walls
+    2300000: building_building100
+    2300002: building_building103
+    2300004: building_building105
+    2300006: building_building107
+    2300008: building_building109
+    2300010: building_building11
+    2300012: building_building112
+    2300014: building_building122
+    2300016: building_building124
+    2300018: building_building128
+    2300020: building_building134
+    2300022: building_building136
+    2300024: building_building143
+    2300026: building_building145
+    2300028: building_building147
+    2300030: building_building148
+    2300032: building_building153
+    2300034: building_building16
+    2300036: building_building160
+    2300038: building_building163
+    2300040: building_building168
+    2300042: building_building171
+    2300044: building_building178
+    2300046: building_building179
+    2300048: building_building183
+    2300050: building_building184
+    2300052: building_building185
+    2300054: building_building189
+    2300056: building_building192
+    2300058: building_building195
+    2300060: building_building199
+    2300062: building_building2
+    2300064: building_building204
+    2300066: building_building206
+    2300068: building_building208
+    2300070: building_building21
+    2300072: building_building214
+    2300074: building_building218
+    2300076: building_building22
+    2300078: building_building220
+    2300080: building_building224
+    2300082: building_building225
+    2300084: building_building228
+    2300086: building_building23
+    2300088: building_building237
+    2300090: building_building24
+    2300092: building_building242
+    2300094: building_building243
+    2300096: building_building244
+    2300098: building_building246
+    2300100: building_building248
+    2300102: building_building249
+    2300104: building_building252
+    2300106: building_building253
+    2300108: building_building254
+    2300110: building_building256
+    2300112: building_building258
+    2300114: building_building26
+    2300116: building_building260
+    2300118: building_building269
+    2300120: building_building270
+    2300122: building_building271
+    2300124: building_building272
+    2300126: building_building274
+    2300128: building_building276
+    2300130: building_building277
+    2300132: building_building281
+    2300134: building_building282
+    2300136: building_building284
+    2300138: building_building289
+    2300140: building_building29
+    2300142: building_building290
+    2300144: building_building291
+    2300146: building_building293
+    2300148: building_building294
+    2300150: building_building295
+    2300152: building_building297
+    2300154: building_building30
+    2300156: building_building304
+    2300158: building_building306
+    2300160: building_building31
+    2300162: building_building310
+    2300164: building_building311
+    2300166: building_building318
+    2300168: building_building32
+    2300170: building_building320
+    2300172: building_building323
+    2300174: building_building325
+    2300176: building_building326
+    2300178: building_building327
+    2300180: building_building332
+    2300182: building_building333
+    2300184: building_building334
+    2300186: building_building340
+    2300188: building_building341
+    2300190: building_building343
+    2300192: building_building346
+    2300194: building_building349
+    2300196: building_building351
+    2300198: building_building354
+    2300200: building_building355
+    2300202: building_building356
+    2300204: building_building36
+    2300206: building_building360
+    2300208: building_building361
+    2300210: building_building363
+    2300212: building_building366
+    2300214: building_building373
+    2300216: building_building374
+    2300218: building_building375
+    2300220: building_building376
+    2300222: building_building377
+    2300224: building_building378
+    2300226: building_building39
+    2300228: building_building4
+    2300230: building_building41
+    2300232: building_building42
+    2300234: building_building43
+    2300236: building_building47
+    2300238: building_building5
+    2300240: building_building51
+    2300242: building_building55
+    2300244: building_building56
+    2300246: building_building57
+    2300248: building_building60
+    2300250: building_building61
+    2300252: building_building66
+    2300254: building_building67
+    2300256: building_building7
+    2300258: building_building72
+    2300260: building_building75
+    2300262: building_building79
+    2300264: building_building80
+    2300266: building_building88
+    2300268: building_building95
+    2300270: building_building99
+    2300272: center_walls
+    2300274: fortress_turretMainGun1
+    2300276: fortress_turretMainGun1 1
+    2300278: fortress_turretMainGun1 10
+    2300280: fortress_turretMainGun1 11
+    2300282: fortress_turretMainGun1 12
+    2300284: fortress_turretMainGun1 13
+    2300286: fortress_turretMainGun1 2
+    2300288: fortress_turretMainGun1 3
+    2300290: fortress_turretMainGun1 4
+    2300292: fortress_turretMainGun1 5
+    2300294: fortress_turretMainGun1 6
+    2300296: fortress_turretMainGun1 7
+    2300298: fortress_turretMainGun1 8
+    2300300: fortress_turretMainGun1 9
+    2300302: fortress_turretSmallGun1
+    2300304: fortress_turretSmallGun1 1
+    2300306: fortress_turretSmallGun1 10
+    2300308: fortress_turretSmallGun1 11
+    2300310: fortress_turretSmallGun1 12
+    2300312: fortress_turretSmallGun1 13
+    2300314: fortress_turretSmallGun1 2
+    2300316: fortress_turretSmallGun1 3
+    2300318: fortress_turretSmallGun1 4
+    2300320: fortress_turretSmallGun1 5
+    2300322: fortress_turretSmallGun1 6
+    2300324: fortress_turretSmallGun1 7
+    2300326: fortress_turretSmallGun1 8
+    2300328: fortress_turretSmallGun1 9
+    2300330: fortress_turretTower1
+    2300332: fortress_turretTower10
+    2300334: fortress_turretTower11
+    2300336: fortress_turretTower12
+    2300338: fortress_turretTower13
+    2300340: fortress_turretTower14
+    2300342: fortress_turretTower2
+    2300344: fortress_turretTower3
+    2300346: fortress_turretTower4
+    2300348: fortress_turretTower5
+    2300350: fortress_turretTower6
+    2300352: fortress_turretTower7
+    2300354: fortress_turretTower8
+    2300356: fortress_turretTower9
+    2300358: groundPlane
+    2300360: middle_walls
+    2300362: outer_walls
+    2300364: pCube1
+    2300366: pCube10
+    2300368: pCube11
+    2300370: pCube12
+    2300372: pCube14
+    2300374: pCube19
+    2300376: pCube2
+    2300378: pCube26
+    2300380: pCube27
+    2300382: pCube28
+    2300384: pCube29
+    2300386: pCube3
+    2300388: pCube30
+    2300390: pCube31
+    2300392: pCube5
+    2300394: pCube6
+    2300396: pCube8
+    2300398: pCylinder1
+    2300400: pCylinder2
+    2300402: pCylinder3
+    2300404: pCylinder43
+    2300406: pCylinder44
+    2300408: pCylinder45
+    2300410: pCylinder5
+    2300412: polySurface1
+    3300000: building_building100
+    3300002: building_building103
+    3300004: building_building105
+    3300006: building_building107
+    3300008: building_building109
+    3300010: building_building11
+    3300012: building_building112
+    3300014: building_building122
+    3300016: building_building124
+    3300018: building_building128
+    3300020: building_building134
+    3300022: building_building136
+    3300024: building_building143
+    3300026: building_building145
+    3300028: building_building147
+    3300030: building_building148
+    3300032: building_building153
+    3300034: building_building16
+    3300036: building_building160
+    3300038: building_building163
+    3300040: building_building168
+    3300042: building_building171
+    3300044: building_building178
+    3300046: building_building179
+    3300048: building_building183
+    3300050: building_building184
+    3300052: building_building185
+    3300054: building_building189
+    3300056: building_building192
+    3300058: building_building195
+    3300060: building_building199
+    3300062: building_building2
+    3300064: building_building204
+    3300066: building_building206
+    3300068: building_building208
+    3300070: building_building21
+    3300072: building_building214
+    3300074: building_building218
+    3300076: building_building22
+    3300078: building_building220
+    3300080: building_building224
+    3300082: building_building225
+    3300084: building_building228
+    3300086: building_building23
+    3300088: building_building237
+    3300090: building_building24
+    3300092: building_building242
+    3300094: building_building243
+    3300096: building_building244
+    3300098: building_building246
+    3300100: building_building248
+    3300102: building_building249
+    3300104: building_building252
+    3300106: building_building253
+    3300108: building_building254
+    3300110: building_building256
+    3300112: building_building258
+    3300114: building_building26
+    3300116: building_building260
+    3300118: building_building269
+    3300120: building_building270
+    3300122: building_building271
+    3300124: building_building272
+    3300126: building_building274
+    3300128: building_building276
+    3300130: building_building277
+    3300132: building_building281
+    3300134: building_building282
+    3300136: building_building284
+    3300138: building_building289
+    3300140: building_building29
+    3300142: building_building290
+    3300144: building_building291
+    3300146: building_building293
+    3300148: building_building294
+    3300150: building_building295
+    3300152: building_building297
+    3300154: building_building30
+    3300156: building_building304
+    3300158: building_building306
+    3300160: building_building31
+    3300162: building_building310
+    3300164: building_building311
+    3300166: building_building318
+    3300168: building_building32
+    3300170: building_building320
+    3300172: building_building323
+    3300174: building_building325
+    3300176: building_building326
+    3300178: building_building327
+    3300180: building_building332
+    3300182: building_building333
+    3300184: building_building334
+    3300186: building_building340
+    3300188: building_building341
+    3300190: building_building343
+    3300192: building_building346
+    3300194: building_building349
+    3300196: building_building351
+    3300198: building_building354
+    3300200: building_building355
+    3300202: building_building356
+    3300204: building_building36
+    3300206: building_building360
+    3300208: building_building361
+    3300210: building_building363
+    3300212: building_building366
+    3300214: building_building373
+    3300216: building_building374
+    3300218: building_building375
+    3300220: building_building376
+    3300222: building_building377
+    3300224: building_building378
+    3300226: building_building39
+    3300228: building_building4
+    3300230: building_building41
+    3300232: building_building42
+    3300234: building_building43
+    3300236: building_building47
+    3300238: building_building5
+    3300240: building_building51
+    3300242: building_building55
+    3300244: building_building56
+    3300246: building_building57
+    3300248: building_building60
+    3300250: building_building61
+    3300252: building_building66
+    3300254: building_building67
+    3300256: building_building7
+    3300258: building_building72
+    3300260: building_building75
+    3300262: building_building79
+    3300264: building_building80
+    3300266: building_building88
+    3300268: building_building95
+    3300270: building_building99
+    3300272: center_walls
+    3300274: fortress_turretMainGun1
+    3300276: fortress_turretMainGun1 1
+    3300278: fortress_turretMainGun1 10
+    3300280: fortress_turretMainGun1 11
+    3300282: fortress_turretMainGun1 12
+    3300284: fortress_turretMainGun1 13
+    3300286: fortress_turretMainGun1 2
+    3300288: fortress_turretMainGun1 3
+    3300290: fortress_turretMainGun1 4
+    3300292: fortress_turretMainGun1 5
+    3300294: fortress_turretMainGun1 6
+    3300296: fortress_turretMainGun1 7
+    3300298: fortress_turretMainGun1 8
+    3300300: fortress_turretMainGun1 9
+    3300302: fortress_turretSmallGun1
+    3300304: fortress_turretSmallGun1 1
+    3300306: fortress_turretSmallGun1 10
+    3300308: fortress_turretSmallGun1 11
+    3300310: fortress_turretSmallGun1 12
+    3300312: fortress_turretSmallGun1 13
+    3300314: fortress_turretSmallGun1 2
+    3300316: fortress_turretSmallGun1 3
+    3300318: fortress_turretSmallGun1 4
+    3300320: fortress_turretSmallGun1 5
+    3300322: fortress_turretSmallGun1 6
+    3300324: fortress_turretSmallGun1 7
+    3300326: fortress_turretSmallGun1 8
+    3300328: fortress_turretSmallGun1 9
+    3300330: fortress_turretTower1
+    3300332: fortress_turretTower10
+    3300334: fortress_turretTower11
+    3300336: fortress_turretTower12
+    3300338: fortress_turretTower13
+    3300340: fortress_turretTower14
+    3300342: fortress_turretTower2
+    3300344: fortress_turretTower3
+    3300346: fortress_turretTower4
+    3300348: fortress_turretTower5
+    3300350: fortress_turretTower6
+    3300352: fortress_turretTower7
+    3300354: fortress_turretTower8
+    3300356: fortress_turretTower9
+    3300358: groundPlane
+    3300360: middle_walls
+    3300362: outer_walls
+    3300364: pCube1
+    3300366: pCube10
+    3300368: pCube11
+    3300370: pCube12
+    3300372: pCube14
+    3300374: pCube19
+    3300376: pCube2
+    3300378: pCube26
+    3300380: pCube27
+    3300382: pCube28
+    3300384: pCube29
+    3300386: pCube3
+    3300388: pCube30
+    3300390: pCube31
+    3300392: pCube5
+    3300394: pCube6
+    3300396: pCube8
+    3300398: pCylinder1
+    3300400: pCylinder2
+    3300402: pCylinder3
+    3300404: pCylinder43
+    3300406: pCylinder44
+    3300408: pCylinder45
+    3300410: pCylinder5
+    3300412: polySurface1
+    4300000: pCube8
+    4300002: polySurface1
+    4300004: pCube10
+    4300006: pCube11
+    4300008: pCube12
+    4300010: pCube14
+    4300012: pCube19
+    4300014: pCube26
+    4300016: pCube27
+    4300018: pCube28
+    4300020: pCube29
+    4300022: pCube30
+    4300024: pCube31
+    4300026: building_building373
+    4300028: building_building374
+    4300030: building_building375
+    4300032: building_building376
+    4300034: building_building377
+    4300036: building_building378
+    4300038: fortress_turretTower1
+    4300040: fortress_turretMainGun1
+    4300042: fortress_turretSmallGun1
+    4300044: fortress_turretTower2
+    4300046: fortress_turretMainGun1
+    4300048: fortress_turretSmallGun1
+    4300050: fortress_turretTower3
+    4300052: fortress_turretMainGun1
+    4300054: fortress_turretSmallGun1
+    4300056: fortress_turretTower4
+    4300058: fortress_turretMainGun1
+    4300060: fortress_turretSmallGun1
+    4300062: fortress_turretTower5
+    4300064: fortress_turretMainGun1
+    4300066: fortress_turretSmallGun1
+    4300068: fortress_turretTower6
+    4300070: fortress_turretMainGun1
+    4300072: fortress_turretSmallGun1
+    4300074: fortress_turretTower7
+    4300076: fortress_turretMainGun1
+    4300078: fortress_turretSmallGun1
+    4300080: fortress_turretTower8
+    4300082: fortress_turretMainGun1
+    4300084: fortress_turretSmallGun1
+    4300086: fortress_turretTower9
+    4300088: fortress_turretMainGun1
+    4300090: fortress_turretSmallGun1
+    4300092: fortress_turretTower10
+    4300094: fortress_turretMainGun1
+    4300096: fortress_turretSmallGun1
+    4300098: fortress_turretTower11
+    4300100: fortress_turretMainGun1
+    4300102: fortress_turretSmallGun1
+    4300104: fortress_turretTower12
+    4300106: fortress_turretMainGun1
+    4300108: fortress_turretSmallGun1
+    4300110: fortress_turretTower13
+    4300112: fortress_turretMainGun1
+    4300114: fortress_turretSmallGun1
+    4300116: fortress_turretTower14
+    4300118: fortress_turretMainGun1
+    4300120: fortress_turretSmallGun1
+    4300122: pCylinder1
+    4300124: pCylinder2
+    4300126: pCube1
+    4300128: pCube2
+    4300130: pCube3
+    4300132: pCylinder3
+    4300134: pCylinder5
+    4300136: pCube5
+    4300138: pCube6
+    4300140: pCylinder43
+    4300142: pCylinder44
+    4300144: pCylinder45
+    4300146: building_building80
+    4300148: building_building88
+    4300150: building_building95
+    4300152: building_building99
+    4300154: building_building100
+    4300156: building_building103
+    4300158: building_building105
+    4300160: building_building107
+    4300162: building_building109
+    4300164: building_building112
+    4300166: building_building122
+    4300168: building_building124
+    4300170: building_building128
+    4300172: building_building134
+    4300174: building_building136
+    4300176: building_building143
+    4300178: building_building145
+    4300180: building_building147
+    4300182: building_building148
+    4300184: building_building153
+    4300186: building_building160
+    4300188: building_building163
+    4300190: building_building168
+    4300192: building_building171
+    4300194: building_building178
+    4300196: building_building179
+    4300198: building_building183
+    4300200: building_building184
+    4300202: building_building185
+    4300204: building_building189
+    4300206: building_building192
+    4300208: building_building195
+    4300210: building_building199
+    4300212: building_building204
+    4300214: building_building206
+    4300216: building_building208
+    4300218: building_building214
+    4300220: building_building218
+    4300222: building_building220
+    4300224: building_building224
+    4300226: building_building225
+    4300228: building_building228
+    4300230: building_building237
+    4300232: building_building242
+    4300234: building_building243
+    4300236: building_building244
+    4300238: building_building246
+    4300240: building_building248
+    4300242: building_building249
+    4300244: building_building252
+    4300246: building_building253
+    4300248: building_building254
+    4300250: building_building256
+    4300252: building_building258
+    4300254: building_building260
+    4300256: building_building2
+    4300258: building_building4
+    4300260: building_building5
+    4300262: building_building7
+    4300264: building_building11
+    4300266: building_building16
+    4300268: building_building21
+    4300270: building_building22
+    4300272: building_building23
+    4300274: building_building24
+    4300276: building_building26
+    4300278: building_building29
+    4300280: building_building30
+    4300282: building_building31
+    4300284: building_building32
+    4300286: building_building36
+    4300288: building_building39
+    4300290: building_building41
+    4300292: building_building42
+    4300294: building_building43
+    4300296: building_building47
+    4300298: building_building51
+    4300300: building_building55
+    4300302: building_building56
+    4300304: building_building57
+    4300306: building_building60
+    4300308: building_building61
+    4300310: building_building66
+    4300312: building_building67
+    4300314: building_building72
+    4300316: building_building75
+    4300318: building_building79
+    4300320: building_building269
+    4300322: building_building270
+    4300324: building_building271
+    4300326: building_building272
+    4300328: building_building274
+    4300330: building_building276
+    4300332: building_building277
+    4300334: building_building281
+    4300336: building_building282
+    4300338: building_building284
+    4300340: building_building289
+    4300342: building_building290
+    4300344: building_building291
+    4300346: building_building293
+    4300348: building_building294
+    4300350: building_building295
+    4300352: building_building297
+    4300354: building_building304
+    4300356: building_building306
+    4300358: building_building310
+    4300360: building_building311
+    4300362: building_building318
+    4300364: building_building320
+    4300366: building_building323
+    4300368: building_building325
+    4300370: building_building326
+    4300372: building_building327
+    4300374: building_building332
+    4300376: building_building333
+    4300378: building_building334
+    4300380: building_building340
+    4300382: building_building341
+    4300384: building_building343
+    4300386: building_building346
+    4300388: building_building349
+    4300390: building_building351
+    4300392: building_building354
+    4300394: building_building355
+    4300396: building_building356
+    4300398: building_building360
+    4300400: building_building361
+    4300402: building_building363
+    4300404: building_building366
+    4300406: groundPlane
+    4300408: center_walls
+    4300410: middle_walls
+    4300412: outer_walls
+    9500000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
