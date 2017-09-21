@@ -1,0 +1,534 @@
+fileFormatVersion: 2
+guid: fee99afc3d8752d49946b0224de38eca
+timeCreated: 1504955394
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: starship1:starship
+    100004: starship1:starShip_GEO
+    100006: starship1:starship_geo_group
+    100008: starship1:starShip_GEO_MeshPart0
+    100010: starship1:starShip_GEO_MeshPart1
+    100012: starship1:starShip_GEO_MeshPart2
+    100014: starship1:starShip_GEO_MeshPart3
+    100016: starship1:starShip_GEO_MeshPart4
+    100018: starship1:starshipjoint1
+    100020: starship1:starshipjoint2
+    100022: starship1:starshipleftWeaponjoint2
+    100024: starship1:starshipleftWeaponjoint3
+    100026: starship1:starshipleftWeaponjoint3 1
+    100028: starship1:starshipleftWeaponjoint3 2
+    100030: starship1:starshipleftWeaponjoint5
+    100032: starship1:starshipleftWeaponjoint5 1
+    100034: starship1:starshipleftWeaponjoint5 2
+    100036: starship1:starshipleftWeaponjoint6
+    100038: starship1:starshipleftWeaponjoint6 1
+    100040: starship1:starshipleftWeaponjoint6 2
+    100042: starship1:starshipleftWeaponjoint7
+    100044: starship1:starshipleftWeaponjoint7 1
+    100046: starship1:starshipleftWeaponjoint7 2
+    100048: starship1:starshipleftWeaponjoint8
+    100050: starship1:starshipleftWeaponjoint9
+    100052: starship1:starshipvoidSheild_joint15
+    100054: starship1:starshipvoidSheild_joint16
+    100056: starship1:starshipvoidSheild_joint17
+    100058: starship1:starshipvoidSheild_joint18
+    100060: starship1:starshipvoidSheild_joint19
+    100062: starship1:starshipvoidSheild_joint20
+    100064: starship1:starshipvoidSheild_joint6
+    100066: starship1:starshipvoidSheild_joint7
+    100068: starship1:voidsheild1
+    100070: starship1:weaponTrail_GEO4
+    100072: starship1:weaponTrail_GEO6
+    100074: starship1:weaponTrail_GEO7
+    100076: starship2:starship
+    100078: starship2:starShip_GEO
+    100080: starship2:starship_geo_group
+    100082: starship2:starShip_GEO_MeshPart0
+    100084: starship2:starShip_GEO_MeshPart1
+    100086: starship2:starShip_GEO_MeshPart2
+    100088: starship2:starShip_GEO_MeshPart3
+    100090: starship2:starShip_GEO_MeshPart4
+    100092: starship2:starshipjoint1
+    100094: starship2:starshipjoint2
+    100096: starship2:starshipleftWeaponjoint2
+    100098: starship2:starshipleftWeaponjoint3
+    100100: starship2:starshipleftWeaponjoint3 1
+    100102: starship2:starshipleftWeaponjoint3 2
+    100104: starship2:starshipleftWeaponjoint5
+    100106: starship2:starshipleftWeaponjoint5 1
+    100108: starship2:starshipleftWeaponjoint5 2
+    100110: starship2:starshipleftWeaponjoint6
+    100112: starship2:starshipleftWeaponjoint6 1
+    100114: starship2:starshipleftWeaponjoint6 2
+    100116: starship2:starshipleftWeaponjoint7
+    100118: starship2:starshipleftWeaponjoint7 1
+    100120: starship2:starshipleftWeaponjoint7 2
+    100122: starship2:starshipleftWeaponjoint8
+    100124: starship2:starshipleftWeaponjoint9
+    100126: starship2:starshipvoidSheild_joint15
+    100128: starship2:starshipvoidSheild_joint16
+    100130: starship2:starshipvoidSheild_joint17
+    100132: starship2:starshipvoidSheild_joint18
+    100134: starship2:starshipvoidSheild_joint19
+    100136: starship2:starshipvoidSheild_joint20
+    100138: starship2:starshipvoidSheild_joint6
+    100140: starship2:starshipvoidSheild_joint7
+    100142: starship2:voidsheild1
+    100144: starship2:weaponTrail_GEO4
+    100146: starship2:weaponTrail_GEO6
+    100148: starship2:weaponTrail_GEO7
+    100150: starship:starship
+    100152: starship:starShip_GEO
+    100154: starship:starship_geo_group
+    100156: starship:starShip_GEO_MeshPart0
+    100158: starship:starShip_GEO_MeshPart1
+    100160: starship:starShip_GEO_MeshPart2
+    100162: starship:starShip_GEO_MeshPart3
+    100164: starship:starShip_GEO_MeshPart4
+    100166: starship:starshipjoint1
+    100168: starship:starshipjoint2
+    100170: starship:starshipleftWeaponjoint2
+    100172: starship:starshipleftWeaponjoint3
+    100174: starship:starshipleftWeaponjoint3 1
+    100176: starship:starshipleftWeaponjoint3 2
+    100178: starship:starshipleftWeaponjoint5
+    100180: starship:starshipleftWeaponjoint5 1
+    100182: starship:starshipleftWeaponjoint5 2
+    100184: starship:starshipleftWeaponjoint6
+    100186: starship:starshipleftWeaponjoint6 1
+    100188: starship:starshipleftWeaponjoint6 2
+    100190: starship:starshipleftWeaponjoint7
+    100192: starship:starshipleftWeaponjoint7 1
+    100194: starship:starshipleftWeaponjoint7 2
+    100196: starship:starshipleftWeaponjoint8
+    100198: starship:starshipleftWeaponjoint9
+    100200: starship:starshipvoidSheild_joint15
+    100202: starship:starshipvoidSheild_joint16
+    100204: starship:starshipvoidSheild_joint17
+    100206: starship:starshipvoidSheild_joint18
+    100208: starship:starshipvoidSheild_joint19
+    100210: starship:starshipvoidSheild_joint20
+    100212: starship:starshipvoidSheild_joint6
+    100214: starship:starshipvoidSheild_joint7
+    100216: starship:voidsheild1
+    100218: starship:weaponTrail_GEO4
+    100220: starship:weaponTrail_GEO6
+    100222: starship:weaponTrail_GEO7
+    100224: starship1:starshipvoidSheild_joint21
+    100226: starship1:starshipvoidSheild_joint22
+    100228: starship1:starshipvoidSheild_joint23
+    100230: starship1:starshipvoidSheild_joint24
+    100232: starship1:starshipvoidSheild_joint25
+    100234: starship1:starshipvoidSheild_joint26
+    100236: starship1:starshipvoidSheild_joint27
+    100238: starship1:starshipvoidSheild_joint28
+    100240: starship1:starshipvoidSheild_joint29
+    100242: starship1:starshipvoidSheild_joint30
+    100244: starship1:starshipvoidSheild_joint31
+    100246: starship1:starshipvoidSheild_joint32
+    100248: starship1:starshipvoidSheild_joint33
+    100250: starship1:starshipvoidSheild_joint34
+    100252: starship1:starshipvoidSheild_joint35
+    100254: starship1:starshipvoidSheild_joint36
+    100256: starship1:starshipvoidSheild_joint37
+    100258: starship1:starshipvoidSheild_joint38
+    100260: starship1:starshipvoidSheild_joint39
+    100262: starship1:starshipvoidSheild_joint40
+    100264: starship1:starshipvoidSheild_joint41
+    100266: starship1:starshipvoidSheild_joint42
+    100268: starship1:starshipvoidSheild_joint43
+    100270: starship1:starshipvoidSheild_joint44
+    100272: starship2:starshipvoidSheild_joint21
+    100274: starship2:starshipvoidSheild_joint22
+    100276: starship2:starshipvoidSheild_joint23
+    100278: starship2:starshipvoidSheild_joint24
+    100280: starship2:starshipvoidSheild_joint25
+    100282: starship2:starshipvoidSheild_joint26
+    100284: starship2:starshipvoidSheild_joint27
+    100286: starship2:starshipvoidSheild_joint28
+    100288: starship2:starshipvoidSheild_joint29
+    100290: starship2:starshipvoidSheild_joint30
+    100292: starship2:starshipvoidSheild_joint31
+    100294: starship2:starshipvoidSheild_joint32
+    100296: starship2:starshipvoidSheild_joint33
+    100298: starship2:starshipvoidSheild_joint34
+    100300: starship2:starshipvoidSheild_joint35
+    100302: starship2:starshipvoidSheild_joint36
+    100304: starship2:starshipvoidSheild_joint37
+    100306: starship2:starshipvoidSheild_joint38
+    100308: starship2:starshipvoidSheild_joint39
+    100310: starship2:starshipvoidSheild_joint40
+    100312: starship2:starshipvoidSheild_joint41
+    100314: starship2:starshipvoidSheild_joint42
+    100316: starship2:starshipvoidSheild_joint43
+    100318: starship2:starshipvoidSheild_joint44
+    100320: starship:starshipvoidSheild_joint21
+    100322: starship:starshipvoidSheild_joint22
+    100324: starship:starshipvoidSheild_joint23
+    100326: starship:starshipvoidSheild_joint24
+    100328: starship:starshipvoidSheild_joint25
+    100330: starship:starshipvoidSheild_joint26
+    100332: starship:starshipvoidSheild_joint27
+    100334: starship:starshipvoidSheild_joint28
+    100336: starship:starshipvoidSheild_joint29
+    100338: starship:starshipvoidSheild_joint30
+    100340: starship:starshipvoidSheild_joint31
+    100342: starship:starshipvoidSheild_joint32
+    100344: starship:starshipvoidSheild_joint33
+    100346: starship:starshipvoidSheild_joint34
+    100348: starship:starshipvoidSheild_joint35
+    100350: starship:starshipvoidSheild_joint36
+    100352: starship:starshipvoidSheild_joint37
+    100354: starship:starshipvoidSheild_joint38
+    100356: starship:starshipvoidSheild_joint39
+    100358: starship:starshipvoidSheild_joint40
+    100360: starship:starshipvoidSheild_joint41
+    100362: starship:starshipvoidSheild_joint42
+    100364: starship:starshipvoidSheild_joint43
+    100366: starship:starshipvoidSheild_joint44
+    400000: //RootNode
+    400002: starship1:starship
+    400004: starship1:starShip_GEO
+    400006: starship1:starship_geo_group
+    400008: starship1:starShip_GEO_MeshPart0
+    400010: starship1:starShip_GEO_MeshPart1
+    400012: starship1:starShip_GEO_MeshPart2
+    400014: starship1:starShip_GEO_MeshPart3
+    400016: starship1:starShip_GEO_MeshPart4
+    400018: starship1:starshipjoint1
+    400020: starship1:starshipjoint2
+    400022: starship1:starshipleftWeaponjoint2
+    400024: starship1:starshipleftWeaponjoint3
+    400026: starship1:starshipleftWeaponjoint3 1
+    400028: starship1:starshipleftWeaponjoint3 2
+    400030: starship1:starshipleftWeaponjoint5
+    400032: starship1:starshipleftWeaponjoint5 1
+    400034: starship1:starshipleftWeaponjoint5 2
+    400036: starship1:starshipleftWeaponjoint6
+    400038: starship1:starshipleftWeaponjoint6 1
+    400040: starship1:starshipleftWeaponjoint6 2
+    400042: starship1:starshipleftWeaponjoint7
+    400044: starship1:starshipleftWeaponjoint7 1
+    400046: starship1:starshipleftWeaponjoint7 2
+    400048: starship1:starshipleftWeaponjoint8
+    400050: starship1:starshipleftWeaponjoint9
+    400052: starship1:starshipvoidSheild_joint15
+    400054: starship1:starshipvoidSheild_joint16
+    400056: starship1:starshipvoidSheild_joint17
+    400058: starship1:starshipvoidSheild_joint18
+    400060: starship1:starshipvoidSheild_joint19
+    400062: starship1:starshipvoidSheild_joint20
+    400064: starship1:starshipvoidSheild_joint6
+    400066: starship1:starshipvoidSheild_joint7
+    400068: starship1:voidsheild1
+    400070: starship1:weaponTrail_GEO4
+    400072: starship1:weaponTrail_GEO6
+    400074: starship1:weaponTrail_GEO7
+    400076: starship2:starship
+    400078: starship2:starShip_GEO
+    400080: starship2:starship_geo_group
+    400082: starship2:starShip_GEO_MeshPart0
+    400084: starship2:starShip_GEO_MeshPart1
+    400086: starship2:starShip_GEO_MeshPart2
+    400088: starship2:starShip_GEO_MeshPart3
+    400090: starship2:starShip_GEO_MeshPart4
+    400092: starship2:starshipjoint1
+    400094: starship2:starshipjoint2
+    400096: starship2:starshipleftWeaponjoint2
+    400098: starship2:starshipleftWeaponjoint3
+    400100: starship2:starshipleftWeaponjoint3 1
+    400102: starship2:starshipleftWeaponjoint3 2
+    400104: starship2:starshipleftWeaponjoint5
+    400106: starship2:starshipleftWeaponjoint5 1
+    400108: starship2:starshipleftWeaponjoint5 2
+    400110: starship2:starshipleftWeaponjoint6
+    400112: starship2:starshipleftWeaponjoint6 1
+    400114: starship2:starshipleftWeaponjoint6 2
+    400116: starship2:starshipleftWeaponjoint7
+    400118: starship2:starshipleftWeaponjoint7 1
+    400120: starship2:starshipleftWeaponjoint7 2
+    400122: starship2:starshipleftWeaponjoint8
+    400124: starship2:starshipleftWeaponjoint9
+    400126: starship2:starshipvoidSheild_joint15
+    400128: starship2:starshipvoidSheild_joint16
+    400130: starship2:starshipvoidSheild_joint17
+    400132: starship2:starshipvoidSheild_joint18
+    400134: starship2:starshipvoidSheild_joint19
+    400136: starship2:starshipvoidSheild_joint20
+    400138: starship2:starshipvoidSheild_joint6
+    400140: starship2:starshipvoidSheild_joint7
+    400142: starship2:voidsheild1
+    400144: starship2:weaponTrail_GEO4
+    400146: starship2:weaponTrail_GEO6
+    400148: starship2:weaponTrail_GEO7
+    400150: starship:starship
+    400152: starship:starShip_GEO
+    400154: starship:starship_geo_group
+    400156: starship:starShip_GEO_MeshPart0
+    400158: starship:starShip_GEO_MeshPart1
+    400160: starship:starShip_GEO_MeshPart2
+    400162: starship:starShip_GEO_MeshPart3
+    400164: starship:starShip_GEO_MeshPart4
+    400166: starship:starshipjoint1
+    400168: starship:starshipjoint2
+    400170: starship:starshipleftWeaponjoint2
+    400172: starship:starshipleftWeaponjoint3
+    400174: starship:starshipleftWeaponjoint3 1
+    400176: starship:starshipleftWeaponjoint3 2
+    400178: starship:starshipleftWeaponjoint5
+    400180: starship:starshipleftWeaponjoint5 1
+    400182: starship:starshipleftWeaponjoint5 2
+    400184: starship:starshipleftWeaponjoint6
+    400186: starship:starshipleftWeaponjoint6 1
+    400188: starship:starshipleftWeaponjoint6 2
+    400190: starship:starshipleftWeaponjoint7
+    400192: starship:starshipleftWeaponjoint7 1
+    400194: starship:starshipleftWeaponjoint7 2
+    400196: starship:starshipleftWeaponjoint8
+    400198: starship:starshipleftWeaponjoint9
+    400200: starship:starshipvoidSheild_joint15
+    400202: starship:starshipvoidSheild_joint16
+    400204: starship:starshipvoidSheild_joint17
+    400206: starship:starshipvoidSheild_joint18
+    400208: starship:starshipvoidSheild_joint19
+    400210: starship:starshipvoidSheild_joint20
+    400212: starship:starshipvoidSheild_joint6
+    400214: starship:starshipvoidSheild_joint7
+    400216: starship:voidsheild1
+    400218: starship:weaponTrail_GEO4
+    400220: starship:weaponTrail_GEO6
+    400222: starship:weaponTrail_GEO7
+    400224: starship1:starshipvoidSheild_joint21
+    400226: starship1:starshipvoidSheild_joint22
+    400228: starship1:starshipvoidSheild_joint23
+    400230: starship1:starshipvoidSheild_joint24
+    400232: starship1:starshipvoidSheild_joint25
+    400234: starship1:starshipvoidSheild_joint26
+    400236: starship1:starshipvoidSheild_joint27
+    400238: starship1:starshipvoidSheild_joint28
+    400240: starship1:starshipvoidSheild_joint29
+    400242: starship1:starshipvoidSheild_joint30
+    400244: starship1:starshipvoidSheild_joint31
+    400246: starship1:starshipvoidSheild_joint32
+    400248: starship1:starshipvoidSheild_joint33
+    400250: starship1:starshipvoidSheild_joint34
+    400252: starship1:starshipvoidSheild_joint35
+    400254: starship1:starshipvoidSheild_joint36
+    400256: starship1:starshipvoidSheild_joint37
+    400258: starship1:starshipvoidSheild_joint38
+    400260: starship1:starshipvoidSheild_joint39
+    400262: starship1:starshipvoidSheild_joint40
+    400264: starship1:starshipvoidSheild_joint41
+    400266: starship1:starshipvoidSheild_joint42
+    400268: starship1:starshipvoidSheild_joint43
+    400270: starship1:starshipvoidSheild_joint44
+    400272: starship2:starshipvoidSheild_joint21
+    400274: starship2:starshipvoidSheild_joint22
+    400276: starship2:starshipvoidSheild_joint23
+    400278: starship2:starshipvoidSheild_joint24
+    400280: starship2:starshipvoidSheild_joint25
+    400282: starship2:starshipvoidSheild_joint26
+    400284: starship2:starshipvoidSheild_joint27
+    400286: starship2:starshipvoidSheild_joint28
+    400288: starship2:starshipvoidSheild_joint29
+    400290: starship2:starshipvoidSheild_joint30
+    400292: starship2:starshipvoidSheild_joint31
+    400294: starship2:starshipvoidSheild_joint32
+    400296: starship2:starshipvoidSheild_joint33
+    400298: starship2:starshipvoidSheild_joint34
+    400300: starship2:starshipvoidSheild_joint35
+    400302: starship2:starshipvoidSheild_joint36
+    400304: starship2:starshipvoidSheild_joint37
+    400306: starship2:starshipvoidSheild_joint38
+    400308: starship2:starshipvoidSheild_joint39
+    400310: starship2:starshipvoidSheild_joint40
+    400312: starship2:starshipvoidSheild_joint41
+    400314: starship2:starshipvoidSheild_joint42
+    400316: starship2:starshipvoidSheild_joint43
+    400318: starship2:starshipvoidSheild_joint44
+    400320: starship:starshipvoidSheild_joint21
+    400322: starship:starshipvoidSheild_joint22
+    400324: starship:starshipvoidSheild_joint23
+    400326: starship:starshipvoidSheild_joint24
+    400328: starship:starshipvoidSheild_joint25
+    400330: starship:starshipvoidSheild_joint26
+    400332: starship:starshipvoidSheild_joint27
+    400334: starship:starshipvoidSheild_joint28
+    400336: starship:starshipvoidSheild_joint29
+    400338: starship:starshipvoidSheild_joint30
+    400340: starship:starshipvoidSheild_joint31
+    400342: starship:starshipvoidSheild_joint32
+    400344: starship:starshipvoidSheild_joint33
+    400346: starship:starshipvoidSheild_joint34
+    400348: starship:starshipvoidSheild_joint35
+    400350: starship:starshipvoidSheild_joint36
+    400352: starship:starshipvoidSheild_joint37
+    400354: starship:starshipvoidSheild_joint38
+    400356: starship:starshipvoidSheild_joint39
+    400358: starship:starshipvoidSheild_joint40
+    400360: starship:starshipvoidSheild_joint41
+    400362: starship:starshipvoidSheild_joint42
+    400364: starship:starshipvoidSheild_joint43
+    400366: starship:starshipvoidSheild_joint44
+    4300000: starship:starShip_GEO_MeshPart0
+    4300002: starship:starShip_GEO_MeshPart1
+    4300004: starship:starShip_GEO_MeshPart2
+    4300006: starship:starShip_GEO_MeshPart3
+    4300008: starship:starShip_GEO_MeshPart4
+    4300010: starship:weaponTrail_GEO4
+    4300012: starship:voidsheild1
+    4300014: starship:weaponTrail_GEO6
+    4300016: starship:weaponTrail_GEO7
+    4300018: starship1:starShip_GEO_MeshPart0
+    4300020: starship1:starShip_GEO_MeshPart1
+    4300022: starship1:starShip_GEO_MeshPart2
+    4300024: starship1:starShip_GEO_MeshPart3
+    4300026: starship1:starShip_GEO_MeshPart4
+    4300028: starship1:weaponTrail_GEO4
+    4300030: starship1:voidsheild1
+    4300032: starship1:weaponTrail_GEO6
+    4300034: starship1:weaponTrail_GEO7
+    4300036: starship2:starShip_GEO_MeshPart0
+    4300038: starship2:starShip_GEO_MeshPart1
+    4300040: starship2:starShip_GEO_MeshPart2
+    4300042: starship2:starShip_GEO_MeshPart3
+    4300044: starship2:starShip_GEO_MeshPart4
+    4300046: starship2:weaponTrail_GEO4
+    4300048: starship2:voidsheild1
+    4300050: starship2:weaponTrail_GEO6
+    4300052: starship2:weaponTrail_GEO7
+    7400000: orbitalBattle001
+    9500000: //RootNode
+    13700000: starship1:starShip_GEO_MeshPart0
+    13700002: starship1:starShip_GEO_MeshPart1
+    13700004: starship1:starShip_GEO_MeshPart2
+    13700006: starship1:starShip_GEO_MeshPart3
+    13700008: starship1:starShip_GEO_MeshPart4
+    13700010: starship1:voidsheild1
+    13700012: starship1:weaponTrail_GEO4
+    13700014: starship1:weaponTrail_GEO6
+    13700016: starship1:weaponTrail_GEO7
+    13700018: starship2:starShip_GEO_MeshPart0
+    13700020: starship2:starShip_GEO_MeshPart1
+    13700022: starship2:starShip_GEO_MeshPart2
+    13700024: starship2:starShip_GEO_MeshPart3
+    13700026: starship2:starShip_GEO_MeshPart4
+    13700028: starship2:voidsheild1
+    13700030: starship2:weaponTrail_GEO4
+    13700032: starship2:weaponTrail_GEO6
+    13700034: starship2:weaponTrail_GEO7
+    13700036: starship:starShip_GEO_MeshPart0
+    13700038: starship:starShip_GEO_MeshPart1
+    13700040: starship:starShip_GEO_MeshPart2
+    13700042: starship:starShip_GEO_MeshPart3
+    13700044: starship:starShip_GEO_MeshPart4
+    13700046: starship:voidsheild1
+    13700048: starship:weaponTrail_GEO4
+    13700050: starship:weaponTrail_GEO6
+    13700052: starship:weaponTrail_GEO7
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: orbitalBattle001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 4000
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

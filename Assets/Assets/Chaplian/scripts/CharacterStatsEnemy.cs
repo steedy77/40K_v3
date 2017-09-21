@@ -65,6 +65,7 @@ public class CharacterStatsEnemy : MonoBehaviour {
                 GetComponent<CapsuleCollider>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;
 
+
                 if(GetComponent<EnemyMovementV002>()) 
                 {
                     GetComponent<EnemyMovementV002>().enabled = false;

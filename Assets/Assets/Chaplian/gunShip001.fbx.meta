@@ -1,0 +1,204 @@
+fileFormatVersion: 2
+guid: b76bc4135632e4b43b08d14f379aafee
+timeCreated: 1504879030
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: thunderhawk:gunShipfront_assault_ramp
+    100004: thunderhawk:gunShipGeogroup1
+    100006: thunderhawk:gunShipjoint1
+    100008: thunderhawk:gunShipjoint10
+    100010: thunderhawk:gunShipjoint2
+    100012: thunderhawk:gunShipjoint3
+    100014: thunderhawk:gunShipjoint3 1
+    100016: thunderhawk:gunShipjoint3 2
+    100018: thunderhawk:gunShipjoint3 3
+    100020: thunderhawk:gunShipjoint3 4
+    100022: thunderhawk:gunShipjoint4
+    100024: thunderhawk:gunShipjoint5
+    100026: thunderhawk:gunShipjoint6
+    100028: thunderhawk:gunShipjoint6 1
+    100030: thunderhawk:gunShipjoint7
+    100032: thunderhawk:gunShipjoint9
+    100034: thunderhawk:gunShipmissile1
+    100036: thunderhawk:gunShipmissile2
+    100038: thunderhawk:gunShipmissile3
+    100040: thunderhawk:gunShipmissile4
+    100042: thunderhawk:gunShipmissile5
+    100044: thunderhawk:gunShipmissile6
+    100046: thunderhawk:gunShippolySurface1
+    100048: thunderhawk:gunShippolySurface45
+    100050: thunderhawk:gunShippolySurface48
+    100052: thunderhawk:gunShippolySurface49
+    100054: thunderhawk:gunShippolySurface50
+    100056: thunderhawk:gunShippolySurface51
+    100058: thunderhawk:gunShippolySurface52
+    100060: thunderhawk:gunShippolySurface53
+    400000: //RootNode
+    400002: thunderhawk:gunShipfront_assault_ramp
+    400004: thunderhawk:gunShipGeogroup1
+    400006: thunderhawk:gunShipjoint1
+    400008: thunderhawk:gunShipjoint10
+    400010: thunderhawk:gunShipjoint2
+    400012: thunderhawk:gunShipjoint3
+    400014: thunderhawk:gunShipjoint3 1
+    400016: thunderhawk:gunShipjoint3 2
+    400018: thunderhawk:gunShipjoint3 3
+    400020: thunderhawk:gunShipjoint3 4
+    400022: thunderhawk:gunShipjoint4
+    400024: thunderhawk:gunShipjoint5
+    400026: thunderhawk:gunShipjoint6
+    400028: thunderhawk:gunShipjoint6 1
+    400030: thunderhawk:gunShipjoint7
+    400032: thunderhawk:gunShipjoint9
+    400034: thunderhawk:gunShipmissile1
+    400036: thunderhawk:gunShipmissile2
+    400038: thunderhawk:gunShipmissile3
+    400040: thunderhawk:gunShipmissile4
+    400042: thunderhawk:gunShipmissile5
+    400044: thunderhawk:gunShipmissile6
+    400046: thunderhawk:gunShippolySurface1
+    400048: thunderhawk:gunShippolySurface45
+    400050: thunderhawk:gunShippolySurface48
+    400052: thunderhawk:gunShippolySurface49
+    400054: thunderhawk:gunShippolySurface50
+    400056: thunderhawk:gunShippolySurface51
+    400058: thunderhawk:gunShippolySurface52
+    400060: thunderhawk:gunShippolySurface53
+    4300000: thunderhawk:gunShipmissile2
+    4300002: thunderhawk:gunShipmissile3
+    4300004: thunderhawk:gunShipmissile4
+    4300006: thunderhawk:gunShipmissile5
+    4300008: thunderhawk:gunShipmissile6
+    4300010: thunderhawk:gunShipfront_assault_ramp
+    4300012: thunderhawk:gunShipmissile1
+    4300014: thunderhawk:gunShippolySurface1
+    4300016: thunderhawk:gunShippolySurface45
+    4300018: thunderhawk:gunShippolySurface50
+    4300020: thunderhawk:gunShippolySurface51
+    4300022: thunderhawk:gunShippolySurface48
+    4300024: thunderhawk:gunShippolySurface49
+    4300026: thunderhawk:gunShippolySurface52
+    4300028: thunderhawk:gunShippolySurface53
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: thunderhawk:gunShipfront_assault_ramp
+    13700002: thunderhawk:gunShipmissile1
+    13700004: thunderhawk:gunShipmissile2
+    13700006: thunderhawk:gunShipmissile3
+    13700008: thunderhawk:gunShipmissile4
+    13700010: thunderhawk:gunShipmissile5
+    13700012: thunderhawk:gunShipmissile6
+    13700014: thunderhawk:gunShippolySurface1
+    13700016: thunderhawk:gunShippolySurface45
+    13700018: thunderhawk:gunShippolySurface48
+    13700020: thunderhawk:gunShippolySurface49
+    13700022: thunderhawk:gunShippolySurface50
+    13700024: thunderhawk:gunShippolySurface51
+    13700026: thunderhawk:gunShippolySurface52
+    13700028: thunderhawk:gunShippolySurface53
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 103
+      lastFrame: 938
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
