@@ -304,7 +304,7 @@ ModelImporter:
       name: squadmateShooting
       takeName: Take 001
       firstFrame: 80
-      lastFrame: 279
+      lastFrame: 150
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
@@ -324,8 +324,138 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_arm_root
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_elbow
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_elbow/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_wrist
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_elbow/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_wrist/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_hand
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_neck
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_neck/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_crown
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_elbow
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_elbow/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_wrist
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_elbow/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_wrist/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_hand
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_elbow/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_wrist/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_hand/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_elbow/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_wrist/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_hand/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_bolterChaosRig_bulletStart/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_hip
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_knee
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_knee/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_ankle
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_knee/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_ankle/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_ball
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_knee/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_ankle/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_ball/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_toe
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_hip
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_knee
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_knee/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_ankle
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_knee/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_ankle/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_ball
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_knee/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_ankle/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_ball/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_toe
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_boltgun
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_boltgun/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_boltgun_MeshPart0
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_boltgun/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_boltgun_MeshPart1
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_bullet_geo
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateChest
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_65
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_66
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_67
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_68
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_74
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_75
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_76
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_77
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_78
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_79
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_80
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_84
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_85
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_86
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_90
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_91
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_94
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_95
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_96
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_98
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_100
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_102
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_103
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_104
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_105
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_106
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateHead
+        weight: 1
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16
@@ -380,8 +510,138 @@ ModelImporter:
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
       curves: []
       events: []
-      transformMask: []
-      maskType: 3
+      transformMask:
+      - path: 
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_arm_root
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_shoulder2
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_elbow
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_elbow/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_wrist
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_elbow/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_wrist/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_control_left_hand
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_neck
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_neck/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_crown
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_shoulder2
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_elbow
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_elbow/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_wrist
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_elbow/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_wrist/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_hand
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_elbow/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_wrist/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_hand/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_bolterChaosRig_bulletStart
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_lower_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_mid_bac/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_upper_back/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_arm_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_shoulder2/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_elbow/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_wrist/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_control_right_hand/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_bolterChaosRig_bulletStart/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_bolterChaosRig_bulletEnd
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_hip
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_knee
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_knee/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_ankle
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_knee/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_ankle/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_ball
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_knee/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_ankle/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_ball/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_left_toe
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_hip
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_knee
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_knee/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_ankle
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_knee/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_ankle/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_ball
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_back_root/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_rootRotation/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_pelvis1/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_hip/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_knee/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_ankle/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_ball/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateRig_right_toe
+        weight: 0
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_boltgun
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_boltgun/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_boltgun_MeshPart0
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_boltgun/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_boltgun_MeshPart1
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_bullet_geo
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateChest
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_65
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_66
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_67
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_68
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_74
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_75
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_76
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_77
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_78
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_79
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_80
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_84
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_85
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_86
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_90
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_91
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_94
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_95
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_96
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_98
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_100
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_102
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_103
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_104
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_105
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_106
+        weight: 1
+      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateHead
+        weight: 1
+      maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
     - serializedVersion: 16

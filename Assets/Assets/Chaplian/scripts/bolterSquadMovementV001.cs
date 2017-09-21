@@ -6,7 +6,7 @@ public class bolterSquadMovementV001    : MonoBehaviour
     Transform target;               // Reference to the player's position.
     Transform attackTarget;
     UnityEngine.AI.NavMeshAgent nav;               // Reference to the nav mesh agent.
-    public float attackRate = 3;
+    public float followTarget = 3;
     public float attackEnemyRate = 3;
     float attackR;
     float attackEnemyR;
@@ -54,7 +54,7 @@ public class bolterSquadMovementV001    : MonoBehaviour
         {
             following = false;
         }
-        if (attackR > attackRate)
+        if (attackR > followTarget)
         {
             anim.SetBool("Followed", true);
             anim.SetBool("IsWalking", false);
@@ -82,7 +82,7 @@ public class bolterSquadMovementV001    : MonoBehaviour
 
             attackEnemyR += Time.deltaTime;
 
-            if (attackEnemyR > attackRate)
+            if (attackEnemyR > followTarget)
             {
                 attackEnemyR = 0;
                 anim.SetBool("Followed", true);
@@ -91,7 +91,7 @@ public class bolterSquadMovementV001    : MonoBehaviour
         }
 
         float distanceToEnemy = Vector3.Distance(transform.position, attackTarget.position);
-        attackTarget = GameObject.FindGameObjectWithTag("Enemy").transform;
+        attackTarget = GameObject.FindGameObjectWithTag("BolterEnemy").transform;
 
         if (distanceToEnemy < attackEnemyRange + 2f)
         {
@@ -119,7 +119,7 @@ public class bolterSquadMovementV001    : MonoBehaviour
         {
 
 
-            anim.SetBool("IsWalking", true);
+            anim.SetBool("Attack", true);
 
         }
         else
@@ -142,7 +142,7 @@ public class bolterSquadMovementV001    : MonoBehaviour
     {
         if (attackCollider.gameObject.tag == "Enemy")
         {
-            attackTarget = GameObject.FindGameObjectWithTag("Enemy").transform;
+            attackTarget = GameObject.FindGameObjectWithTag("BolterEnemy").transform;
             RotateTowards(attackTarget);
             anim.SetBool("Attack", true);
 
