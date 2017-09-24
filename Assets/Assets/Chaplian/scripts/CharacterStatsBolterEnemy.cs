@@ -8,8 +8,11 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
     bool dealDamage;
     bool substractOnce;
     bool dead;
-
+    public string deathAnim = "death";
     public float damageTimer = .4f;
+    public ParticleSystem BloodPool;
+    public ParticleSystem hitSparks;
+    public ParticleSystem hitBlood;
     WaitForSeconds damageT;
 
     Animator anim;
@@ -49,6 +52,14 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
                 health -= 10;
                 anim.SetTrigger("Hit");
                 substractOnce = true;
+                if (health < 30)
+                {
+                    hitBlood.Play();
+                }
+                else
+                {
+                    hitSparks.Play();
+                }
             }
 
             StartCoroutine("CloseDamage");
@@ -59,11 +70,12 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
             if (!dead)
             {
                 anim.SetBool("dead", true);
-                anim.CrossFade("death", 0.5f);
+                anim.SetTrigger("death");
                 healthTrans.gameObject.SetActive(false);
                 dealDamage = true;
                 damageCollider.SetActive(false);
-
+                BloodPool.Play();
+                //note capsule issue with camera push in
                 GetComponent<CapsuleCollider>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;
 
