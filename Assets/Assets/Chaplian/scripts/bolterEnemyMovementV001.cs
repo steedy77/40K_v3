@@ -14,7 +14,9 @@ public class bolterEnemyMovementV001    : MonoBehaviour
     public float rotationSpeed = 10f;
 
     public GameObject damageCollider;
-
+    public ParticleSystem MuzzleFlash;
+    public ParticleSystem ShellCasing;
+    public ParticleSystem Smoke;
     Animator anim;
 
 
@@ -95,6 +97,9 @@ public class bolterEnemyMovementV001    : MonoBehaviour
     public void OpenDamageColllider()
     {
         damageCollider.SetActive(true);
+        MuzzleFlash.Emit(1);
+        ShellCasing.Emit(1);
+        Smoke.Emit(1);
     }
 
     public void CloseDamageCollider()

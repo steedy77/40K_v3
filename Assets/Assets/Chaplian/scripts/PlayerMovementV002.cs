@@ -29,8 +29,8 @@ public class PlayerMovementV002 : MonoBehaviour
     }
 
     
-
-    void FixedUpdate()
+    //HS changed from fixed to update
+    void Update()
     {
         // Store the input axes.
         float v = Input.GetAxis("Horizontal");              // setup h variable as our horizontal input axis

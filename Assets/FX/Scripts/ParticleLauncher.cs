@@ -6,6 +6,8 @@ public class ParticleLauncher : MonoBehaviour {
 
     public ParticleSystem particleLauncher;
     public ParticleSystem splatterParticles;
+    public ParticleSystem SparksParticles;
+    public int health = 100;
 
     List<ParticleCollisionEvent> collisionEvents;
 
@@ -27,11 +29,23 @@ public class ParticleLauncher : MonoBehaviour {
     }
 
     // Gets Position & Rotation from CollisionEvent list then emits splatterparticles from there
+   
     void EmitAtLocation(ParticleCollisionEvent particleCollisionEvent)
-    {
-    splatterParticles.transform.position = particleCollisionEvent.intersection;
-    splatterParticles.transform.rotation = Quaternion.LookRotation(particleCollisionEvent.normal);
-    splatterParticles.Emit(1);
+    {   
+        if (health > 15)
+    
+        SparksParticles.transform.position = particleCollisionEvent.intersection;
+        SparksParticles.transform.rotation = Quaternion.LookRotation(particleCollisionEvent.normal);
+         SparksParticles.Play();
+
+      // }
+        { 
+        if (health < 15)
+       
+            splatterParticles.transform.position = particleCollisionEvent.intersection;
+        splatterParticles.transform.rotation = Quaternion.LookRotation(particleCollisionEvent.normal);
+        splatterParticles.Play();
+       }
     }
 	
 	// emits projectile when fire button pushed
