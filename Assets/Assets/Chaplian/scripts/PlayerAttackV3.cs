@@ -19,6 +19,12 @@ public class PlayerAttackV3 : MonoBehaviour
     public GameObject damageCollider;
     public GameObject damageCollider2;
 
+    public GameObject shot;
+    public Transform shotSpawn;
+    public float fxFireRate;
+
+    private float nextFire;
+
     void Start ()
     {
         if (comboParams == null || (comboParams != null && comboParams.Length == 0))
@@ -51,26 +57,47 @@ public class PlayerAttackV3 : MonoBehaviour
 
             resetTimer = 0f;
         }
+
+        
         // Reset combo if the user has not clicked quickly enough
         if (comboIndex > 0)
         {
             resetTimer += Time.deltaTime;
             if (resetTimer > fireRate)
             {
-                animator.SetTrigger("Reset");
                 comboIndex = 0;
+                animator.SetTrigger("Reset");
+            }
+            else
+            {
+                animator.ResetTrigger("Reset");
             }
         }
 
-        if (plInput.fire2)
+        else
+        {
+            animator.ResetTrigger("Attack1");
+            animator.ResetTrigger("Attack2");
+            animator.ResetTrigger("Attack3");
+            animator.ResetTrigger("Attack4");
+            animator.ResetTrigger("Attack5");
+            animator.ResetTrigger("Attack6");
+            animator.ResetTrigger("Attack7");
+            animator.ResetTrigger("Attack8");
+        }
+
+        if ((plInput.fire2) && Time.time > nextFire)
         {
             anim.SetBool("Shoot", true);
+            nextFire = Time.time + fxFireRate;
+            Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
             plMovement.canMove = false;
         }
         else
         {
             anim.SetBool("Shoot", false);
         }
+        
     }
 
 

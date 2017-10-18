@@ -23,7 +23,11 @@ public class bolterSquadMovementV001    : MonoBehaviour
 
     Animator anim;
 
+    public GameObject shot;
+    public Transform shotSpawn;
+    public float fxFireRate;
 
+    private float nextFire;
 
     void Start()
     {
@@ -176,6 +180,8 @@ public class bolterSquadMovementV001    : MonoBehaviour
     public void OpenDamageColllider()
     {
         damageCollider.SetActive(true);
+        nextFire = Time.time + fxFireRate;
+        Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
     }
 
     public void CloseDamageCollider()

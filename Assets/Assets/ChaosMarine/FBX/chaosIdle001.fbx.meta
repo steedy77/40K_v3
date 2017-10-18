@@ -106,6 +106,72 @@ ModelImporter:
     100196: chaosGeo_98
     100198: chaosHead
     100200: Chaplian_GEO
+    100202: chaos_back_root
+    100204: chaos_crown
+    100206: Chaos_GEO
+    100208: chaos_left_ankle
+    100210: chaos_left_arm_root
+    100212: chaos_left_ball
+    100214: chaos_left_control_left_elbow
+    100216: chaos_left_control_left_hand
+    100218: chaos_left_control_left_shoulder2
+    100220: chaos_left_control_wrist
+    100222: chaos_left_hip
+    100224: chaos_left_knee
+    100226: chaos_left_toe
+    100228: chaos_lower_back
+    100230: chaos_mid_bac
+    100232: chaos_neck
+    100234: chaos_pelvis
+    100236: chaos_pelvis1
+    100238: chaos_right_ankle
+    100240: chaos_right_arm_root
+    100242: chaos_right_ball
+    100244: chaos_right_control_right_elbow
+    100246: chaos_right_control_right_hand
+    100248: chaos_right_control_right_hand1
+    100250: chaos_right_control_right_hand2
+    100252: chaos_right_control_right_shoulder2
+    100254: chaos_right_control_wrist
+    100256: chaos_right_hip
+    100258: chaos_right_knee
+    100260: chaos_right_toe
+    100262: chaos_rootRotation
+    100264: chaos_upper_back
+    100266: chaosRig_boltPistol
+    100268: chaosRig_boltPistol_MeshPart0
+    100270: chaosRig_boltPistol_MeshPart1
+    100272: chaosRig_Horns
+    100274: chaosRig_Weapon
+    100276: chaosRigChest
+    100278: chaosRigGeo_100
+    100280: chaosRigGeo_102
+    100282: chaosRigGeo_103
+    100284: chaosRigGeo_104
+    100286: chaosRigGeo_105
+    100288: chaosRigGeo_106
+    100290: chaosRigGeo_65
+    100292: chaosRigGeo_66
+    100294: chaosRigGeo_67
+    100296: chaosRigGeo_68
+    100298: chaosRigGeo_69
+    100300: chaosRigGeo_74
+    100302: chaosRigGeo_75
+    100304: chaosRigGeo_76
+    100306: chaosRigGeo_77
+    100308: chaosRigGeo_78
+    100310: chaosRigGeo_79
+    100312: chaosRigGeo_80
+    100314: chaosRigGeo_84
+    100316: chaosRigGeo_85
+    100318: chaosRigGeo_86
+    100320: chaosRigGeo_90
+    100322: chaosRigGeo_91
+    100324: chaosRigGeo_94
+    100326: chaosRigGeo_95
+    100328: chaosRigGeo_96
+    100330: chaosRigGeo_98
+    100332: chaosRigHead
     400000: chaos_backpack
     400002: chaos_boltPistol_Low
     400004: chaos_boltPistol_Low_MeshPart0
@@ -207,8 +273,76 @@ ModelImporter:
     400196: chaosGeo_98
     400198: chaosHead
     400200: Chaplian_GEO
+    400202: chaos_back_root
+    400204: chaos_crown
+    400206: Chaos_GEO
+    400208: chaos_left_ankle
+    400210: chaos_left_arm_root
+    400212: chaos_left_ball
+    400214: chaos_left_control_left_elbow
+    400216: chaos_left_control_left_hand
+    400218: chaos_left_control_left_shoulder2
+    400220: chaos_left_control_wrist
+    400222: chaos_left_hip
+    400224: chaos_left_knee
+    400226: chaos_left_toe
+    400228: chaos_lower_back
+    400230: chaos_mid_bac
+    400232: chaos_neck
+    400234: chaos_pelvis
+    400236: chaos_pelvis1
+    400238: chaos_right_ankle
+    400240: chaos_right_arm_root
+    400242: chaos_right_ball
+    400244: chaos_right_control_right_elbow
+    400246: chaos_right_control_right_hand
+    400248: chaos_right_control_right_hand1
+    400250: chaos_right_control_right_hand2
+    400252: chaos_right_control_right_shoulder2
+    400254: chaos_right_control_wrist
+    400256: chaos_right_hip
+    400258: chaos_right_knee
+    400260: chaos_right_toe
+    400262: chaos_rootRotation
+    400264: chaos_upper_back
+    400266: chaosRig_boltPistol
+    400268: chaosRig_boltPistol_MeshPart0
+    400270: chaosRig_boltPistol_MeshPart1
+    400272: chaosRig_Horns
+    400274: chaosRig_Weapon
+    400276: chaosRigChest
+    400278: chaosRigGeo_100
+    400280: chaosRigGeo_102
+    400282: chaosRigGeo_103
+    400284: chaosRigGeo_104
+    400286: chaosRigGeo_105
+    400288: chaosRigGeo_106
+    400290: chaosRigGeo_65
+    400292: chaosRigGeo_66
+    400294: chaosRigGeo_67
+    400296: chaosRigGeo_68
+    400298: chaosRigGeo_69
+    400300: chaosRigGeo_74
+    400302: chaosRigGeo_75
+    400304: chaosRigGeo_76
+    400306: chaosRigGeo_77
+    400308: chaosRigGeo_78
+    400310: chaosRigGeo_79
+    400312: chaosRigGeo_80
+    400314: chaosRigGeo_84
+    400316: chaosRigGeo_85
+    400318: chaosRigGeo_86
+    400320: chaosRigGeo_90
+    400322: chaosRigGeo_91
+    400324: chaosRigGeo_94
+    400326: chaosRigGeo_95
+    400328: chaosRigGeo_96
+    400330: chaosRigGeo_98
+    400332: chaosRigHead
     2300000: chaosGeo_69
+    2300002: chaosRigGeo_69
     3300000: chaosGeo_69
+    3300002: chaosRigGeo_69
     4300000: chaosMarine_geo5
     4300002: chaosMarine_geo6
     4300004: chaosMarine_geo7
@@ -277,6 +411,39 @@ ModelImporter:
     4300130: chaosGeo_104
     4300132: chaosGeo_105
     4300134: chaosGeo_106
+    4300136: chaosRig_boltPistol_MeshPart0
+    4300138: chaosRig_boltPistol_MeshPart1
+    4300140: chaosRig_Weapon
+    4300142: chaosRig_Horns
+    4300144: chaosRigGeo_65
+    4300146: chaosRigGeo_66
+    4300148: chaosRigGeo_67
+    4300150: chaosRigGeo_68
+    4300152: chaosRigGeo_69
+    4300154: chaosRigGeo_74
+    4300156: chaosRigGeo_75
+    4300158: chaosRigGeo_76
+    4300160: chaosRigGeo_77
+    4300162: chaosRigGeo_78
+    4300164: chaosRigGeo_79
+    4300166: chaosRigGeo_80
+    4300168: chaosRigGeo_84
+    4300170: chaosRigGeo_85
+    4300172: chaosRigGeo_86
+    4300174: chaosRigGeo_90
+    4300176: chaosRigGeo_91
+    4300178: chaosRigGeo_94
+    4300180: chaosRigGeo_95
+    4300182: chaosRigGeo_96
+    4300184: chaosRigGeo_98
+    4300186: chaosRigGeo_100
+    4300188: chaosRigChest
+    4300190: chaosRigHead
+    4300192: chaosRigGeo_102
+    4300194: chaosRigGeo_103
+    4300196: chaosRigGeo_104
+    4300198: chaosRigGeo_105
+    4300200: chaosRigGeo_106
     7400000: idleChaos
     7400002: runChaos
     7400004: death
@@ -365,6 +532,38 @@ ModelImporter:
     13700128: chaosGeo_96
     13700130: chaosGeo_98
     13700132: chaosHead
+    13700134: chaosRig_boltPistol_MeshPart0
+    13700136: chaosRig_boltPistol_MeshPart1
+    13700138: chaosRig_Horns
+    13700140: chaosRig_Weapon
+    13700142: chaosRigChest
+    13700144: chaosRigGeo_100
+    13700146: chaosRigGeo_102
+    13700148: chaosRigGeo_103
+    13700150: chaosRigGeo_104
+    13700152: chaosRigGeo_105
+    13700154: chaosRigGeo_106
+    13700156: chaosRigGeo_65
+    13700158: chaosRigGeo_66
+    13700160: chaosRigGeo_67
+    13700162: chaosRigGeo_68
+    13700164: chaosRigGeo_74
+    13700166: chaosRigGeo_75
+    13700168: chaosRigGeo_76
+    13700170: chaosRigGeo_77
+    13700172: chaosRigGeo_78
+    13700174: chaosRigGeo_79
+    13700176: chaosRigGeo_80
+    13700178: chaosRigGeo_84
+    13700180: chaosRigGeo_85
+    13700182: chaosRigGeo_86
+    13700184: chaosRigGeo_90
+    13700186: chaosRigGeo_91
+    13700188: chaosRigGeo_94
+    13700190: chaosRigGeo_95
+    13700192: chaosRigGeo_96
+    13700194: chaosRigGeo_98
+    13700196: chaosRigHead
   materials:
     importMaterials: 0
     materialName: 0
