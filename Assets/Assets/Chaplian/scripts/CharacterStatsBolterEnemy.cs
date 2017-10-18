@@ -20,6 +20,7 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
 
     public GameObject sliderPrefab;
     public GameObject damageCollider;
+    public GameObject destroyBulletCollider;
 
     Slider healthSlider;
     RectTransform healthTrans;
@@ -74,6 +75,7 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
                 healthTrans.gameObject.SetActive(false);
                 dealDamage = true;
                 damageCollider.SetActive(false);
+                destroyBulletCollider.SetActive(false);
                 BloodPool.Play();
                 //note capsule issue with camera push in
                 GetComponent<CapsuleCollider>().enabled = false;
