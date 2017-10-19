@@ -17,6 +17,7 @@ public class CharacterStatsBolterSquad : MonoBehaviour {
 
     public GameObject sliderPrefab;
     public GameObject damageCollider;
+    public GameObject destroyBulletCollider;
 
     Slider healthSlider;
     RectTransform healthTrans;
@@ -63,6 +64,7 @@ public class CharacterStatsBolterSquad : MonoBehaviour {
                 healthTrans.gameObject.SetActive(false);
                 dealDamage = true;
                 damageCollider.SetActive(false);
+                destroyBulletCollider.SetActive(false);
 
                 GetComponent<CapsuleCollider>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;

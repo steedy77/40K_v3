@@ -9,6 +9,7 @@ public class PlayerMovementV002 : MonoBehaviour
     float speed = 1.6f;            // The speed that the player will move at.
     float sprintSpeed = 5f;
     float runSpeed = 1.6f;
+    float aimSpeed = 0.001f;
 
     float xVelAdj = 0;
     float zVelAdj = 0;
@@ -57,6 +58,16 @@ public class PlayerMovementV002 : MonoBehaviour
         {
             speed = runSpeed;
             anim.SetBool("SprintMode", false);
+        }
+        if (Input.GetButton("Jump"))
+        {
+            speed = aimSpeed;
+            anim.SetBool("AimMode", true);
+        }
+        else if (Input.GetButtonUp("Jump"))
+        {
+            speed = runSpeed;
+            anim.SetBool("AimMode", false);
         }
 
     }
