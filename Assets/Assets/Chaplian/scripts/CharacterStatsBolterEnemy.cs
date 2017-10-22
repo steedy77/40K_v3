@@ -8,11 +8,12 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
     bool dealDamage;
     bool substractOnce;
     bool dead;
-    public string deathAnim = "death";
+   // public string deathAnim = "death";
     public float damageTimer = .4f;
     public ParticleSystem BloodPool;
     public ParticleSystem hitSparks;
     public ParticleSystem hitBlood;
+    public ParticleSystem Death;
     WaitForSeconds damageT;
 
     Animator anim;
@@ -29,26 +30,25 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
     {
         damageT = new WaitForSeconds(damageTimer);
         anim = GetComponent<Animator>();
-
         GameObject slid = Instantiate(sliderPrefab, transform.position, Quaternion.identity) as GameObject;
         slid.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform);
         healthSlider = slid.GetComponentInChildren<Slider>();
         healthTrans = slid.GetComponent<RectTransform>();
-   
+
         gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
-        }
-    
-    
+    }
+
+
     void Update()
     {
-        healthSlider.value = health/100;
+        healthSlider.value = health / 100;
 
         Vector2 screenPoint = RectTransformUtility.WorldToScreenPoint(Camera.main, transform.position);
         healthTrans.transform.position = screenPoint;
 
-        if(dealDamage)
+        if (dealDamage)
         {
-            if(!substractOnce)
+            if (!substractOnce)
             {
                 health -= 10;
                 anim.SetTrigger("Hit");
@@ -66,7 +66,7 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
             StartCoroutine("CloseDamage");
         }
 
-        if(health < 0)
+        if (health < 0)
         {
             if (!dead)
             {
@@ -80,28 +80,40 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
                 //note capsule issue with camera push in
                 GetComponent<CapsuleCollider>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;
-
-                if(GetComponent<bolterEnemyMovementV001>()) 
-                {
-                    GetComponent<bolterEnemyMovementV001>().enabled = false;
-                    GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
-
-                }
-                
-                else
-                {
-                    GetComponent<PlayerInput>().enabled = false;
-                    GetComponent<PlayerMovementV002>().enabled = false;
-                    GetComponent<PlayerAttackV3>().enabled = false;
-                }
-
-                FindObjectOfType<GameManager>().enemiesSpawned.Remove(transform);
-
-                dead = true;
+                StartCoroutine(waitThenDestroy());
             }
+           
+
+            if (GetComponent<bolterEnemyMovementV001>())
+            {
+                GetComponent<bolterEnemyMovementV001>().enabled = false;
+                GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
+
+            }
+
+            else
+            {
+                GetComponent<PlayerInput>().enabled = false;
+                GetComponent<PlayerMovementV002>().enabled = false;
+                GetComponent<PlayerAttackV3>().enabled = false;
+            }
+
+            FindObjectOfType<GameManager>().enemiesSpawned.Remove(transform);
+
+            dead = true;
         }
     }
 
+    IEnumerator waitThenDestroy()
+    {
+
+        yield return new WaitForSeconds(10);
+        anim.SetTrigger("FadeAnim");
+        Death.Play();
+
+        yield return new WaitForSeconds(20);
+        Destroy(this.gameObject);
+    }
     public void checkToApplyDamage()
     {
         if(!dealDamage)
@@ -118,4 +130,6 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
                
 
     }
+   
 }
+
