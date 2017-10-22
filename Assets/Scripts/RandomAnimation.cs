@@ -33,7 +33,7 @@ public class RandomAnimation : StateMachineBehaviour
 	// OnStateMachineEnter is called when entering a statemachine via its Entry Node
 	override public void OnStateMachineEnter(Animator animator, int stateMachinePathHash)
     {
-        animator.SetInteger("deathAnimID",Random.Range(0, 9));
+        animator.SetInteger("AnimID",Random.Range(0, 9));
 	}
 
 	// OnStateMachineExit is called when exiting a statemachine via its Exit Node

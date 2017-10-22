@@ -8,11 +8,11 @@ public class CharacterStatsEnemy : MonoBehaviour {
     bool dealDamage;
     bool substractOnce;
     bool dead;
-    public string deathAnim = "death01";
     public float damageTimer = .4f;
     public ParticleSystem BloodPool;
     public ParticleSystem hitSparks;
     public ParticleSystem hitBlood;
+    public ParticleSystem Death;
     WaitForSeconds damageT;
 
     Animator anim;
@@ -68,8 +68,8 @@ public class CharacterStatsEnemy : MonoBehaviour {
         {
             if (!dead)
             {
-              anim.SetBool("dead", true);
-                anim.SetTrigger(deathAnim);
+                anim.SetBool("dead", true);
+                anim.SetTrigger("death");
                 healthTrans.gameObject.SetActive(false);
                 dealDamage = true;
                 destroyBulletCollider.SetActive(false);
@@ -77,9 +77,9 @@ public class CharacterStatsEnemy : MonoBehaviour {
                 //note capsule issue with camera push in
                 GetComponent<CapsuleCollider>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;
-
-
-                if(GetComponent<EnemyMovementV002>()) 
+                StartCoroutine(waitThenDestroy());
+            }
+                if (GetComponent<EnemyMovementV002>()) 
                 {
                     GetComponent<EnemyMovementV002>().enabled = false;
                     GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
@@ -98,9 +98,18 @@ public class CharacterStatsEnemy : MonoBehaviour {
                 dead = true;
             }
         }
-    }
 
-    public void checkToApplyDamage()
+        IEnumerator waitThenDestroy()
+        {
+
+            yield return new WaitForSeconds(10);
+            anim.SetTrigger("FadeAnim");
+            Death.Play();
+
+            yield return new WaitForSeconds(20);
+            Destroy(this.gameObject);
+        }
+            public void checkToApplyDamage()
     {
         if(!dealDamage)
         {
