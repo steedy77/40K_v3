@@ -8,7 +8,7 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
     bool dealDamage;
     bool substractOnce;
     bool dead;
-    public string deathAnim = "death";
+   // public string deathAnim = "death";
     public float damageTimer = .4f;
     public ParticleSystem BloodPool;
     public ParticleSystem hitSparks;
