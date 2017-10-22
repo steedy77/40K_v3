@@ -8,8 +8,11 @@ public class CharacterStatsEnemy : MonoBehaviour {
     bool dealDamage;
     bool substractOnce;
     bool dead;
-
+    public string deathAnim = "death01";
     public float damageTimer = .4f;
+    public ParticleSystem BloodPool;
+    public ParticleSystem hitSparks;
+    public ParticleSystem hitBlood;
     WaitForSeconds damageT;
 
     Animator anim;
@@ -19,6 +22,7 @@ public class CharacterStatsEnemy : MonoBehaviour {
 
     Slider healthSlider;
     RectTransform healthTrans;
+    public GameObject destroyBulletCollider;
 
     void Start()
     {
@@ -43,13 +47,20 @@ public class CharacterStatsEnemy : MonoBehaviour {
 
         if(dealDamage)
         {
-            if(!substractOnce)
+            if (!substractOnce)
             {
                 health -= 10;
                 anim.SetTrigger("Hit");
                 substractOnce = true;
+                if (health < 30)
+                {
+                    hitBlood.Play();
+                }
+                 else
+                {
+                    hitSparks.Play();
+                }
             }
-
             StartCoroutine("CloseDamage");
         }
 
@@ -57,13 +68,16 @@ public class CharacterStatsEnemy : MonoBehaviour {
         {
             if (!dead)
             {
-                anim.SetBool("dead", true);
-                anim.CrossFade("death", 0.5f);
+              anim.SetBool("dead", true);
+                anim.SetTrigger(deathAnim);
                 healthTrans.gameObject.SetActive(false);
                 dealDamage = true;
-
+                destroyBulletCollider.SetActive(false);
+                BloodPool.Play();
+                //note capsule issue with camera push in
                 GetComponent<CapsuleCollider>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;
+
 
                 if(GetComponent<EnemyMovementV002>()) 
                 {
@@ -72,12 +86,12 @@ public class CharacterStatsEnemy : MonoBehaviour {
 
                 }
                 
-                else
-                {
-                    GetComponent<PlayerInput>().enabled = false;
-                    GetComponent<PlayerMovementV002>().enabled = false;
-                    GetComponent<PlayerAttackV3>().enabled = false;
-                }
+               // else
+               // {
+              //     GetComponent<PlayerInput>().enabled = false;
+               //     GetComponent<PlayerMovementV002>().enabled = false;
+               //     GetComponent<PlayerAttackV3>().enabled = false;
+               // }
 
                 FindObjectOfType<GameManager>().enemiesSpawned.Remove(transform);
 
