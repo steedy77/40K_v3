@@ -6,7 +6,9 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
 
     public float health = 100;
     bool dealDamage;
+    bool dealPowerDamage;
     bool substractOnce;
+    bool subtractPowerDamage;
     bool dead;
    // public string deathAnim = "death";
     public float damageTimer = .4f;
@@ -53,6 +55,25 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
                 health -= 10;
                 anim.SetTrigger("Hit");
                 substractOnce = true;
+                if (health < 30)
+                {
+                    hitBlood.Play();
+                }
+                else
+                {
+                    hitSparks.Play();
+                }
+            }
+
+            StartCoroutine("CloseDamage");
+        }
+        if (dealPowerDamage)
+        {
+            if (!subtractPowerDamage)
+            {
+                health -= 60;
+                anim.SetTrigger("Hit");
+                subtractPowerDamage = true;
                 if (health < 30)
                 {
                     hitBlood.Play();
@@ -121,13 +142,22 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
             dealDamage = true;
         }
     }
-    
+    public void checkToApplyPowerDamage()
+    {
+        if (!dealPowerDamage)
+        {
+            dealPowerDamage = true;
+        }
+    }
+
     IEnumerator CloseDamage()
     {
         yield return damageT;
         dealDamage = false;
         substractOnce = false;
-               
+        dealPowerDamage = false;
+        subtractPowerDamage = false;
+
 
     }
    

@@ -4,7 +4,7 @@ using System.Collections;
 public class PlayerAttackV3 : MonoBehaviour
 {
     PlayerInput plInput;
-    PlayerMovement plMovement;
+    PlayerMovementV002 plMovement;
     Animator anim;
     public ParticleSystem MuzzleFlash;
     public ParticleSystem ShellCasing;
@@ -18,12 +18,16 @@ public class PlayerAttackV3 : MonoBehaviour
 
     public GameObject damageCollider;
     public GameObject damageCollider2;
+    public GameObject PowerDamageCollider;
 
     public GameObject shot;
     public Transform shotSpawn;
     public float fxFireRate;
 
     private float nextFire;
+
+    bool canShoot = true;
+    bool canPowerAttack = true;
 
     void Start ()
     {
@@ -34,12 +38,13 @@ public class PlayerAttackV3 : MonoBehaviour
 
         plInput = GetComponent<PlayerInput>();
         anim = GetComponent<Animator>();
-        plMovement = GetComponent<PlayerMovement>();
+        plMovement = GetComponent<PlayerMovementV002>();
 
         //comboR = new WaitForSeconds(comboRate);
 
         damageCollider.SetActive(false);
         damageCollider2.SetActive(false);
+        PowerDamageCollider.SetActive(false);
     }
     void Update()
     {
@@ -86,19 +91,42 @@ public class PlayerAttackV3 : MonoBehaviour
             animator.ResetTrigger("Attack8");
         }
 
-        if ((plInput.fire2) && Time.time > nextFire)
+        if (canPowerAttack)
         {
-            anim.SetBool("Shoot", true);
-            nextFire = Time.time + fxFireRate;
-            Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
-            plMovement.canMove = false;
+            if (Input.GetButtonDown("Submit"))
+            {
+                anim.SetBool("PowerAttack", true);
+                plMovement.canMove = false;
+                canShoot = false;
+                canPowerAttack = false;
+                StartCoroutine("PowerAttackStart");
+            }
+            else
+            {
+                anim.SetBool("PowerAttack", false);
+            }
         }
-        else
+
+        if (canShoot)
         {
-            anim.SetBool("Shoot", false);
+            if ((plInput.fire2) && Time.time > nextFire)
+            {
+                anim.SetBool("Shoot", true);
+                nextFire = Time.time + fxFireRate;
+                Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+
+            }
+            else
+            {
+                anim.SetBool("Shoot", false);
+            }
         }
         
+
+
     }
+
+    
 
 
     public void OpenDamageCollider()
@@ -118,10 +146,28 @@ public class PlayerAttackV3 : MonoBehaviour
         ShellCasing.Emit(1);
         Smoke.Emit(1);
     }
-
+    
     public void CloseDamageCollider2()
     {
         damageCollider2.SetActive(false);
+    }
+
+    public void OpenPowerDamageCollider()
+    {
+        PowerDamageCollider.SetActive(true);
+    }
+
+    public void ClosePowerDamageCollider()
+    {
+        PowerDamageCollider.SetActive(false);
+    }
+    IEnumerator PowerAttackStart()
+    {
+        yield return new WaitForSeconds(3);
+        plMovement.canMove = true;
+        canShoot = true;
+        canPowerAttack = true;
+
     }
 }
 

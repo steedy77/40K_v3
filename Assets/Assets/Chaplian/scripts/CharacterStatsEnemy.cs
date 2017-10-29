@@ -6,7 +6,9 @@ public class CharacterStatsEnemy : MonoBehaviour {
 
     public float health = 100;
     bool dealDamage;
+    bool dealPowerDamage;
     bool substractOnce;
+    bool subtractPowerDamage;
     bool dead;
     public float damageTimer = .4f;
     public ParticleSystem BloodPool;
@@ -63,8 +65,27 @@ public class CharacterStatsEnemy : MonoBehaviour {
             }
             StartCoroutine("CloseDamage");
         }
+        if (dealPowerDamage)
+        {
+            if (!subtractPowerDamage)
+            {
+                health -= 60;
+                anim.SetTrigger("Hit");
+                subtractPowerDamage = true;
+                if (health < 30)
+                {
+                    hitBlood.Play();
+                }
+                else
+                {
+                    hitSparks.Play();
+                }
+            }
 
-        if(health < 0)
+            StartCoroutine("CloseDamage");
+        }
+
+        if (health < 0)
         {
             if (!dead)
             {
@@ -109,19 +130,28 @@ public class CharacterStatsEnemy : MonoBehaviour {
             yield return new WaitForSeconds(20);
             Destroy(this.gameObject);
         }
-            public void checkToApplyDamage()
+    public void checkToApplyDamage()
     {
         if(!dealDamage)
         {
             dealDamage = true;
         }
     }
-    
+    public void checkToApplyPowerDamage()
+    {
+        if (!dealPowerDamage)
+        {
+            dealPowerDamage = true;
+        }
+    }
+
     IEnumerator CloseDamage()
     {
         yield return damageT;
         dealDamage = false;
         substractOnce = false;
+        dealPowerDamage = false;
+        subtractPowerDamage = false;
 
     }
 
