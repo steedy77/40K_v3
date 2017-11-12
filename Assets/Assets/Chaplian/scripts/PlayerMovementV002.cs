@@ -14,6 +14,10 @@ public class PlayerMovementV002 : MonoBehaviour
     float xVelAdj = 0;
     float zVelAdj = 0;
 
+
+    float xAimVelAdj = 0;
+    float zAimVelAdj = 0;
+
     Vector3 movement;                   // The vector to store the direction of the player's movement.
     Animator anim;                      // Reference to the animator component.
     Rigidbody playerRigidbody;          // Reference to the player's rigidbody.
@@ -22,6 +26,11 @@ public class PlayerMovementV002 : MonoBehaviour
     private object direction;
     private Quaternion rotation;
     public bool canMove = true;
+    public bool canAimMove = false;
+
+
+    public GameObject cam4;
+    public GameObject CameraZoomCollider;
 
     void Awake()
     {
@@ -45,7 +54,17 @@ public class PlayerMovementV002 : MonoBehaviour
             GetComponent<Rigidbody>().velocity = new Vector3(4 * xVelAdj, 0, 4 * zVelAdj);
             
         }
+        if (canAimMove)
+        {
+
+            xVelAdj = Input.GetAxis("Vertical");
+            zVelAdj = Input.GetAxis("Horizontal");
+            GetComponent<Rigidbody>().velocity = transform.forward * (-3 * xVelAdj) + transform.right * (4 * zVelAdj);
+
+
+        }
         
+
         // Move the player around the scene.
         Move(h, v);
         
@@ -63,18 +82,36 @@ public class PlayerMovementV002 : MonoBehaviour
             speed = runSpeed;
             anim.SetBool("SprintMode", false);
         }
+
         if (Input.GetButton("Jump"))
         {
             speed = aimSpeed;
             anim.SetBool("AimMode", true);
+            cam4.SetActive(true);
+            CameraZoomCollider.SetActive(false);
+            canMove = false;
+            canAimMove = true;
+            
+
         }
         else if (Input.GetButtonUp("Jump"))
         {
             speed = runSpeed;
             anim.SetBool("AimMode", false);
+            cam4.SetActive(false);
+            CameraZoomCollider.SetActive(true);
+            canMove = true;
+            canAimMove = false;
+
+        }
+        else
+        {
+            canAimMove = false;
+            cam4.SetActive(false);
         }
         
-        
+
+
 
     }
 
@@ -115,8 +152,18 @@ public class PlayerMovementV002 : MonoBehaviour
             }
 
         }
+        if (canAimMove)
+        {
+            
+            // Tell the animator whether or not the player is walking.
+            anim.SetFloat("speed", v);                   // set our animator's float parameter 'Speed' equal to the vertical input axis	
+            anim.SetFloat("direction", h);                   // set our animator's float parameter 'Direction' equal to the horizontal input axis                        			
+                        
+
+        }
 
 
-    }    
+    }
+    
 
 }

@@ -7,8 +7,10 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
     public float health = 100;
     bool dealDamage;
     bool dealPowerDamage;
-    bool substractOnce;
+    bool dealHeavyDamage;
+    bool subtractOnce;
     bool subtractPowerDamage;
+    bool subtractHeavyDamage;
     bool dead;
    // public string deathAnim = "death";
     public float damageTimer = .4f;
@@ -50,11 +52,11 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
 
         if (dealDamage)
         {
-            if (!substractOnce)
+            if (!subtractOnce)
             {
-                health -= 10;
+                health -= 17;
                 anim.SetTrigger("Hit");
-                substractOnce = true;
+                subtractOnce = true;
                 if (health < 30)
                 {
                     hitBlood.Play();
@@ -74,6 +76,25 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
                 health -= 60;
                 anim.SetTrigger("Hit");
                 subtractPowerDamage = true;
+                if (health < 30)
+                {
+                    hitBlood.Play();
+                }
+                else
+                {
+                    hitSparks.Play();
+                }
+            }
+
+            StartCoroutine("CloseDamage");
+        }
+        if (dealHeavyDamage)
+        {
+            if (!subtractHeavyDamage)
+            {
+                health -= 25;
+                anim.SetTrigger("Hit");
+                subtractHeavyDamage = true;
                 if (health < 30)
                 {
                     hitBlood.Play();
@@ -150,13 +171,23 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
         }
     }
 
+    public void checkToApplyHeavyDamage()
+    {
+        if (!dealHeavyDamage)
+        {
+            dealHeavyDamage = true;
+        }
+    }
+
     IEnumerator CloseDamage()
     {
         yield return damageT;
         dealDamage = false;
-        substractOnce = false;
+        subtractOnce = false;
         dealPowerDamage = false;
         subtractPowerDamage = false;
+        dealHeavyDamage = false;
+        subtractHeavyDamage = false;
 
 
     }
