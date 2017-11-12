@@ -34,7 +34,7 @@ public class bolterEnemyMovementV001    : MonoBehaviour
         nav.stoppingDistance = attackRange;
         nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
 
-        target = GameObject.FindGameObjectWithTag("TeamMate").transform;
+        target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
 

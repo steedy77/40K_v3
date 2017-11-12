@@ -6,7 +6,11 @@ public class CharacterStatsEnemy : MonoBehaviour {
 
     public float health = 100;
     bool dealDamage;
-    bool substractOnce;
+    bool dealPowerDamage;
+    bool dealHeavyDamage;
+    bool subtractOnce;
+    bool subtractPowerDamage;
+    bool subtractHeavyDamage;
     bool dead;
     public float damageTimer = .4f;
     public ParticleSystem BloodPool;
@@ -47,11 +51,11 @@ public class CharacterStatsEnemy : MonoBehaviour {
 
         if(dealDamage)
         {
-            if (!substractOnce)
+            if (!subtractOnce)
             {
-                health -= 10;
+                health -= 17;
                 anim.SetTrigger("Hit");
-                substractOnce = true;
+                subtractOnce = true;
                 if (health < 30)
                 {
                     hitBlood.Play();
@@ -63,8 +67,46 @@ public class CharacterStatsEnemy : MonoBehaviour {
             }
             StartCoroutine("CloseDamage");
         }
+        if (dealPowerDamage)
+        {
+            if (!subtractPowerDamage)
+            {
+                health -= 60;
+                anim.SetTrigger("powerHit");
+                subtractPowerDamage = true;
+                if (health < 30)
+                {
+                    hitBlood.Play();
+                }
+                else
+                {
+                    hitSparks.Play();
+                }
+            }
 
-        if(health < 0)
+            StartCoroutine("CloseDamage");
+        }
+        if (dealHeavyDamage)
+        {
+            if (!subtractHeavyDamage)
+            {
+                health -= 25;
+                anim.SetTrigger("heavyHit");
+                subtractHeavyDamage = true;
+                if (health < 30)
+                {
+                    hitBlood.Play();
+                }
+                else
+                {
+                    hitSparks.Play();
+                }
+            }
+
+            StartCoroutine("CloseDamage");
+        }
+
+        if (health < 0)
         {
             if (!dead)
             {
@@ -109,19 +151,37 @@ public class CharacterStatsEnemy : MonoBehaviour {
             yield return new WaitForSeconds(20);
             Destroy(this.gameObject);
         }
-            public void checkToApplyDamage()
+    public void checkToApplyDamage()
     {
         if(!dealDamage)
         {
             dealDamage = true;
         }
     }
-    
+    public void checkToApplyPowerDamage()
+    {
+        if (!dealPowerDamage)
+        {
+            dealPowerDamage = true;
+        }
+    }
+    public void checkToApplyHeavyDamage()
+    {
+        if (!dealHeavyDamage)
+        {
+            dealHeavyDamage = true;
+        }
+    }
+
     IEnumerator CloseDamage()
     {
         yield return damageT;
         dealDamage = false;
-        substractOnce = false;
+        subtractOnce = false;
+        dealPowerDamage = false;
+        subtractPowerDamage = false;
+        dealHeavyDamage = false;
+        subtractHeavyDamage = false;
 
     }
 
