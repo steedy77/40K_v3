@@ -13,11 +13,15 @@ public class CharacterStatsEnemy : MonoBehaviour {
     bool subtractHeavyDamage;
     bool dead;
     public float damageTimer = .4f;
+    public float damageHeavyTimer = .4f;
+    public float damagePowerTimer = .4f;
     public ParticleSystem BloodPool;
     public ParticleSystem hitSparks;
     public ParticleSystem hitBlood;
     public ParticleSystem Death;
     WaitForSeconds damageT;
+    WaitForSeconds damageHeavy;
+    WaitForSeconds damagePower;
 
     Animator anim;
     GameManager gm;
@@ -28,11 +32,18 @@ public class CharacterStatsEnemy : MonoBehaviour {
     RectTransform healthTrans;
     public GameObject destroyBulletCollider;
 
+    AudioSource audio;
+    public AudioClip hitAudio;
+    public AudioClip deathAudio;
+
+
     void Start()
     {
         damageT = new WaitForSeconds(damageTimer);
+        damageHeavy = new WaitForSeconds(damageHeavyTimer);
+        damagePower = new WaitForSeconds(damagePowerTimer);
         anim = GetComponent<Animator>();
-
+        audio = GetComponent<AudioSource>();
         GameObject slid = Instantiate(sliderPrefab, transform.position, Quaternion.identity) as GameObject;
         slid.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform);
         healthSlider = slid.GetComponentInChildren<Slider>();
@@ -53,7 +64,7 @@ public class CharacterStatsEnemy : MonoBehaviour {
         {
             if (!subtractOnce)
             {
-                health -= 17;
+                health -= 10;
                 anim.SetTrigger("Hit");
                 subtractOnce = true;
                 if (health < 30)
@@ -71,8 +82,9 @@ public class CharacterStatsEnemy : MonoBehaviour {
         {
             if (!subtractPowerDamage)
             {
+                GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
                 health -= 60;
-                anim.SetTrigger("powerHit");
+                anim.SetTrigger("PowerHit");
                 subtractPowerDamage = true;
                 if (health < 30)
                 {
@@ -85,14 +97,16 @@ public class CharacterStatsEnemy : MonoBehaviour {
             }
 
             StartCoroutine("CloseDamage");
+            StartCoroutine("ClosePowerDamage");
         }
         if (dealHeavyDamage)
         {
             if (!subtractHeavyDamage)
             {
+                GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
                 health -= 25;
-                anim.SetTrigger("heavyHit");
-                subtractHeavyDamage = true;
+                anim.SetTrigger("HeavyHit");
+                audio.Play();
                 if (health < 30)
                 {
                     hitBlood.Play();
@@ -104,6 +118,7 @@ public class CharacterStatsEnemy : MonoBehaviour {
             }
 
             StartCoroutine("CloseDamage");
+            StartCoroutine("CloseHeavyDamage");
         }
 
         if (health < 0)
@@ -120,6 +135,8 @@ public class CharacterStatsEnemy : MonoBehaviour {
                 GetComponent<CapsuleCollider>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;
                 StartCoroutine(waitThenDestroy());
+                audio.clip = deathAudio;
+                audio.Play();
             }
                 if (GetComponent<EnemyMovementV002>()) 
                 {
@@ -172,6 +189,11 @@ public class CharacterStatsEnemy : MonoBehaviour {
             dealHeavyDamage = true;
         }
     }
+    public void HitSFXEnemy()
+    {
+        audio.clip = hitAudio;
+        audio.Play();
+    }
 
     IEnumerator CloseDamage()
     {
@@ -182,6 +204,19 @@ public class CharacterStatsEnemy : MonoBehaviour {
         subtractPowerDamage = false;
         dealHeavyDamage = false;
         subtractHeavyDamage = false;
+
+    }
+    IEnumerator ClosePowerDamage()
+    {
+        yield return damagePower;
+        GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = true;
+
+    }
+
+    IEnumerator CloseHeavyDamage()
+    {
+        yield return damageHeavy;
+        GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = true;
 
     }
 

@@ -14,31 +14,40 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
     bool dead;
    // public string deathAnim = "death";
     public float damageTimer = .4f;
+    public float damageHeavyTimer = .4f;
+    public float damagePowerTimer = .4f;
     public ParticleSystem BloodPool;
     public ParticleSystem hitSparks;
     public ParticleSystem hitBlood;
     public ParticleSystem Death;
     WaitForSeconds damageT;
+    WaitForSeconds damageHeavy;
+    WaitForSeconds damagePower;
 
+    AudioSource audio;
     Animator anim;
     GameManager gm;
 
     public GameObject sliderPrefab;
-    public GameObject damageCollider;
     public GameObject destroyBulletCollider;
 
     Slider healthSlider;
     RectTransform healthTrans;
+    
+    public AudioClip hit;
+    public AudioClip death;
 
     void Start()
     {
         damageT = new WaitForSeconds(damageTimer);
+        damageHeavy = new WaitForSeconds(damageHeavyTimer);
+        damagePower = new WaitForSeconds(damagePowerTimer);
         anim = GetComponent<Animator>();
         GameObject slid = Instantiate(sliderPrefab, transform.position, Quaternion.identity) as GameObject;
         slid.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform);
         healthSlider = slid.GetComponentInChildren<Slider>();
         healthTrans = slid.GetComponent<RectTransform>();
-
+        audio = GetComponent<AudioSource>();
         gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
     }
 
@@ -54,9 +63,11 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
         {
             if (!subtractOnce)
             {
-                health -= 17;
+                health -= 10;
                 anim.SetTrigger("Hit");
                 subtractOnce = true;
+                audio.clip = hit;
+                audio.Play();
                 if (health < 30)
                 {
                     hitBlood.Play();
@@ -73,9 +84,12 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
         {
             if (!subtractPowerDamage)
             {
+                GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
                 health -= 60;
-                anim.SetTrigger("Hit");
+                anim.SetTrigger("PowerHit");
                 subtractPowerDamage = true;
+                audio.clip = hit;
+                audio.Play();
                 if (health < 30)
                 {
                     hitBlood.Play();
@@ -87,14 +101,18 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
             }
 
             StartCoroutine("CloseDamage");
+            StartCoroutine("ClosePowerDamage");
         }
         if (dealHeavyDamage)
         {
             if (!subtractHeavyDamage)
             {
+                GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = false;
                 health -= 25;
-                anim.SetTrigger("Hit");
+                anim.SetTrigger("HeavyHit");
                 subtractHeavyDamage = true;
+                audio.clip = hit;
+                audio.Play();
                 if (health < 30)
                 {
                     hitBlood.Play();
@@ -106,6 +124,7 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
             }
 
             StartCoroutine("CloseDamage");
+            StartCoroutine("CloseHeavyDamage");
         }
 
         if (health < 0)
@@ -116,13 +135,14 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
                 anim.SetTrigger("death");
                 healthTrans.gameObject.SetActive(false);
                 dealDamage = true;
-                damageCollider.SetActive(false);
                 destroyBulletCollider.SetActive(false);
                 BloodPool.Play();
                 //note capsule issue with camera push in
                 GetComponent<CapsuleCollider>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;
                 StartCoroutine(waitThenDestroy());
+                audio.clip = death;
+                audio.Play();
             }
            
 
@@ -191,6 +211,19 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
 
 
     }
-   
+    IEnumerator ClosePowerDamage()
+    {
+        yield return damagePower;
+        GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = true;
+
+    }
+
+    IEnumerator CloseHeavyDamage()
+    {
+        yield return damageHeavy;
+        GetComponent<UnityEngine.AI.NavMeshAgent>().enabled = true;
+
+    }
+
 }
 

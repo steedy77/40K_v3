@@ -397,8 +397,6 @@ ModelImporter:
         weight: 1
       - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_boltgun/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_boltgun_MeshPart1
         weight: 1
-      - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmate_bullet_geo
-        weight: 1
       - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateChest
         weight: 1
       - path: bolterSquadmateIdle_001:bolterSquadmateRig:chaosRig:Chaplian_GEO/bolterSquadmateIdle_001:bolterSquadmateRig:bolterSquadmateGeo_65

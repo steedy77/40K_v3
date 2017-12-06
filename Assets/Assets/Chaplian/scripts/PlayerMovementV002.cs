@@ -7,16 +7,13 @@ public class PlayerMovementV002 : MonoBehaviour
 
     PlayerAttackV3 plAttack;
     float speed = 1.7f;            // The speed that the player will move at.
-    float sprintSpeed = 5f;
+    float sprintSpeed = 6f;
     float runSpeed = 1.7f;
     float aimSpeed = 0.001f;
 
     float xVelAdj = 0;
     float zVelAdj = 0;
-
-
-    float xAimVelAdj = 0;
-    float zAimVelAdj = 0;
+    float yAimRotAdj = 0;
 
     Vector3 movement;                   // The vector to store the direction of the player's movement.
     Animator anim;                      // Reference to the animator component.
@@ -37,6 +34,7 @@ public class PlayerMovementV002 : MonoBehaviour
         // Set up references.
         anim = GetComponent<Animator>();
         playerRigidbody = GetComponent<Rigidbody>();
+        plAttack = GetComponent<PlayerAttackV3>();
     }
     
 
@@ -46,6 +44,8 @@ public class PlayerMovementV002 : MonoBehaviour
         // Store the input axes.
         float v = Input.GetAxis("Horizontal");              // setup h variable as our horizontal input axis
         float h = Input.GetAxis("Vertical");                // setup v variables as our vertical input axis
+        float rotY = Input.GetAxis("RotateY");           // setup h variable as our horizontal input axis
+
 
         if (canMove)
         {
@@ -59,6 +59,7 @@ public class PlayerMovementV002 : MonoBehaviour
 
             xVelAdj = Input.GetAxis("Vertical");
             zVelAdj = Input.GetAxis("Horizontal");
+            yAimRotAdj = Input.GetAxis("RotateY");
             GetComponent<Rigidbody>().velocity = transform.forward * (-3 * xVelAdj) + transform.right * (4 * zVelAdj);
 
 
@@ -91,7 +92,9 @@ public class PlayerMovementV002 : MonoBehaviour
             CameraZoomCollider.SetActive(false);
             canMove = false;
             canAimMove = true;
-            
+            plAttack.canHeavyAttack = false;
+            plAttack.canPowerAttack = false;
+
 
         }
         else if (Input.GetButtonUp("Jump"))
@@ -102,6 +105,8 @@ public class PlayerMovementV002 : MonoBehaviour
             CameraZoomCollider.SetActive(true);
             canMove = true;
             canAimMove = false;
+            plAttack.canHeavyAttack = true;
+            plAttack.canPowerAttack = true;
 
         }
         else

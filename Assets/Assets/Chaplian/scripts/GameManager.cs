@@ -21,6 +21,20 @@ public class GameManager : MonoBehaviour
     bool holdPlayer;
     bool dead;
 
+    public GUIText restartText;
+    public GUIText gameOverText;
+
+    private bool gameOver;
+    private bool restart;
+
+    void Start()
+    {
+        gameOver = false;
+        restart = false;
+        restartText.text = "";
+        gameOverText.text = "";
+    }
+
     void Update()
     {
         if (spawnEnemiesNow)
@@ -31,33 +45,19 @@ public class GameManager : MonoBehaviour
             spawnEnemiesNow = false;
         }
 
-        //if (holdPlayer)
-        //{
-        //    cameraMover.enabled = false;
-        //}
-        //else
-        //{
-        //    cameraMover.enabled = true;
-        //}
+        if (restart)
+        {
+            if (Input.GetKeyDown(KeyCode.R))
+            {
+                Application.LoadLevel(Application.loadedLevel);
+            }
+        }
 
-        //if (enemiesSpawned.Count == 0)
-        //{
-        //   holdPlayer = false;
-        //}
-        
-        //if (enemiesSpawned.Count != 0 )
-        //{
-        //    cameraMover.enabled = false;
-        //}
-        //else
-        //{
-        //    cameraMover.enabled = true;
-        //}
-        
-        //if (dead)
-        //{
-            
-        //}       
+        if (gameOver)
+        {
+            restartText.text = "Press R to Restart";
+            restart = true;
+        }
     }
 
     void SpawnEnemies()
@@ -86,6 +86,19 @@ public class GameManager : MonoBehaviour
         }
 
 
+    }
+
+    public void GameOver()
+    {
+        StartCoroutine("gameIsOver");
+    }
+
+    IEnumerator gameIsOver()
+
+    {
+        yield return new WaitForSeconds(3.5f);
+        gameOverText.text = "Game Over";
+        gameOver = true;
     }
 }            
 

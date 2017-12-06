@@ -5,6 +5,7 @@ public class PlayerAttackV3 : MonoBehaviour
 {
     PlayerInput plInput;
     PlayerMovementV002 plMovement;
+    AudioSource audio;
     Animator anim;
     public ParticleSystem MuzzleFlash;
     public ParticleSystem ShellCasing;
@@ -21,7 +22,6 @@ public class PlayerAttackV3 : MonoBehaviour
     private float heavyResetTimer;
 
     public GameObject damageCollider;
-    public GameObject damageCollider2;
     public GameObject PowerDamageCollider;
     public GameObject HeavyDamageCollider;
 
@@ -32,10 +32,14 @@ public class PlayerAttackV3 : MonoBehaviour
     private float nextFire;
 
     bool canShoot = true;
-    bool canPowerAttack = true;
-    bool canHeavyAttack = true;
-    bool canHeavyAttack2 = false;
-    bool canHeavyAttack3 = false;
+    public bool canPowerAttack = true;
+    public bool canHeavyAttack = true;
+
+    public AudioClip gunshot;
+    public AudioClip weaponSwipe;
+    public AudioClip heavyWeaponSwipe;
+    public AudioClip powerAttackAudio;
+    public AudioClip hit;
 
     void Start ()
     {
@@ -50,11 +54,11 @@ public class PlayerAttackV3 : MonoBehaviour
         plInput = GetComponent<PlayerInput>();
         anim = GetComponent<Animator>();
         plMovement = GetComponent<PlayerMovementV002>();
+        audio = GetComponent<AudioSource>();
 
         //comboR = new WaitForSeconds(comboRate);
 
         damageCollider.SetActive(false);
-        damageCollider2.SetActive(false);
         PowerDamageCollider.SetActive(false);
     }
     void Update()
@@ -94,10 +98,7 @@ public class PlayerAttackV3 : MonoBehaviour
             animator.ResetTrigger("Attack6");
             animator.ResetTrigger("Attack7");
             animator.ResetTrigger("Attack8");
-        }
-
-        
-
+        }         
 
         //Power attack
         if (canPowerAttack)
@@ -114,65 +115,8 @@ public class PlayerAttackV3 : MonoBehaviour
                 StartCoroutine("HeavyAttackDisabled");
             }
         }
-        // Heavy attack combo
-        //if (Input.GetButtonDown("Fire4") && heavyComboIndex < heavyComboParams.Length)
-        //{
 
-        //    Debug.Log(heavyComboParams[heavyComboIndex] + " triggered");
-        //   animator.SetTrigger(heavyComboParams[heavyComboIndex]);
-        //   heavyComboIndex++;
-        //    heavyResetTimer = 0f;
-
-        //}
-
-        // Reset combo if the user has not clicked quickly enough
-        //if (heavyComboIndex > 0)
-        //{
-        //    heavyResetTimer += Time.deltaTime;
-        //     if (heavyResetTimer > heavyFireRate)
-        //    {
-        //        heavyComboIndex = 0;
-        //        animator.SetTrigger("HeavyReset");
-        //   }
-        //    else
-        //    {
-        //        animator.ResetTrigger("HeavyReset");
-        //    }
-        //}
-
-        //else
-        //{
-        //   animator.ResetTrigger("HeavyAttack1");
-        //   animator.ResetTrigger("HeavyAttack2");
-        //   animator.ResetTrigger("HeavyAttack3");
-
-        //}
-        
-        
-        //Shooting attack
-        if (canShoot)
-        {
-            if ((plInput.fire2) && Time.time > nextFire)
-            {
-                anim.SetBool("Shoot", true);
-                nextFire = Time.time + fxFireRate;
-                Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
-
-            }
-            else
-            {
-                anim.SetBool("Shoot", false);
-            }
-        }
-
-
-
-    }
-
-    private void FixedUpdate()
-    {
-
-
+        //Heavy attack
         if (canHeavyAttack)
         {
             if (Input.GetButtonDown("Fire4"))
@@ -187,7 +131,29 @@ public class PlayerAttackV3 : MonoBehaviour
                 StartCoroutine("HeavyAttackDisabled");
             }
         }
+
+        //Shooting attack
+        if (canShoot)
+        {
+            if ((plInput.fire2) && Time.time > nextFire)
+            {
+                anim.SetTrigger("Shoot");
+                nextFire = Time.time + fxFireRate;
+                Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+
+            }
+            else
+            {
+                anim.ResetTrigger("Shoot");
+            }
+        }
+
+        
+
+
     }
+    
+
     public void OpenDamageCollider()
     {
         damageCollider.SetActive(true);
@@ -198,19 +164,16 @@ public class PlayerAttackV3 : MonoBehaviour
         damageCollider.SetActive(false);
     }
 
-    public void OpenDamageCollider2()
+    public void GunFireFX()
     {
-        damageCollider2.SetActive(true);
+
+        audio.clip = gunshot;
+        audio.Play();
         MuzzleFlash.Emit(1);
         ShellCasing.Emit(1);
         Smoke.Emit(1);
     }
     
-    public void CloseDamageCollider2()
-    {
-        damageCollider2.SetActive(false);
-    }
-
     public void OpenPowerDamageCollider()
     {
         PowerDamageCollider.SetActive(true);
@@ -230,6 +193,28 @@ public class PlayerAttackV3 : MonoBehaviour
         HeavyDamageCollider.SetActive(false);
     }
 
+    public void FastMeleeAudio()
+    {
+        audio.clip = weaponSwipe;
+        audio.Play();
+    }
+
+    public void HeavyAttackAudio()
+    {
+        audio.clip = heavyWeaponSwipe;
+        audio.Play();
+    }
+    
+    public void PowerAttackAudio()
+    {
+        audio.clip = powerAttackAudio;
+        audio.Play();
+    }
+    public void playerHitAudio()
+    {
+        audio.clip = hit;
+        audio.Play();
+    }
 
     IEnumerator PowerAttackStart()
     {

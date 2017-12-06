@@ -24,6 +24,9 @@ public class CharacterStats : MonoBehaviour {
 
     Slider healthSlider;
     RectTransform healthTrans;
+    AudioSource audio;
+    public AudioClip death;
+    
 
     void Start()
     {
@@ -34,7 +37,7 @@ public class CharacterStats : MonoBehaviour {
         slid.transform.SetParent(GameObject.FindGameObjectWithTag("Canvas").transform);
         healthSlider = slid.GetComponentInChildren<Slider>();
         healthTrans = slid.GetComponent<RectTransform>();
-   
+        audio = GetComponent<AudioSource>();
         gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
         }
 
@@ -50,9 +53,11 @@ public class CharacterStats : MonoBehaviour {
         {
             if (!substractOnce)
             {
-                health -= 1;
+                health -= 5;
                 anim.SetTrigger("Hit");
                 substractOnce = true;
+                StartCoroutine("CloseDamage");
+
                 if (health < 30)
                 {
                     hitBlood.Play();
@@ -60,10 +65,9 @@ public class CharacterStats : MonoBehaviour {
                 else
                 {
                     hitSparks.Play();
-
-
-                    StartCoroutine("CloseDamage");
                 }
+
+                
             }
         }
             if (health < 0)
@@ -71,10 +75,12 @@ public class CharacterStats : MonoBehaviour {
                 if (!dead)
                 {
                     anim.SetBool("dead", true);
-                    anim.SetTrigger("deathAnim");
+                    anim.SetTrigger("death");
                     BloodPool.Play();
+                    audio.clip = death;
+                    audio.Play();
 
-                    healthTrans.gameObject.SetActive(false);
+                healthTrans.gameObject.SetActive(false);
                     dealDamage = true;
                     damageCollider.SetActive(false);
 
@@ -99,7 +105,8 @@ public class CharacterStats : MonoBehaviour {
                     FindObjectOfType<GameManager>().enemiesSpawned.Remove(transform);
 
                     dead = true;
-                }
+                    FindObjectOfType<GameManager>().GameOver();
+            }
             }
         }
 
