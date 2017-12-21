@@ -35,6 +35,8 @@ public class CharacterStatsEnemy : MonoBehaviour {
     AudioSource audio;
     public AudioClip hitAudio;
     public AudioClip deathAudio;
+    UnityEngine.AI.NavMeshAgent nav;
+    public float speed = 6f;
 
 
     void Start()
@@ -50,7 +52,8 @@ public class CharacterStatsEnemy : MonoBehaviour {
         healthTrans = slid.GetComponent<RectTransform>();
    
         gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
-        }
+        nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
+    }
     
     
     void Update()
@@ -70,10 +73,14 @@ public class CharacterStatsEnemy : MonoBehaviour {
                 if (health < 30)
                 {
                     hitBlood.Play();
+                    anim.SetBool("IsStumbling", true);
+                    nav.speed = (speed * 0.25f);
                 }
                  else
                 {
                     hitSparks.Play();
+                    anim.SetBool("IsStumbling", false);
+                    nav.speed = speed;
                 }
             }
             StartCoroutine("CloseDamage");
@@ -89,10 +96,14 @@ public class CharacterStatsEnemy : MonoBehaviour {
                 if (health < 30)
                 {
                     hitBlood.Play();
+                    anim.SetBool("IsStumbling", true);
+                    nav.speed = (speed * 0.25f);
                 }
                 else
                 {
                     hitSparks.Play();
+                    anim.SetBool("IsStumbling", false);
+                    nav.speed = speed;
                 }
             }
 
@@ -110,10 +121,14 @@ public class CharacterStatsEnemy : MonoBehaviour {
                 if (health < 30)
                 {
                     hitBlood.Play();
+                    anim.SetBool("IsStumbling", true);
+                    nav.speed = (speed * 0.25f);
                 }
                 else
                 {
                     hitSparks.Play();
+                    anim.SetBool("IsStumbling", false);
+                    nav.speed = speed;
                 }
             }
 

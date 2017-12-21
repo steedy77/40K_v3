@@ -9,6 +9,12 @@ public class CharacterStatsBolterSquad : MonoBehaviour {
     bool substractOnce;
     bool dead;
 
+
+    public ParticleSystem BloodPool;
+    public ParticleSystem hitSparks;
+    public ParticleSystem hitBlood;
+    public ParticleSystem Death;
+
     public float damageTimer = .4f;
     WaitForSeconds damageT;
 
@@ -50,6 +56,14 @@ public class CharacterStatsBolterSquad : MonoBehaviour {
                 health -= 10;
                 anim.SetTrigger("Hit");
                 substractOnce = true;
+                if (health < 30)
+                {
+                    hitBlood.Play();
+                }
+                 else
+                {
+                    hitSparks.Play();
+                }
             }
 
             StartCoroutine("CloseDamage");
@@ -65,6 +79,7 @@ public class CharacterStatsBolterSquad : MonoBehaviour {
                 dealDamage = true;
                 damageCollider.SetActive(false);
                 destroyBulletCollider.SetActive(false);
+                BloodPool.Play();
 
                 GetComponent<CapsuleCollider>().enabled = false;
                 GetComponent<Rigidbody>().isKinematic = true;

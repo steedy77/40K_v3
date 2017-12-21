@@ -36,7 +36,8 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
     
     public AudioClip hit;
     public AudioClip death;
-
+    UnityEngine.AI.NavMeshAgent nav;
+    public float speed = 6f;
     void Start()
     {
         damageT = new WaitForSeconds(damageTimer);
@@ -49,6 +50,7 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
         healthTrans = slid.GetComponent<RectTransform>();
         audio = GetComponent<AudioSource>();
         gm = GameObject.FindGameObjectWithTag("GameController").GetComponent<GameManager>();
+        nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
     }
 
 
@@ -71,10 +73,14 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
                 if (health < 30)
                 {
                     hitBlood.Play();
+                    anim.SetBool("IsStumbling" , true);
+                    nav.speed = (speed * 0.25f);
                 }
                 else
                 {
                     hitSparks.Play();
+                    anim.SetBool("IsStumbling", false);
+                    nav.speed = speed;
                 }
             }
 
@@ -93,10 +99,14 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
                 if (health < 30)
                 {
                     hitBlood.Play();
+                    anim.SetBool("IsStumbling", true);
+                    nav.speed = (speed * 0.25f);
                 }
                 else
                 {
                     hitSparks.Play();
+                    anim.SetBool("IsStumbling", false);
+                    nav.speed = speed;
                 }
             }
 
@@ -116,10 +126,14 @@ public class CharacterStatsBolterEnemy : MonoBehaviour {
                 if (health < 30)
                 {
                     hitBlood.Play();
+                    anim.SetBool("IsStumbling", true);
+                    nav.speed = (speed * 0.25f);
                 }
                 else
                 {
                     hitSparks.Play();
+                    anim.SetBool("IsStumbling", false);
+                    nav.speed = speed;
                 }
             }
 

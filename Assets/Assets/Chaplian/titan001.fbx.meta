@@ -66,6 +66,66 @@ ModelImporter:
     100116: titan_polySurface7
     100118: titan_polySurface8
     100120: upper_back
+    100122: titanRig:back_root
+    100124: titanRig:crown
+    100126: titanRig:left_ankle
+    100128: titanRig:left_arm_root
+    100130: titanRig:left_ball
+    100132: titanRig:left_control_left_elbow
+    100134: titanRig:left_control_left_hand
+    100136: titanRig:left_control_left_shoulder2
+    100138: titanRig:left_control_wrist
+    100140: titanRig:left_hip
+    100142: titanRig:left_knee
+    100144: titanRig:left_toe
+    100146: titanRig:lower_back
+    100148: titanRig:mid_bac
+    100150: titanRig:neck
+    100152: titanRig:pelvis
+    100154: titanRig:pelvis1
+    100156: titanRig:right_ankle
+    100158: titanRig:right_arm_root
+    100160: titanRig:right_ball
+    100162: titanRig:right_control_right_elbow
+    100164: titanRig:right_control_right_hand
+    100166: titanRig:right_control_right_hand1
+    100168: titanRig:right_control_right_hand2
+    100170: titanRig:right_control_right_shoulder2
+    100172: titanRig:right_control_wrist
+    100174: titanRig:right_hip
+    100176: titanRig:right_knee
+    100178: titanRig:right_toe
+    100180: titanRig:rootRotation
+    100182: titanRig:titan_group
+    100184: titanRig:titan_pCube1
+    100186: titanRig:titan_pCube11
+    100188: titanRig:titan_pCube13
+    100190: titanRig:titan_pCube14
+    100192: titanRig:titan_pCube2
+    100194: titanRig:titan_pCube4
+    100196: titanRig:titan_pCube6
+    100198: titanRig:titan_pCube7
+    100200: titanRig:titan_pCube8
+    100202: titanRig:titan_pCylinder1
+    100204: titanRig:titan_pCylinder10
+    100206: titanRig:titan_pCylinder11
+    100208: titanRig:titan_pCylinder12
+    100210: titanRig:titan_pCylinder2
+    100212: titanRig:titan_pCylinder3
+    100214: titanRig:titan_pCylinder4
+    100216: titanRig:titan_pCylinder5
+    100218: titanRig:titan_pCylinder6
+    100220: titanRig:titan_pCylinder7
+    100222: titanRig:titan_pCylinder9
+    100224: titanRig:titan_polySurface1
+    100226: titanRig:titan_polySurface2
+    100228: titanRig:titan_polySurface3
+    100230: titanRig:titan_polySurface4
+    100232: titanRig:titan_polySurface5
+    100234: titanRig:titan_polySurface6
+    100236: titanRig:titan_polySurface7
+    100238: titanRig:titan_polySurface8
+    100240: titanRig:upper_back
     400000: back_root
     400002: crown
     400004: left_ankle
@@ -127,6 +187,66 @@ ModelImporter:
     400116: titan_polySurface7
     400118: titan_polySurface8
     400120: upper_back
+    400122: titanRig:back_root
+    400124: titanRig:crown
+    400126: titanRig:left_ankle
+    400128: titanRig:left_arm_root
+    400130: titanRig:left_ball
+    400132: titanRig:left_control_left_elbow
+    400134: titanRig:left_control_left_hand
+    400136: titanRig:left_control_left_shoulder2
+    400138: titanRig:left_control_wrist
+    400140: titanRig:left_hip
+    400142: titanRig:left_knee
+    400144: titanRig:left_toe
+    400146: titanRig:lower_back
+    400148: titanRig:mid_bac
+    400150: titanRig:neck
+    400152: titanRig:pelvis
+    400154: titanRig:pelvis1
+    400156: titanRig:right_ankle
+    400158: titanRig:right_arm_root
+    400160: titanRig:right_ball
+    400162: titanRig:right_control_right_elbow
+    400164: titanRig:right_control_right_hand
+    400166: titanRig:right_control_right_hand1
+    400168: titanRig:right_control_right_hand2
+    400170: titanRig:right_control_right_shoulder2
+    400172: titanRig:right_control_wrist
+    400174: titanRig:right_hip
+    400176: titanRig:right_knee
+    400178: titanRig:right_toe
+    400180: titanRig:rootRotation
+    400182: titanRig:titan_group
+    400184: titanRig:titan_pCube1
+    400186: titanRig:titan_pCube11
+    400188: titanRig:titan_pCube13
+    400190: titanRig:titan_pCube14
+    400192: titanRig:titan_pCube2
+    400194: titanRig:titan_pCube4
+    400196: titanRig:titan_pCube6
+    400198: titanRig:titan_pCube7
+    400200: titanRig:titan_pCube8
+    400202: titanRig:titan_pCylinder1
+    400204: titanRig:titan_pCylinder10
+    400206: titanRig:titan_pCylinder11
+    400208: titanRig:titan_pCylinder12
+    400210: titanRig:titan_pCylinder2
+    400212: titanRig:titan_pCylinder3
+    400214: titanRig:titan_pCylinder4
+    400216: titanRig:titan_pCylinder5
+    400218: titanRig:titan_pCylinder6
+    400220: titanRig:titan_pCylinder7
+    400222: titanRig:titan_pCylinder9
+    400224: titanRig:titan_polySurface1
+    400226: titanRig:titan_polySurface2
+    400228: titanRig:titan_polySurface3
+    400230: titanRig:titan_polySurface4
+    400232: titanRig:titan_polySurface5
+    400234: titanRig:titan_polySurface6
+    400236: titanRig:titan_polySurface7
+    400238: titanRig:titan_polySurface8
+    400240: titanRig:upper_back
     2300000: titan_pCube1
     2300002: titan_pCube11
     2300004: titan_pCube13
@@ -211,7 +331,37 @@ ModelImporter:
     4300050: titan_polySurface1
     4300052: titan_polySurface4
     4300054: titan_polySurface3
+    4300056: titanRig:titan_pCube1
+    4300058: titanRig:titan_pCube2
+    4300060: titanRig:titan_pCube4
+    4300062: titanRig:titan_pCube6
+    4300064: titanRig:titan_pCube7
+    4300066: titanRig:titan_pCube8
+    4300068: titanRig:titan_pCube11
+    4300070: titanRig:titan_pCube13
+    4300072: titanRig:titan_pCube14
+    4300074: titanRig:titan_pCylinder1
+    4300076: titanRig:titan_pCylinder2
+    4300078: titanRig:titan_pCylinder3
+    4300080: titanRig:titan_pCylinder4
+    4300082: titanRig:titan_pCylinder5
+    4300084: titanRig:titan_pCylinder6
+    4300086: titanRig:titan_pCylinder7
+    4300088: titanRig:titan_pCylinder9
+    4300090: titanRig:titan_pCylinder10
+    4300092: titanRig:titan_pCylinder11
+    4300094: titanRig:titan_pCylinder12
+    4300096: titanRig:titan_polySurface6
+    4300098: titanRig:titan_polySurface5
+    4300100: titanRig:titan_polySurface8
+    4300102: titanRig:titan_polySurface7
+    4300104: titanRig:titan_polySurface2
+    4300106: titanRig:titan_polySurface1
+    4300108: titanRig:titan_polySurface4
+    4300110: titanRig:titan_polySurface3
     7400000: titanWalk
+    7400002: titanWalk002
+    7400004: shootingIdle
     9500000: //RootNode
     11100000: //RootNode
     13700000: titan_pCube1
@@ -242,6 +392,34 @@ ModelImporter:
     13700050: titan_polySurface6
     13700052: titan_polySurface7
     13700054: titan_polySurface8
+    13700056: titanRig:titan_pCube1
+    13700058: titanRig:titan_pCube11
+    13700060: titanRig:titan_pCube13
+    13700062: titanRig:titan_pCube14
+    13700064: titanRig:titan_pCube2
+    13700066: titanRig:titan_pCube4
+    13700068: titanRig:titan_pCube6
+    13700070: titanRig:titan_pCube7
+    13700072: titanRig:titan_pCube8
+    13700074: titanRig:titan_pCylinder1
+    13700076: titanRig:titan_pCylinder10
+    13700078: titanRig:titan_pCylinder11
+    13700080: titanRig:titan_pCylinder12
+    13700082: titanRig:titan_pCylinder2
+    13700084: titanRig:titan_pCylinder3
+    13700086: titanRig:titan_pCylinder4
+    13700088: titanRig:titan_pCylinder5
+    13700090: titanRig:titan_pCylinder6
+    13700092: titanRig:titan_pCylinder7
+    13700094: titanRig:titan_pCylinder9
+    13700096: titanRig:titan_polySurface1
+    13700098: titanRig:titan_polySurface2
+    13700100: titanRig:titan_polySurface3
+    13700102: titanRig:titan_polySurface4
+    13700104: titanRig:titan_polySurface5
+    13700106: titanRig:titan_polySurface6
+    13700108: titanRig:titan_polySurface7
+    13700110: titanRig:titan_polySurface8
   materials:
     importMaterials: 1
     materialName: 0
@@ -269,8 +447,8 @@ ModelImporter:
     - serializedVersion: 16
       name: titanWalk
       takeName: Take 001
-      firstFrame: 1
-      lastFrame: 10000
+      firstFrame: 1001
+      lastFrame: 2999
       wrapMode: 8
       orientationOffsetY: 0
       level: 0
@@ -285,6 +463,62 @@ ModelImporter:
       keepOriginalOrientation: 1
       keepOriginalPositionY: 1
       keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: titanWalk002
+      takeName: Take 001
+      firstFrame: 1100
+      lastFrame: 2999
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: shootingIdle
+      takeName: Take 001
+      firstFrame: 116
+      lastFrame: 656
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
       heightFromFeet: 0
       mirror: 0
       bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000

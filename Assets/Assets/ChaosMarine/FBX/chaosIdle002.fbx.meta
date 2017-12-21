@@ -210,6 +210,10 @@ ModelImporter:
     7400066: death10Chaos
     7400068: powerHit01
     7400070: powerHit02
+    7400072: chaosStumble
+    7400074: combo8Chaos
+    7400076: combo9Chaos
+    7400078: combo10Chaos
     9500000: //RootNode
     13700000: chaosRig_boltPistol_MeshPart0
     13700002: chaosRig_boltPistol_MeshPart1
@@ -2726,6 +2730,252 @@ ModelImporter:
       takeName: Take 001
       firstFrame: 2240
       lastFrame: 2304
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: chaosStumble
+      takeName: Take 001
+      firstFrame: 3090
+      lastFrame: 3279
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: combo8Chaos
+      takeName: Take 001
+      firstFrame: 2358
+      lastFrame: 2400
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: combo9Chaos
+      takeName: Take 001
+      firstFrame: 450
+      lastFrame: 467
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: chaos_back_root
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_left_arm_root
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_left_arm_root/chaos_left_control_left_shoulder2
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_left_arm_root/chaos_left_control_left_shoulder2/chaos_left_control_left_elbow
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_left_arm_root/chaos_left_control_left_shoulder2/chaos_left_control_left_elbow/chaos_left_control_wrist
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_left_arm_root/chaos_left_control_left_shoulder2/chaos_left_control_left_elbow/chaos_left_control_wrist/chaos_left_control_left_hand
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_neck
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_neck/chaos_crown
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_right_arm_root
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_right_arm_root/chaos_right_control_right_shoulder2
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_right_arm_root/chaos_right_control_right_shoulder2/chaos_right_control_right_elbow
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_right_arm_root/chaos_right_control_right_shoulder2/chaos_right_control_right_elbow/chaos_right_control_wrist
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_right_arm_root/chaos_right_control_right_shoulder2/chaos_right_control_right_elbow/chaos_right_control_wrist/chaos_right_control_right_hand
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_right_arm_root/chaos_right_control_right_shoulder2/chaos_right_control_right_elbow/chaos_right_control_wrist/chaos_right_control_right_hand/chaos_right_control_right_hand1
+        weight: 1
+      - path: chaos_back_root/chaos_pelvis/chaos_lower_back/chaos_mid_bac/chaos_upper_back/chaos_right_arm_root/chaos_right_control_right_shoulder2/chaos_right_control_right_elbow/chaos_right_control_wrist/chaos_right_control_right_hand/chaos_right_control_right_hand1/chaos_right_control_right_hand2
+        weight: 1
+      - path: chaos_back_root/chaos_rootRotation
+        weight: 1
+      - path: chaos_back_root/chaos_rootRotation/chaos_pelvis1
+        weight: 1
+      - path: chaos_back_root/chaos_rootRotation/chaos_pelvis1/chaos_left_hip
+        weight: 1
+      - path: chaos_back_root/chaos_rootRotation/chaos_pelvis1/chaos_left_hip/chaos_left_knee
+        weight: 1
+      - path: chaos_back_root/chaos_rootRotation/chaos_pelvis1/chaos_left_hip/chaos_left_knee/chaos_left_ankle
+        weight: 1
+      - path: chaos_back_root/chaos_rootRotation/chaos_pelvis1/chaos_left_hip/chaos_left_knee/chaos_left_ankle/chaos_left_ball
+        weight: 1
+      - path: chaos_back_root/chaos_rootRotation/chaos_pelvis1/chaos_left_hip/chaos_left_knee/chaos_left_ankle/chaos_left_ball/chaos_left_toe
+        weight: 1
+      - path: chaos_back_root/chaos_rootRotation/chaos_pelvis1/chaos_right_hip
+        weight: 1
+      - path: chaos_back_root/chaos_rootRotation/chaos_pelvis1/chaos_right_hip/chaos_right_knee
+        weight: 1
+      - path: chaos_back_root/chaos_rootRotation/chaos_pelvis1/chaos_right_hip/chaos_right_knee/chaos_right_ankle
+        weight: 1
+      - path: chaos_back_root/chaos_rootRotation/chaos_pelvis1/chaos_right_hip/chaos_right_knee/chaos_right_ankle/chaos_right_ball
+        weight: 1
+      - path: chaos_back_root/chaos_rootRotation/chaos_pelvis1/chaos_right_hip/chaos_right_knee/chaos_right_ankle/chaos_right_ball/chaos_right_toe
+        weight: 1
+      - path: Chaos_GEO
+        weight: 1
+      - path: Chaos_GEO/chaosRig_boltPistol
+        weight: 1
+      - path: Chaos_GEO/chaosRig_boltPistol/chaosRig_boltPistol_MeshPart0
+        weight: 1
+      - path: Chaos_GEO/chaosRig_boltPistol/chaosRig_boltPistol_MeshPart1
+        weight: 1
+      - path: Chaos_GEO/chaosRig_Horns
+        weight: 1
+      - path: Chaos_GEO/chaosRig_Weapon
+        weight: 1
+      - path: Chaos_GEO/chaosRigChest
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_65
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_66
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_67
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_68
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_69
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_74
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_75
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_76
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_77
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_78
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_79
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_80
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_84
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_85
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_86
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_90
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_91
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_94
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_95
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_96
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_98
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_100
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_102
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_103
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_104
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_105
+        weight: 1
+      - path: Chaos_GEO/chaosRigGeo_106
+        weight: 1
+      - path: Chaos_GEO/chaosRigHead
+        weight: 1
+      maskType: 0
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 1
+    - serializedVersion: 16
+      name: combo10Chaos
+      takeName: Take 001
+      firstFrame: 2575
+      lastFrame: 2651
       wrapMode: 0
       orientationOffsetY: 0
       level: 0
