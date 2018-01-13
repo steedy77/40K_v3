@@ -4,20 +4,26 @@ using System.Collections;
 public class PlayerAttackV3 : MonoBehaviour
 {
     PlayerInput plInput;
-    PlayerMovement plMovement;
+    PlayerMovementV002 plMovement;
+    AudioSource audio;
     Animator anim;
     public ParticleSystem MuzzleFlash;
     public ParticleSystem ShellCasing;
     public ParticleSystem Smoke;
     public float fireRate = 2;
+    public float heavyFireRate = 2;
 
     public string[] comboParams;
     private int comboIndex = 0;
+    public string[] heavyComboParams;
+    private int heavyComboIndex = 0;
     private Animator animator;
     private float resetTimer;
+    private float heavyResetTimer;
 
     public GameObject damageCollider;
-    public GameObject damageCollider2;
+    public GameObject PowerDamageCollider;
+    public GameObject HeavyDamageCollider;
 
     public GameObject shot;
     public Transform shotSpawn;
@@ -25,36 +31,44 @@ public class PlayerAttackV3 : MonoBehaviour
 
     private float nextFire;
 
+    bool canShoot = true;
+    public bool canPowerAttack = true;
+    public bool canHeavyAttack = true;
+
+    public AudioClip gunshot;
+    public AudioClip weaponSwipe;
+    public AudioClip heavyWeaponSwipe;
+    public AudioClip powerAttackAudio;
+    public AudioClip hit;
+
     void Start ()
     {
         if (comboParams == null || (comboParams != null && comboParams.Length == 0))
             comboParams = new string[] { "Attack1", "Attack2", "Attack3", "Attack4", "Attack5", "Attack6", "Attack7", "Attack8", };
 
+        if (heavyComboParams == null || (heavyComboParams != null && heavyComboParams.Length == 0))
+            heavyComboParams = new string[] { "HeavyAttack1", "HeavyAttack2", "HeavyAttack3", };
+
         animator = GetComponent<Animator>();
 
         plInput = GetComponent<PlayerInput>();
         anim = GetComponent<Animator>();
-        plMovement = GetComponent<PlayerMovement>();
+        plMovement = GetComponent<PlayerMovementV002>();
+        audio = GetComponent<AudioSource>();
 
         //comboR = new WaitForSeconds(comboRate);
 
         damageCollider.SetActive(false);
-        damageCollider2.SetActive(false);
+        PowerDamageCollider.SetActive(false);
     }
     void Update()
     {
+        //Fast attack combo
         if (Input.GetButtonDown("Fire1") && comboIndex < comboParams.Length)
-        {
-            //plMovement.canMove = false;
+        {            
             Debug.Log(comboParams[comboIndex] + " triggered");
-            animator.SetTrigger(comboParams[comboIndex]);
-
-            // If combo must not loop
+            animator.SetTrigger(comboParams[comboIndex]);            
             comboIndex++;
-
-            // If combo can loop
-            // comboIndex = (comboIndex + 1) % comboParams.Length ;
-
             resetTimer = 0f;
         }
 
@@ -84,22 +98,61 @@ public class PlayerAttackV3 : MonoBehaviour
             animator.ResetTrigger("Attack6");
             animator.ResetTrigger("Attack7");
             animator.ResetTrigger("Attack8");
+        }         
+
+        //Power attack
+        if (canPowerAttack)
+        {
+            if (Input.GetButtonDown("Submit"))
+            {
+                anim.SetTrigger("PowerAttack");
+                plMovement.canMove = false;
+                plMovement.canAimMove = false;
+                canShoot = false;
+                canPowerAttack = false;
+                canHeavyAttack = false;
+                StartCoroutine("PowerAttackStart");
+                StartCoroutine("HeavyAttackDisabled");
+            }
         }
 
-        if ((plInput.fire2) && Time.time > nextFire)
+        //Heavy attack
+        if (canHeavyAttack)
         {
-            anim.SetBool("Shoot", true);
-            nextFire = Time.time + fxFireRate;
-            Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
-            plMovement.canMove = false;
+            if (Input.GetButtonDown("Fire4"))
+            {
+                animator.SetTrigger("HeavyAttack1");
+                plMovement.canMove = false;
+                plMovement.canAimMove = false;
+                canShoot = false;
+                canPowerAttack = false;
+                canHeavyAttack = false;
+                StartCoroutine("HeavyAttackStart1");
+                StartCoroutine("HeavyAttackDisabled");
+            }
         }
-        else
+
+        //Shooting attack
+        if (canShoot)
         {
-            anim.SetBool("Shoot", false);
+            if ((plInput.fire2) && Time.time > nextFire)
+            {
+                anim.SetTrigger("Shoot");
+                nextFire = Time.time + fxFireRate;
+                Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
+
+            }
+            else
+            {
+                anim.ResetTrigger("Shoot");
+            }
         }
+
         
-    }
 
+
+    }
+    
 
     public void OpenDamageCollider()
     {
@@ -111,17 +164,79 @@ public class PlayerAttackV3 : MonoBehaviour
         damageCollider.SetActive(false);
     }
 
-    public void OpenDamageCollider2()
+    public void GunFireFX()
     {
-        damageCollider2.SetActive(true);
+
+        audio.clip = gunshot;
+        audio.Play();
         MuzzleFlash.Emit(1);
         ShellCasing.Emit(1);
         Smoke.Emit(1);
     }
-
-    public void CloseDamageCollider2()
+    
+    public void OpenPowerDamageCollider()
     {
-        damageCollider2.SetActive(false);
+        PowerDamageCollider.SetActive(true);
+    }
+
+    public void ClosePowerDamageCollider()
+    {
+        PowerDamageCollider.SetActive(false);
+    }
+    public void OpenHeavyDamageCollider()
+    {
+        HeavyDamageCollider.SetActive(true);
+    }
+
+    public void CloseHeavyDamageCollider()
+    {
+        HeavyDamageCollider.SetActive(false);
+    }
+
+    public void FastMeleeAudio()
+    {
+        audio.clip = weaponSwipe;
+        audio.Play();
+    }
+
+    public void HeavyAttackAudio()
+    {
+        audio.clip = heavyWeaponSwipe;
+        audio.Play();
+    }
+    
+    public void PowerAttackAudio()
+    {
+        audio.clip = powerAttackAudio;
+        audio.Play();
+    }
+    public void playerHitAudio()
+    {
+        audio.clip = hit;
+        audio.Play();
+    }
+
+    IEnumerator PowerAttackStart()
+    {
+        yield return new WaitForSeconds(2.1f);
+        plMovement.canMove = true;
+        plMovement.canAimMove = true;
+        canShoot = true;
+        canPowerAttack = true;
+
+    }
+    IEnumerator HeavyAttackStart1()
+    {
+        yield return new WaitForSeconds(2.8f);
+        plMovement.canMove = true;
+        plMovement.canAimMove = true;
+        canShoot = true;
+        canPowerAttack = true;
+    }
+    IEnumerator HeavyAttackDisabled()
+    {
+        yield return new WaitForSeconds(4f);
+        canHeavyAttack = true;
     }
 }
 

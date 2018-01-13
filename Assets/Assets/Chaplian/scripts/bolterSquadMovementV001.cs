@@ -95,7 +95,7 @@ public class bolterSquadMovementV001    : MonoBehaviour
         }
 
         float distanceToEnemy = Vector3.Distance(transform.position, attackTarget.position);
-        attackTarget = GameObject.FindGameObjectWithTag("BolterEnemy").transform;
+        attackTarget = GameObject.FindGameObjectWithTag("Enemy").transform;
 
         if (distanceToEnemy < attackEnemyRange + 2f)
         {
@@ -146,7 +146,7 @@ public class bolterSquadMovementV001    : MonoBehaviour
     {
         if (attackCollider.gameObject.tag == "Enemy")
         {
-            attackTarget = GameObject.FindGameObjectWithTag("BolterEnemy").transform;
+            attackTarget = GameObject.FindGameObjectWithTag("Enemy").transform;
             RotateTowards(attackTarget);
             anim.SetBool("Attack", true);
 

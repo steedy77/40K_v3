@@ -13,16 +13,16 @@ public class bolterEnemyMovementV001    : MonoBehaviour
     public float attackRange = 3;
     public float rotationSpeed = 10f;
 
-    public GameObject damageCollider;
-    public ParticleSystem MuzzleFlash;
+    public ParticleSystem MuzzleFlashEnemy;
     public ParticleSystem ShellCasing;
     public ParticleSystem Smoke;
     Animator anim;
     public GameObject shot;
     public Transform shotSpawn;
     public float fxFireRate;
-
     private float nextFire;
+    public AudioClip gunshot;
+    AudioSource audio;
 
 
 
@@ -33,8 +33,8 @@ public class bolterEnemyMovementV001    : MonoBehaviour
 
         nav.stoppingDistance = attackRange;
         nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
-
-        target = GameObject.FindGameObjectWithTag("TeamMate").transform;
+        audio = GetComponent<AudioSource>();
+        target = GameObject.FindGameObjectWithTag("Player").transform;
     }
 
 
@@ -59,7 +59,7 @@ public class bolterEnemyMovementV001    : MonoBehaviour
         {
             anim.SetBool("Attack", true);
             anim.SetBool("IsWalking", false);
-            StartCoroutine("CloseAttack");
+            StartCoroutine("CloseBEAttack");
             attackR = 0;
         }
 
@@ -87,32 +87,29 @@ public class bolterEnemyMovementV001    : MonoBehaviour
             {
                 attackR = 0;
                 anim.SetBool("Attack", true);
-                StartCoroutine("CloseAttack");
+                StartCoroutine("CloseBEAttack");
             }
         }
         
         
     }
-    IEnumerator CloseAttack()
+    IEnumerator CloseBEAttack()
     {
         yield return new WaitForSeconds(.4f);
         anim.SetBool("Attack", false);
     }
 
-    public void OpenDamageColllider()
+    public void OpenBolterEnemyAttack()
     {
-        damageCollider.SetActive(true);
         nextFire = Time.time + fxFireRate;
         Instantiate(shot, shotSpawn.position, shotSpawn.rotation);
-        MuzzleFlash.Emit(1);
+        MuzzleFlashEnemy.Emit(1);
         ShellCasing.Emit(1);
         Smoke.Emit(1);
+        audio.clip = gunshot;
+        audio.Play();
     }
-
-    public void CloseDamageCollider()
-    {
-        damageCollider.SetActive(false);
-    }
+    
     private void RotateTowards(Transform target)
     {
         Vector3 direction = (target.position - transform.position).normalized;

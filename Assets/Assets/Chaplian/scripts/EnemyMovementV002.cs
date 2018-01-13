@@ -18,6 +18,8 @@ public class EnemyMovementV002 : MonoBehaviour
     public float rotationSpeed = 10f;
 
     Animator anim;
+    public AudioClip weaponSwipe;
+    AudioSource audio;
 
 
 
@@ -25,7 +27,7 @@ public class EnemyMovementV002 : MonoBehaviour
     {
         anim = GetComponent<Animator>();
         nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
-
+        audio = GetComponent<AudioSource>();
         nav.stoppingDistance = attackRange;
         nav = GetComponent<UnityEngine.AI.NavMeshAgent>();
 
@@ -121,6 +123,11 @@ public class EnemyMovementV002 : MonoBehaviour
     public void CloseDamageCollider()
     {
         damageCollider.SetActive(false);
+    }
+    public void WeaponSFX()
+    {
+        audio.clip = weaponSwipe;
+        audio.Play();
     }
     private void RotateTowards(Transform target)
     {
