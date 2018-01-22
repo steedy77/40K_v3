@@ -208,7 +208,7 @@ ModelImporter:
     4300076: thunderhawk:gunShipWing_geo7
     4300078: thunderhawk:gunShipWing_geo8
     4300080: thunderhawk:gunShipWing_geo9
-    7400000: Take 001
+    7400000: Gunship01
     9500000: //RootNode
     13700000: thunderhawk:gunShipfront_assault_ramp
     13700002: thunderhawk:gunShipmissile1
@@ -276,7 +276,7 @@ ModelImporter:
     extraUserProperties: []
     clipAnimations:
     - serializedVersion: 16
-      name: Take 001
+      name: Gunship01
       takeName: Take 001
       firstFrame: 103
       lastFrame: 938
