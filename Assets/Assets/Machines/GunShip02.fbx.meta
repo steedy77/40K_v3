@@ -1,0 +1,286 @@
+fileFormatVersion: 2
+guid: fc32018e21e61db4b83bb08f7116e164
+timeCreated: 1516601533
+licenseType: Pro
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: //RootNode
+    100002: Gunship02
+    100004: temp_explosion
+    100006: temp_explosion_geo
+    100008: temp_explosion_joint1
+    100010: thunderhawk:enginePiece_1
+    100012: thunderhawk:enginePiece_2
+    100014: thunderhawk:enginePiece_3
+    100016: thunderhawk:enginePiece_4
+    100018: thunderhawk:enginePiece_5
+    100020: thunderhawk:enginePiece_6
+    100022: thunderhawk:gunShip
+    100024: thunderhawk:gunShip_geo48
+    100026: thunderhawk:gunShip_geo49
+    100028: thunderhawk:gunShip_geo50
+    100030: thunderhawk:gunShip_geo51
+    100032: thunderhawk:gunShip_geo52
+    100034: thunderhawk:gunShip_geo53
+    100036: thunderhawk:gunShip_mainBody_geo39
+    100038: thunderhawk:gunShip_rightDebris_joint1
+    100040: thunderhawk:gunShip_rightDebris_joint2
+    100042: thunderhawk:gunShip_rightDebris_joint3
+    100044: thunderhawk:gunShip_rightDebris_joint4
+    100046: thunderhawk:gunShip_rightDebris_joint5
+    100048: thunderhawk:gunShip_rightDebris_joint6
+    100050: thunderhawk:gunShip_rightDebris_joint7
+    100052: thunderhawk:gunShip_rightDebris_joint8
+    100054: thunderhawk:gunShip_rightDebris_joint9
+    100056: thunderhawk:gunShipfront_assault_ramp
+    100058: thunderhawk:gunShipfront_assault_ramp1
+    100060: thunderhawk:gunShipGeogroup1
+    100062: thunderhawk:gunShipjoint1
+    100064: thunderhawk:gunShipjoint10
+    100066: thunderhawk:gunShipjoint17
+    100068: thunderhawk:gunShipjoint18
+    100070: thunderhawk:gunShipjoint19
+    100072: thunderhawk:gunShipjoint2
+    100074: thunderhawk:gunShipjoint20
+    100076: thunderhawk:gunShipjoint3
+    100078: thunderhawk:gunShipjoint3 (2)
+    100080: thunderhawk:gunShipjoint3 (3)
+    100082: thunderhawk:gunShipjoint3 (4)
+    100084: thunderhawk:gunShipjoint3 (5)
+    100086: thunderhawk:gunShipjoint4
+    100088: thunderhawk:gunShipjoint5
+    100090: thunderhawk:gunShipjoint6
+    100092: thunderhawk:gunShipjoint6 (2)
+    100094: thunderhawk:gunShipjoint7
+    100096: thunderhawk:gunShipjoint9
+    100098: thunderhawk:gunShipjoint_engine1
+    100100: thunderhawk:gunShipjoint_engine2
+    100102: thunderhawk:gunShipjoint_engine3
+    100104: thunderhawk:gunShipjoint_engine4
+    100106: thunderhawk:gunShipjoint_engine5
+    100108: thunderhawk:gunShipjoint_engine6
+    100110: thunderhawk:gunShipmissile1
+    100112: thunderhawk:gunShipmissile2
+    100114: thunderhawk:gunShipmissile3
+    100116: thunderhawk:gunShipWing_geo1
+    100118: thunderhawk:gunShipWing_geo2
+    100120: thunderhawk:gunShipWing_geo3
+    100122: thunderhawk:gunShipWing_geo4
+    100124: thunderhawk:gunShipWing_geo5
+    100126: thunderhawk:gunShipWing_geo6
+    100128: thunderhawk:gunShipWing_geo7
+    100130: thunderhawk:gunShipWing_geo8
+    100132: thunderhawk:gunShipWing_geo9
+    100134: thunderhawk:left_wing_group
+    100136: thunderhawk:right_wing_group
+    100138: thunderhawk:wing
+    100140: thunderhawk:wing_top
+    400000: //RootNode
+    400002: Gunship02
+    400004: temp_explosion
+    400006: temp_explosion_geo
+    400008: temp_explosion_joint1
+    400010: thunderhawk:enginePiece_1
+    400012: thunderhawk:enginePiece_2
+    400014: thunderhawk:enginePiece_3
+    400016: thunderhawk:enginePiece_4
+    400018: thunderhawk:enginePiece_5
+    400020: thunderhawk:enginePiece_6
+    400022: thunderhawk:gunShip
+    400024: thunderhawk:gunShip_geo48
+    400026: thunderhawk:gunShip_geo49
+    400028: thunderhawk:gunShip_geo50
+    400030: thunderhawk:gunShip_geo51
+    400032: thunderhawk:gunShip_geo52
+    400034: thunderhawk:gunShip_geo53
+    400036: thunderhawk:gunShip_mainBody_geo39
+    400038: thunderhawk:gunShip_rightDebris_joint1
+    400040: thunderhawk:gunShip_rightDebris_joint2
+    400042: thunderhawk:gunShip_rightDebris_joint3
+    400044: thunderhawk:gunShip_rightDebris_joint4
+    400046: thunderhawk:gunShip_rightDebris_joint5
+    400048: thunderhawk:gunShip_rightDebris_joint6
+    400050: thunderhawk:gunShip_rightDebris_joint7
+    400052: thunderhawk:gunShip_rightDebris_joint8
+    400054: thunderhawk:gunShip_rightDebris_joint9
+    400056: thunderhawk:gunShipfront_assault_ramp
+    400058: thunderhawk:gunShipfront_assault_ramp1
+    400060: thunderhawk:gunShipGeogroup1
+    400062: thunderhawk:gunShipjoint1
+    400064: thunderhawk:gunShipjoint10
+    400066: thunderhawk:gunShipjoint17
+    400068: thunderhawk:gunShipjoint18
+    400070: thunderhawk:gunShipjoint19
+    400072: thunderhawk:gunShipjoint2
+    400074: thunderhawk:gunShipjoint20
+    400076: thunderhawk:gunShipjoint3
+    400078: thunderhawk:gunShipjoint3 (2)
+    400080: thunderhawk:gunShipjoint3 (3)
+    400082: thunderhawk:gunShipjoint3 (4)
+    400084: thunderhawk:gunShipjoint3 (5)
+    400086: thunderhawk:gunShipjoint4
+    400088: thunderhawk:gunShipjoint5
+    400090: thunderhawk:gunShipjoint6
+    400092: thunderhawk:gunShipjoint6 (2)
+    400094: thunderhawk:gunShipjoint7
+    400096: thunderhawk:gunShipjoint9
+    400098: thunderhawk:gunShipjoint_engine1
+    400100: thunderhawk:gunShipjoint_engine2
+    400102: thunderhawk:gunShipjoint_engine3
+    400104: thunderhawk:gunShipjoint_engine4
+    400106: thunderhawk:gunShipjoint_engine5
+    400108: thunderhawk:gunShipjoint_engine6
+    400110: thunderhawk:gunShipmissile1
+    400112: thunderhawk:gunShipmissile2
+    400114: thunderhawk:gunShipmissile3
+    400116: thunderhawk:gunShipWing_geo1
+    400118: thunderhawk:gunShipWing_geo2
+    400120: thunderhawk:gunShipWing_geo3
+    400122: thunderhawk:gunShipWing_geo4
+    400124: thunderhawk:gunShipWing_geo5
+    400126: thunderhawk:gunShipWing_geo6
+    400128: thunderhawk:gunShipWing_geo7
+    400130: thunderhawk:gunShipWing_geo8
+    400132: thunderhawk:gunShipWing_geo9
+    400134: thunderhawk:left_wing_group
+    400136: thunderhawk:right_wing_group
+    400138: thunderhawk:wing
+    400140: thunderhawk:wing_top
+    4300000: thunderhawk:gunShipWing_geo9
+    4300002: temp_explosion_geo
+    4300004: thunderhawk:gunShipfront_assault_ramp
+    4300006: thunderhawk:gunShipfront_assault_ramp1
+    4300008: thunderhawk:gunShip_geo50
+    4300010: thunderhawk:gunShip_geo51
+    4300012: thunderhawk:gunShip_geo48
+    4300014: thunderhawk:gunShip_geo49
+    4300016: thunderhawk:gunShip_geo52
+    4300018: thunderhawk:gunShip_geo53
+    4300020: thunderhawk:wing
+    4300022: thunderhawk:wing_top
+    4300024: thunderhawk:enginePiece_1
+    4300026: thunderhawk:enginePiece_2
+    4300028: thunderhawk:enginePiece_3
+    4300030: thunderhawk:enginePiece_4
+    4300032: thunderhawk:enginePiece_5
+    4300034: thunderhawk:enginePiece_6
+    4300036: thunderhawk:gunShipmissile2
+    4300038: thunderhawk:gunShipmissile3
+    4300040: thunderhawk:gunShipmissile1
+    4300042: thunderhawk:gunShip_mainBody_geo39
+    4300044: thunderhawk:gunShipWing_geo1
+    4300046: thunderhawk:gunShipWing_geo2
+    4300048: thunderhawk:gunShipWing_geo3
+    4300050: thunderhawk:gunShipWing_geo4
+    4300052: thunderhawk:gunShipWing_geo5
+    4300054: thunderhawk:gunShipWing_geo6
+    4300056: thunderhawk:gunShipWing_geo7
+    4300058: thunderhawk:gunShipWing_geo8
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: temp_explosion_geo
+    13700002: thunderhawk:enginePiece_1
+    13700004: thunderhawk:enginePiece_2
+    13700006: thunderhawk:enginePiece_3
+    13700008: thunderhawk:enginePiece_4
+    13700010: thunderhawk:enginePiece_5
+    13700012: thunderhawk:enginePiece_6
+    13700014: thunderhawk:gunShip_geo48
+    13700016: thunderhawk:gunShip_geo49
+    13700018: thunderhawk:gunShip_geo50
+    13700020: thunderhawk:gunShip_geo51
+    13700022: thunderhawk:gunShip_geo52
+    13700024: thunderhawk:gunShip_geo53
+    13700026: thunderhawk:gunShip_mainBody_geo39
+    13700028: thunderhawk:gunShipfront_assault_ramp
+    13700030: thunderhawk:gunShipfront_assault_ramp1
+    13700032: thunderhawk:gunShipmissile1
+    13700034: thunderhawk:gunShipmissile2
+    13700036: thunderhawk:gunShipmissile3
+    13700038: thunderhawk:gunShipWing_geo1
+    13700040: thunderhawk:gunShipWing_geo2
+    13700042: thunderhawk:gunShipWing_geo3
+    13700044: thunderhawk:gunShipWing_geo4
+    13700046: thunderhawk:gunShipWing_geo5
+    13700048: thunderhawk:gunShipWing_geo6
+    13700050: thunderhawk:gunShipWing_geo7
+    13700052: thunderhawk:gunShipWing_geo8
+    13700054: thunderhawk:gunShipWing_geo9
+    13700056: thunderhawk:wing
+    13700058: thunderhawk:wing_top
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
