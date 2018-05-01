@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: cf4f564654f45de448c3bf9e85e58ba0
+timeCreated: 1525060044
+licenseType: Pro
+TrueTypeFontImporter:
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: SF Ironsides
+  fontNames:
+  - SF Ironsides
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
