@@ -7,7 +7,7 @@ public class PlayerMovementV002 : MonoBehaviour
 
     PlayerAttackV3 plAttack;
     float speed = 1.7f;            // The speed that the player will move at.
-    float sprintSpeed = 6f;
+    float sprintSpeed = 8f;
     float runSpeed = 1.7f;
     float aimSpeed = 0.001f;
 
