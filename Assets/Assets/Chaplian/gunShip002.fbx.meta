@@ -1,0 +1,360 @@
+fileFormatVersion: 2
+guid: 34bbac92e0c1cbc4bbf306a4854f4cc4
+timeCreated: 1518692352
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: enginePiece_1
+    100002: enginePiece_2
+    100004: enginePiece_3
+    100006: enginePiece_4
+    100008: enginePiece_5
+    100010: enginePiece_6
+    100012: //RootNode
+    100014: gunShip_geo48
+    100016: gunShip_geo49
+    100018: gunShip_geo50
+    100020: gunShip_geo51
+    100022: gunShip_geo52
+    100024: gunShip_geo53
+    100026: gunShip_mainBody_geo39
+    100028: gunShip_rightDebris_joint1
+    100030: gunShip_rightDebris_joint2
+    100032: gunShip_rightDebris_joint3
+    100034: gunShip_rightDebris_joint4
+    100036: gunShip_rightDebris_joint5
+    100038: gunShip_rightDebris_joint6
+    100040: gunShip_rightDebris_joint7
+    100042: gunShip_rightDebris_joint8
+    100044: gunShip_rightDebris_joint9
+    100046: gunShipfront_assault_ramp
+    100048: gunShipfront_assault_ramp1
+    100050: gunShipGeogroup1
+    100052: gunShipjoint1
+    100054: gunShipjoint10
+    100056: gunShipjoint17
+    100058: gunShipjoint18
+    100060: gunShipjoint19
+    100062: gunShipjoint2
+    100064: gunShipjoint20
+    100066: gunShipjoint3
+    100068: gunShipjoint3 1
+    100070: gunShipjoint3 2
+    100072: gunShipjoint3 3
+    100074: gunShipjoint3 4
+    100076: gunShipjoint4
+    100078: gunShipjoint5
+    100080: gunShipjoint6
+    100082: gunShipjoint6 1
+    100084: gunShipjoint7
+    100086: gunShipjoint9
+    100088: gunShipjoint_engine1
+    100090: gunShipjoint_engine2
+    100092: gunShipjoint_engine3
+    100094: gunShipjoint_engine4
+    100096: gunShipjoint_engine5
+    100098: gunShipjoint_engine6
+    100100: gunShipmissile1
+    100102: gunShipmissile2
+    100104: gunShipmissile3
+    100106: gunShipWing_geo1
+    100108: gunShipWing_geo2
+    100110: gunShipWing_geo3
+    100112: gunShipWing_geo4
+    100114: gunShipWing_geo5
+    100116: gunShipWing_geo6
+    100118: gunShipWing_geo7
+    100120: gunShipWing_geo8
+    100122: gunShipWing_geo9
+    100124: left_wing_group
+    100126: right_wing_group
+    100128: wing
+    100130: wing_top
+    400000: enginePiece_1
+    400002: enginePiece_2
+    400004: enginePiece_3
+    400006: enginePiece_4
+    400008: enginePiece_5
+    400010: enginePiece_6
+    400012: //RootNode
+    400014: gunShip_geo48
+    400016: gunShip_geo49
+    400018: gunShip_geo50
+    400020: gunShip_geo51
+    400022: gunShip_geo52
+    400024: gunShip_geo53
+    400026: gunShip_mainBody_geo39
+    400028: gunShip_rightDebris_joint1
+    400030: gunShip_rightDebris_joint2
+    400032: gunShip_rightDebris_joint3
+    400034: gunShip_rightDebris_joint4
+    400036: gunShip_rightDebris_joint5
+    400038: gunShip_rightDebris_joint6
+    400040: gunShip_rightDebris_joint7
+    400042: gunShip_rightDebris_joint8
+    400044: gunShip_rightDebris_joint9
+    400046: gunShipfront_assault_ramp
+    400048: gunShipfront_assault_ramp1
+    400050: gunShipGeogroup1
+    400052: gunShipjoint1
+    400054: gunShipjoint10
+    400056: gunShipjoint17
+    400058: gunShipjoint18
+    400060: gunShipjoint19
+    400062: gunShipjoint2
+    400064: gunShipjoint20
+    400066: gunShipjoint3
+    400068: gunShipjoint3 1
+    400070: gunShipjoint3 2
+    400072: gunShipjoint3 3
+    400074: gunShipjoint3 4
+    400076: gunShipjoint4
+    400078: gunShipjoint5
+    400080: gunShipjoint6
+    400082: gunShipjoint6 1
+    400084: gunShipjoint7
+    400086: gunShipjoint9
+    400088: gunShipjoint_engine1
+    400090: gunShipjoint_engine2
+    400092: gunShipjoint_engine3
+    400094: gunShipjoint_engine4
+    400096: gunShipjoint_engine5
+    400098: gunShipjoint_engine6
+    400100: gunShipmissile1
+    400102: gunShipmissile2
+    400104: gunShipmissile3
+    400106: gunShipWing_geo1
+    400108: gunShipWing_geo2
+    400110: gunShipWing_geo3
+    400112: gunShipWing_geo4
+    400114: gunShipWing_geo5
+    400116: gunShipWing_geo6
+    400118: gunShipWing_geo7
+    400120: gunShipWing_geo8
+    400122: gunShipWing_geo9
+    400124: left_wing_group
+    400126: right_wing_group
+    400128: wing
+    400130: wing_top
+    4300000: gunShipfront_assault_ramp
+    4300002: gunShipfront_assault_ramp1
+    4300004: gunShip_geo50
+    4300006: gunShip_geo51
+    4300008: gunShip_geo48
+    4300010: gunShip_geo49
+    4300012: gunShip_geo52
+    4300014: gunShip_geo53
+    4300016: wing
+    4300018: wing_top
+    4300020: enginePiece_1
+    4300022: enginePiece_2
+    4300024: enginePiece_3
+    4300026: enginePiece_4
+    4300028: enginePiece_5
+    4300030: enginePiece_6
+    4300032: gunShipmissile2
+    4300034: gunShipmissile3
+    4300036: gunShipmissile1
+    4300038: gunShip_mainBody_geo39
+    4300040: gunShipWing_geo1
+    4300042: gunShipWing_geo2
+    4300044: gunShipWing_geo3
+    4300046: gunShipWing_geo4
+    4300048: gunShipWing_geo5
+    4300050: gunShipWing_geo6
+    4300052: gunShipWing_geo7
+    4300054: gunShipWing_geo8
+    4300056: gunShipWing_geo9
+    7400000: takeOff01
+    7400002: takeOff02
+    7400004: flying
+    9500000: //RootNode
+    13700000: enginePiece_1
+    13700002: enginePiece_2
+    13700004: enginePiece_3
+    13700006: enginePiece_4
+    13700008: enginePiece_5
+    13700010: enginePiece_6
+    13700012: gunShip_geo48
+    13700014: gunShip_geo49
+    13700016: gunShip_geo50
+    13700018: gunShip_geo51
+    13700020: gunShip_geo52
+    13700022: gunShip_geo53
+    13700024: gunShip_mainBody_geo39
+    13700026: gunShipfront_assault_ramp
+    13700028: gunShipfront_assault_ramp1
+    13700030: gunShipmissile1
+    13700032: gunShipmissile2
+    13700034: gunShipmissile3
+    13700036: gunShipWing_geo1
+    13700038: gunShipWing_geo2
+    13700040: gunShipWing_geo3
+    13700042: gunShipWing_geo4
+    13700044: gunShipWing_geo5
+    13700046: gunShipWing_geo6
+    13700048: gunShipWing_geo7
+    13700050: gunShipWing_geo8
+    13700052: gunShipWing_geo9
+    13700054: wing
+    13700056: wing_top
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: takeOff01
+      takeName: Take 001
+      firstFrame: 127
+      lastFrame: 634
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: takeOff02
+      takeName: Take 001
+      firstFrame: 148
+      lastFrame: 634
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: flying
+      takeName: Take 001
+      firstFrame: 479
+      lastFrame: 634
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

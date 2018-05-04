@@ -1,0 +1,481 @@
+fileFormatVersion: 2
+guid: 4f2b1e5ebf230c24eb4c92a34852a0a4
+timeCreated: 1525471664
+licenseType: Free
+ModelImporter:
+  serializedVersion: 21
+  fileIDToRecycleName:
+    100000: Ancle Joint
+    100002: 'Ancle Joint '
+    100004: back_root
+    100006: BottomGunBarrell
+    100008: BottomGuns
+    100010: 'BottomGuns '
+    100012: BottomGunsBarrell_Right
+    100014: crown
+    100016: left_ankle
+    100018: left_arm_root
+    100020: left_ball
+    100022: left_control_left_elbow
+    100024: left_control_left_elbow1
+    100026: left_control_left_elbow2
+    100028: left_control_left_shoulder2
+    100030: left_hip
+    100032: left_knee
+    100034: left_toe
+    100036: left_toe1
+    100038: left_toe2
+    100040: left_toe3
+    100042: left_toe4
+    100044: left_toe5
+    100046: lower_back
+    100048: mid_bac
+    100050: neck
+    100052: pelvis
+    100054: pelvis1
+    100056: right_ankle
+    100058: right_arm_root
+    100060: right_ball
+    100062: right_control_right_elbow
+    100064: right_control_right_elbow1
+    100066: right_control_right_elbow2
+    100068: right_control_right_shoulder2
+    100070: right_hip
+    100072: right_knee
+    100074: right_toe
+    100076: right_toe1
+    100078: right_toe2
+    100080: right_toe3
+    100082: right_toe4
+    100084: right_toe5
+    100086: rootRotation
+    100088: 'Titan '
+    100090: Titan  1
+    100092: Titan  10
+    100094: Titan  11
+    100096: Titan  12
+    100098: Titan  2
+    100100: Titan  3
+    100102: Titan  4
+    100104: Titan  5
+    100106: Titan  6
+    100108: Titan  7
+    100110: Titan  8
+    100112: Titan  9
+    100114: Titan ChinShroud
+    100116: 'Titan ChinShroud '
+    100118: Titan ChinShroud02
+    100120: 'Titan ChinShroud02 '
+    100122: 'Titan Toes '
+    100124: Titan Toes  1
+    100126: Titan Toes  10
+    100128: Titan Toes  11
+    100130: Titan Toes  12
+    100132: Titan Toes  13
+    100134: Titan Toes  14
+    100136: Titan Toes  15
+    100138: Titan Toes  16
+    100140: Titan Toes  17
+    100142: Titan Toes  18
+    100144: Titan Toes  19
+    100146: Titan Toes  2
+    100148: Titan Toes  3
+    100150: Titan Toes  4
+    100152: Titan Toes  5
+    100154: Titan Toes  6
+    100156: Titan Toes  7
+    100158: Titan Toes  8
+    100160: Titan Toes  9
+    100162: //RootNode
+    100164: TitanBody
+    100166: TitanCalfBackPiece
+    100168: 'TitanCalfBackPiece '
+    100170: TitanHead
+    100172: TitanHeal
+    100174: 'TitanHeal '
+    100176: titanMesh_V2
+    100178: TitanTopGuns
+    100180: 'TitanTopGuns '
+    100182: TitanTopGuns  1
+    100184: TitanTopGuns  2
+    100186: TitanTopGuns  3
+    100188: TitanTopGuns  4
+    100190: upper_back
+    400000: Ancle Joint
+    400002: 'Ancle Joint '
+    400004: back_root
+    400006: BottomGunBarrell
+    400008: BottomGuns
+    400010: 'BottomGuns '
+    400012: BottomGunsBarrell_Right
+    400014: crown
+    400016: left_ankle
+    400018: left_arm_root
+    400020: left_ball
+    400022: left_control_left_elbow
+    400024: left_control_left_elbow1
+    400026: left_control_left_elbow2
+    400028: left_control_left_shoulder2
+    400030: left_hip
+    400032: left_knee
+    400034: left_toe
+    400036: left_toe1
+    400038: left_toe2
+    400040: left_toe3
+    400042: left_toe4
+    400044: left_toe5
+    400046: lower_back
+    400048: mid_bac
+    400050: neck
+    400052: pelvis
+    400054: pelvis1
+    400056: right_ankle
+    400058: right_arm_root
+    400060: right_ball
+    400062: right_control_right_elbow
+    400064: right_control_right_elbow1
+    400066: right_control_right_elbow2
+    400068: right_control_right_shoulder2
+    400070: right_hip
+    400072: right_knee
+    400074: right_toe
+    400076: right_toe1
+    400078: right_toe2
+    400080: right_toe3
+    400082: right_toe4
+    400084: right_toe5
+    400086: rootRotation
+    400088: 'Titan '
+    400090: Titan  1
+    400092: Titan  10
+    400094: Titan  11
+    400096: Titan  12
+    400098: Titan  2
+    400100: Titan  3
+    400102: Titan  4
+    400104: Titan  5
+    400106: Titan  6
+    400108: Titan  7
+    400110: Titan  8
+    400112: Titan  9
+    400114: Titan ChinShroud
+    400116: 'Titan ChinShroud '
+    400118: Titan ChinShroud02
+    400120: 'Titan ChinShroud02 '
+    400122: 'Titan Toes '
+    400124: Titan Toes  1
+    400126: Titan Toes  10
+    400128: Titan Toes  11
+    400130: Titan Toes  12
+    400132: Titan Toes  13
+    400134: Titan Toes  14
+    400136: Titan Toes  15
+    400138: Titan Toes  16
+    400140: Titan Toes  17
+    400142: Titan Toes  18
+    400144: Titan Toes  19
+    400146: Titan Toes  2
+    400148: Titan Toes  3
+    400150: Titan Toes  4
+    400152: Titan Toes  5
+    400154: Titan Toes  6
+    400156: Titan Toes  7
+    400158: Titan Toes  8
+    400160: Titan Toes  9
+    400162: //RootNode
+    400164: TitanBody
+    400166: TitanCalfBackPiece
+    400168: 'TitanCalfBackPiece '
+    400170: TitanHead
+    400172: TitanHeal
+    400174: 'TitanHeal '
+    400176: titanMesh_V2
+    400178: TitanTopGuns
+    400180: 'TitanTopGuns '
+    400182: TitanTopGuns  1
+    400184: TitanTopGuns  2
+    400186: TitanTopGuns  3
+    400188: TitanTopGuns  4
+    400190: upper_back
+    4300000: 'Titan '
+    4300002: Ancle Joint
+    4300004: 'Titan Toes '
+    4300006: 'Titan Toes '
+    4300008: 'Titan Toes '
+    4300010: 'Titan Toes '
+    4300012: 'Titan Toes '
+    4300014: 'Titan Toes '
+    4300016: 'Titan Toes '
+    4300018: 'Titan Toes '
+    4300020: 'Titan Toes '
+    4300022: 'Titan Toes '
+    4300024: 'Titan '
+    4300026: Titan ChinShroud02
+    4300028: TitanHeal
+    4300030: Titan ChinShroud
+    4300032: TitanCalfBackPiece
+    4300034: 'Titan '
+    4300036: 'Titan '
+    4300038: TitanHead
+    4300040: TitanBody
+    4300042: 'Titan '
+    4300044: BottomGuns
+    4300046: 'TitanTopGuns '
+    4300048: TitanTopGuns
+    4300050: 'Titan '
+    4300052: 'TitanTopGuns '
+    4300054: 'Titan '
+    4300056: 'Titan '
+    4300058: 'Titan '
+    4300060: 'TitanCalfBackPiece '
+    4300062: 'Titan ChinShroud '
+    4300064: 'TitanHeal '
+    4300066: 'Titan ChinShroud02 '
+    4300068: 'Titan '
+    4300070: 'Titan Toes '
+    4300072: 'Titan Toes '
+    4300074: 'Titan Toes '
+    4300076: 'Titan Toes '
+    4300078: 'Titan Toes '
+    4300080: 'Titan Toes '
+    4300082: 'Titan Toes '
+    4300084: 'Titan Toes '
+    4300086: 'Titan Toes '
+    4300088: 'Titan Toes '
+    4300090: 'Ancle Joint '
+    4300092: 'Titan '
+    4300094: 'BottomGuns '
+    4300096: 'Titan '
+    4300098: 'Titan '
+    4300100: 'TitanTopGuns '
+    4300102: 'TitanTopGuns '
+    4300104: 'TitanTopGuns '
+    4300106: BottomGunBarrell
+    4300108: BottomGunsBarrell_Right
+    7400000: WalkToShoot
+    7400002: Shoot
+    9500000: //RootNode
+    13700000: Ancle Joint
+    13700002: 'Ancle Joint '
+    13700004: BottomGunBarrell
+    13700006: BottomGuns
+    13700008: 'BottomGuns '
+    13700010: BottomGunsBarrell_Right
+    13700012: 'Titan '
+    13700014: Titan  1
+    13700016: Titan  10
+    13700018: Titan  11
+    13700020: Titan  12
+    13700022: Titan  2
+    13700024: Titan  3
+    13700026: Titan  4
+    13700028: Titan  5
+    13700030: Titan  6
+    13700032: Titan  7
+    13700034: Titan  8
+    13700036: Titan  9
+    13700038: Titan ChinShroud
+    13700040: 'Titan ChinShroud '
+    13700042: Titan ChinShroud02
+    13700044: 'Titan ChinShroud02 '
+    13700046: 'Titan Toes '
+    13700048: Titan Toes  1
+    13700050: Titan Toes  10
+    13700052: Titan Toes  11
+    13700054: Titan Toes  12
+    13700056: Titan Toes  13
+    13700058: Titan Toes  14
+    13700060: Titan Toes  15
+    13700062: Titan Toes  16
+    13700064: Titan Toes  17
+    13700066: Titan Toes  18
+    13700068: Titan Toes  19
+    13700070: Titan Toes  2
+    13700072: Titan Toes  3
+    13700074: Titan Toes  4
+    13700076: Titan Toes  5
+    13700078: Titan Toes  6
+    13700080: Titan Toes  7
+    13700082: Titan Toes  8
+    13700084: Titan Toes  9
+    13700086: TitanBody
+    13700088: TitanCalfBackPiece
+    13700090: 'TitanCalfBackPiece '
+    13700092: TitanHead
+    13700094: TitanHeal
+    13700096: 'TitanHeal '
+    13700098: TitanTopGuns
+    13700100: 'TitanTopGuns '
+    13700102: TitanTopGuns  1
+    13700104: TitanTopGuns  2
+    13700106: TitanTopGuns  3
+    13700108: TitanTopGuns  4
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: WalkToShoot
+      takeName: Take 001
+      firstFrame: 989
+      lastFrame: 3000
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: ShootingCurve
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: 1
+            outSlope: 1
+            tangentMode: 0
+          - serializedVersion: 2
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 1
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+          rotationOrder: 0
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: Shoot
+      takeName: Take 001
+      firstFrame: 2331
+      lastFrame: 3000
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 1
+      loopBlendOrientation: 1
+      loopBlendPositionY: 1
+      loopBlendPositionXZ: 1
+      keepOriginalOrientation: 1
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 1
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: ShootingCurve
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 2
+            time: 0
+            value: 0
+            inSlope: 1
+            outSlope: 1
+            tangentMode: 0
+          - serializedVersion: 2
+            time: 1
+            value: 1
+            inSlope: 1
+            outSlope: 1
+            tangentMode: 0
+          preInfinity: 2
+          postInfinity: 2
+          rotationOrder: 0
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: back_root
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
